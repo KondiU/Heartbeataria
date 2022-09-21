@@ -1,0 +1,3 @@
+displayName = Consolaria - Chinese Exclusive Content Addon
+author = KondiU
+version = 0.1
