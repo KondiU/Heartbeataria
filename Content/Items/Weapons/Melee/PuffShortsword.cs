@@ -22,7 +22,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			Item.useAnimation = 19;
 			Item.useStyle = 1;
 			Item.knockBack = 5;
-			Item.value = 2700;
+			Item.value = Item.buyPrice(silver: 135);
 			Item.rare = 0;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = false;

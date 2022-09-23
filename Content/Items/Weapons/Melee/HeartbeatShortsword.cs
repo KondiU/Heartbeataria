@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Heartbeat Shortsword");
-			Tooltip.SetDefault("At that time, that sword was only 0.01 centimeters away from me, but 4 seconds later, the Empress of Light completely fell in love with me");
+			Tooltip.SetDefault("At that time, that sword was only 0.01 cm away from me, but 4 seconds later, the Empress of Light completely fell in love with me");
 		}
 
 		public override void SetDefaults()
@@ -22,7 +22,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			Item.useAnimation = 19;
 			Item.useStyle = 1;
 			Item.knockBack = 5;
-			Item.value = 2700;
+			Item.value = Item.buyPrice(silver: 135);
 			Item.rare = 0;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = false;
