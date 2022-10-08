@@ -8,13 +8,18 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Body)]
 
-	public class iQIYIMechaTorso : ModItem
+	public class DogShirt : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("iQIYI Mecha Torso");
-			Tooltip.SetDefault("Put it on & become the brightest kid on the map!");
+			DisplayName.SetDefault("Dog Shirt");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+
+			int equipSlotBody = EquipLoader.GetEquipSlot(Mod, Name, EquipType.Body);
+			int equipSlotBodyAlt = EquipLoader.GetEquipSlot(Mod, "DogShirt", EquipType.Body);
+
+			ArmorIDs.Body.Sets.HidesArms[equipSlotBody] = true;
+			ArmorIDs.Body.Sets.HidesArms[equipSlotBodyAlt] = true;
 		}
 
 		public override void SetDefaults() 
@@ -22,7 +27,7 @@ namespace XDContentMod.Content.Items.Vanity
 			int width = 30; int height = 18;
 			Item.Size = new Vector2(width, height);
 
-			Item.value = Item.buyPrice(silver: 100);
+			Item.value = Item.buyPrice(silver: 300);
 			Item.vanity = true;
 		}
 	}
