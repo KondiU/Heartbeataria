@@ -8,12 +8,12 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Body)]
 
-	public class BCYCosplayDress : ModItem
+	public class HeartbeatOrangeTuxedoShirt : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("BCY Cosplay Dress");
-			Tooltip.SetDefault("Anyone can fit in this cute dress!");
+			DisplayName.SetDefault("Heartbeat Orange Tuxedo Shirt");
+			Tooltip.SetDefault("Most popular type of suit in Heartland");
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}

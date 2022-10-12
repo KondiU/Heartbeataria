@@ -6,15 +6,13 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Vanity
 {
-	[AutoloadEquip(EquipType.Body)]
+	[AutoloadEquip(EquipType.Legs)]
 
-	public class BCYCosplayDress : ModItem
+	public class TangSuitPants : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("BCY Cosplay Dress");
-			Tooltip.SetDefault("Anyone can fit in this cute dress!");
-
+			DisplayName.SetDefault("Tang Suit Pants");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

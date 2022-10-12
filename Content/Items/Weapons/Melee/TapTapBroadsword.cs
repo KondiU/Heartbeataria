@@ -4,12 +4,12 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
-	public class HeartbeatBroadsword : ModItem
+	public class TapTapBroadsword : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Heartbeat Broadsword");
-			Tooltip.SetDefault("At that time, that sword was only 0.01 cm away from me, but 4 seconds later, the Empress of Light completely fell in love with me");
+			DisplayName.SetDefault("TapTap Broadsword");
+			Tooltip.SetDefault("Fight for Tarara & Pururu!");
 		}
 
 		public override void SetDefaults()

@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("iFlytek Disc");
-			Tooltip.SetDefault("Marvelous AI-enhanced weapon straight from iFlytek factories");
+			Tooltip.SetDefault("Marvelous AI-enhanced weapon straight from iFlytek factories!");
 		}
 
 		public override void SetDefaults()

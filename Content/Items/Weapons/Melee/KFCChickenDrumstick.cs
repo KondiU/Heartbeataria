@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("KFC Chicken Drumstick");
-			Tooltip.SetDefault("World famous fried chicken");
+			Tooltip.SetDefault("It's Finger Lickin' Good!");
 		}
 
 		public override void SetDefaults()

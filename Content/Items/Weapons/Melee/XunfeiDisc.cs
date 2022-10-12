@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Xùnfēi Disc");
-			Tooltip.SetDefault("Marvelous AI-enhanced weapon straight from Xùnfēi factories");
+			Tooltip.SetDefault("Marvelous AI-enhanced weapon straight from Xùnfēi factories!");
 		}
 
 		public override void SetDefaults()

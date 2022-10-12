@@ -4,12 +4,12 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
-	public class HupuDisc : ModItem
+	public class PururuDisc : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Hupu Disc");
-			Tooltip.SetDefault("JRs exclusive weapon. You can throw it, but can't catch it!");
+			DisplayName.SetDefault("Pururu Disc");
+			Tooltip.SetDefault("DONG DI BU?");
 		}
 
 		public override void SetDefaults()
@@ -26,7 +26,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			Item.rare = 5;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
-			Item.shoot = ModContent.ProjectileType<Content.Projectiles.Friendly.HupuDiscProjectile>();
+			Item.shoot = ModContent.ProjectileType<Content.Projectiles.Friendly.PururuDiscProjectile>();
 			Item.shootSpeed = 13;
 			Item.noMelee = true;
 			Item.noUseGraphic = true;

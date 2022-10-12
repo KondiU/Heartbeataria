@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Cute School Uniform Shoes");
-			Tooltip.SetDefault("Keep the style on, even whe you're not walking!");
+			Tooltip.SetDefault("Keep the style on, even when you're not walking!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
