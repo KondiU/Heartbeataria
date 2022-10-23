@@ -8,11 +8,11 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Legs)]
 
-	public class MythicalDogPants : ModItem
+	public class ImperialMasterPants : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Mythical Dog Pants");
+			DisplayName.SetDefault("Imperial Master Pants");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
@@ -21,7 +21,7 @@ namespace XDContentMod.Content.Items.Vanity
 			int width = 30; int height = 18;
 			Item.Size = new Vector2(width, height);
 
-			Item.value = Item.buyPrice(silver: 450);
+			Item.value = Item.buyPrice(silver: 100);
 			Item.vanity = true;
 		}
 	}

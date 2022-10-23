@@ -8,11 +8,11 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Legs)]
 
-	public class MythicalDogPants : ModItem
+	public class TangYuanPants : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Mythical Dog Pants");
+			DisplayName.SetDefault("Tang Yuan Pants");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
