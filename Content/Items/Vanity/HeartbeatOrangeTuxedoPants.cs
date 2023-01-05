@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Heartbeat Orange Tuxedo Pants");
-			Tooltip.SetDefault("They have some creases but it's not a big deal");
+//			Tooltip.SetDefault("They have some creases but it's not a big deal");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

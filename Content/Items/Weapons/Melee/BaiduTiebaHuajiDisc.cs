@@ -9,7 +9,8 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Baidu Tieba Huájí Disc");
-			Tooltip.SetDefault("The remnant from the Baidu Tieba posting culture, now available for everyone!");
+//			Tooltip.SetDefault("The remnant from the Baidu Tieba posting culture, now available for everyone!");
+			Tooltip.SetDefault("Remnant from the Baidu Tieba posting culture");
 		}
 
 		public override void SetDefaults()

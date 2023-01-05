@@ -12,7 +12,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("iQIYI Mecha Helmet");
-			Tooltip.SetDefault("Keeps your hair in-place - forever!");
+//			Tooltip.SetDefault("Keeps your hair in-place - forever!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

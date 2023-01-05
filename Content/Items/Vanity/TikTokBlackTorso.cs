@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("TikTok Black Torso");
-			Tooltip.SetDefault("Armor of a true Gen-Z!");
+//			Tooltip.SetDefault("Armor of a true Gen-Z!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

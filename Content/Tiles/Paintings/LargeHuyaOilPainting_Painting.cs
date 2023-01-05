@@ -25,7 +25,7 @@ namespace XDContentMod.Content.Tiles.Paintings
             TileObjectData.addTile(Type);
             ModTranslation name = CreateMapEntryName();
             name.SetDefault("Painting");
-            AddMapEntry(new Color(90, 50, 30), name);
+            AddMapEntry(new Color(99, 50, 30), name);
         }
 
   		public override void NumDust(int i, int j, bool fail, ref int num) 

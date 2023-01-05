@@ -1,5 +1,7 @@
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
 namespace XDContentMod.Content.Items.Placeable
 {
 	public class SeiyuuchanSupportPoster : ModItem
@@ -7,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Seiyuu-chan Support Poster");
-//			Tooltip.SetDefault("LOOK直播看板娘\百变/\声优酱/\耶耶耶/");
+//			Tooltip.SetDefault("");
 		}
 
 		public override void SetDefaults()
@@ -15,6 +17,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.width = 32;
 			Item.height = 50;
 			Item.rare = ItemRarityID.White;
+			Item.value = Item.buyPrice(silver: 100);
 
 			Item.maxStack = 99;
 

@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("iQIYI Mecha Torso");
-			Tooltip.SetDefault("Put it on & become the brightest kid on the map!");
+//			Tooltip.SetDefault("Put it on & become the brightest kid on the map!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

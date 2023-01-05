@@ -1,5 +1,7 @@
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
 namespace XDContentMod.Content.Items.Placeable
 {
 	public class BirthdayCake : ModItem
@@ -7,7 +9,8 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Birthday Cake");
-			Tooltip.SetDefault("TapTap's 6th birthday party cake!\nSeems to be strawberry flavored.");
+//			Tooltip.SetDefault("TapTap's 6th birthday party cake!\nSeems to be strawberry flavored.");
+			Tooltip.SetDefault("Seems to be strawberry flavored");
 		}
 
 		public override void SetDefaults()
@@ -15,6 +18,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.width = 32;
 			Item.height = 50;
 			Item.rare = ItemRarityID.White;
+			Item.value = Item.buyPrice(silver: 100);
 
 			Item.maxStack = 99;
 

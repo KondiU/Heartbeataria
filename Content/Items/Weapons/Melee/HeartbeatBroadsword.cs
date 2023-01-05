@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Heartbeat Broadsword");
-			Tooltip.SetDefault("At that time, that sword was only 0.01 cm away from me, but 4 seconds later, the Empress of Light completely fell in love with me");
+//			Tooltip.SetDefault("At that time, that sword was only 0.01 cm away from me, but 4 seconds later, the Empress of Light completely fell in love with me");
 		}
 
 		public override void SetDefaults()

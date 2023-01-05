@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("TikTok Black Pants");
-			Tooltip.SetDefault("Comfy pants of a true Gen-Z!");
+//			Tooltip.SetDefault("Comfy pants of a true Gen-Z!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 
 			int equipSlotLegs = EquipLoader.GetEquipSlot(Mod, Name, EquipType.Body);

@@ -9,7 +9,8 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Hupu Disc");
-			Tooltip.SetDefault("JRs exclusive weapon. You can throw it, but can't catch it!");
+//			Tooltip.SetDefault("JRs exclusive weapon. You can throw it, but can't catch it!");
+			Tooltip.SetDefault("You can throw it, but can't catch it!");
 		}
 
 		public override void SetDefaults()

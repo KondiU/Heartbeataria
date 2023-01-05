@@ -10,7 +10,7 @@ namespace XDContentMod.Content.Items.Pets
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Pururu Charger");
-			Tooltip.SetDefault("Summons a Pururu to charge your phone");
+			Tooltip.SetDefault("Summons Pururu");
 		}
 
 		public override void SetDefaults() 

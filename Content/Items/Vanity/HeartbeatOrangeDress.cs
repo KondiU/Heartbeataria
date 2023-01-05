@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Heartbeat Orange Dress");
-			Tooltip.SetDefault("Stop saying I look like a waiter!");
+//			Tooltip.SetDefault("Stop saying I look like a waiter!");
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}

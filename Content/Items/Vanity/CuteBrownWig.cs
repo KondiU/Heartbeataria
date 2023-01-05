@@ -12,7 +12,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Cute Brown Wig");
-			Tooltip.SetDefault("Hairstyle loved by every beauty queen");
+//			Tooltip.SetDefault("Hairstyle loved by every beauty queen");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

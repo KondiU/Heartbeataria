@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("BCY Cosplay Shoes");
-			Tooltip.SetDefault("In a fancy pink color!");
+//			Tooltip.SetDefault("In a fancy pink color!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

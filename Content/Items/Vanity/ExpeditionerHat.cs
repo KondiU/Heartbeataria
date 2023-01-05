@@ -12,7 +12,7 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Expeditioner Hat");
-			Tooltip.SetDefault("No one will indentify you with this hat on!");
+//			Tooltip.SetDefault("No one will indentify you with this hat on!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

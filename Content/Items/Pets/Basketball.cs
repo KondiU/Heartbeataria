@@ -10,7 +10,8 @@ namespace XDContentMod.Content.Items.Pets
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Basketball");
-			Tooltip.SetDefault("JRs says that all you need in life is a basketball. If it can fly, it's even better!");
+//			Tooltip.SetDefault("JRs says that all you need in life is a basketball. If it can fly, it's even better!");
+			Tooltip.SetDefault("Summons a Flying Basketball");
 		}
 
 		public override void SetDefaults() 
