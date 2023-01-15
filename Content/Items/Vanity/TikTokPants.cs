@@ -8,16 +8,16 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Legs)]
 
-	public class TikTokBlackPants : ModItem
+	public class TikTokPants : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("TikTok Black Pants");
-//			Tooltip.SetDefault("Comfy pants of a true Gen-Z!");
+			DisplayName.SetDefault("TikTok Pants");
+//			Tooltip.SetDefault("");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 
 			int equipSlotLegs = EquipLoader.GetEquipSlot(Mod, Name, EquipType.Body);
-			int equipSlotLegsAlt = EquipLoader.GetEquipSlot(Mod, "TikTokBlackPants", EquipType.Legs);
+			int equipSlotLegsAlt = EquipLoader.GetEquipSlot(Mod, "TikTokPants", EquipType.Legs);
 
 			ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegsAlt] = true;
 			ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegsAlt] = true;

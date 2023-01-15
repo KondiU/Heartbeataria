@@ -22,6 +22,7 @@ namespace XDContentMod.Content.Tiles.Paintings
             TileObjectData.newTile.StyleWrapLimit = 111;
             TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16, 16, 16 };
             TileObjectData.newTile.StyleHorizontal = true;
+            DustType = -1;
             TileObjectData.addTile(Type);
             ModTranslation name = CreateMapEntryName();
             name.SetDefault("Painting");

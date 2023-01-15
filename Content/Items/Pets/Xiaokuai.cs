@@ -24,6 +24,7 @@ namespace XDContentMod.Content.Items.Pets
 			Item.damage = 0;
 			Item.stack = 1;
 			Item.noMelee = true;
+			Item.rare = 3;
 			Item.value = Item.buyPrice(gold: 10);
 			Item.UseSound = SoundID.Item2;
 

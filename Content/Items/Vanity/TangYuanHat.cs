@@ -7,11 +7,11 @@ using Terraria.GameContent.Creative;
 namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Head)]
-	public class TangYuanMask : ModItem
+	public class TangYuanHat : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Tang Yuan Mask");
+			DisplayName.SetDefault("Tang Yuan Hat");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

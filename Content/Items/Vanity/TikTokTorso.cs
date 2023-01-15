@@ -8,12 +8,12 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Body)]
 
-	public class TikTokBlackTorso : ModItem
+	public class TikTokTorso : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("TikTok Black Torso");
-//			Tooltip.SetDefault("Armor of a true Gen-Z!");
+			DisplayName.SetDefault("TikTok Torso");
+//			Tooltip.SetDefault("");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
