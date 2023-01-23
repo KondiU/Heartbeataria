@@ -10,7 +10,7 @@ namespace XDContentMod.Content.Items.Pets
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Fried Chicken Nugget");
-			Tooltip.SetDefault("Summons a Chicken");
+			Tooltip.SetDefault("Summons a chicken");
 		}
 
 		public override void SetDefaults() 

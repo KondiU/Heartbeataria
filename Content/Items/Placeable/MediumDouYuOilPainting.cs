@@ -29,7 +29,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.autoReuse = true;
 			Item.consumable = true;
 
-			Item.createTile = ModContent.TileType<Content.Tiles.Paintings.MediumDouYuOilPainting_Painting>();
+			Item.createTile = ModContent.TileType<Content.Tiles.Paintings.MediumDouYuOilPaintingTile>();
 		}
 
 	}

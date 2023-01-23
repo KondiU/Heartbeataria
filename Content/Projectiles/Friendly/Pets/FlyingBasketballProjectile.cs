@@ -1,43 +1,54 @@
+using Microsoft.Xna.Framework;
+using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace XDContentMod.Content.Projectiles.Friendly.Pets
+namespace XDContentMod.Content.Projectiles.Friendly.Pets 
 {
-	public class FlyingBasketballProjectile : ModProjectile
+    public class FlyingBasketballProjectile : ConsolariaPet
 	{
-		public override void SetStaticDefaults() {
-			Main.projFrames[Projectile.type] = 12;
-			Main.projPet[Projectile.type] = true;
-		}
+        public override int maxFrames => 12;
 
-		public override void SetDefaults() {
-			Projectile.CloneDefaults(ProjectileID.SugarGlider); // Copy the stats of the Zephyr Fish
-			Projectile.width = 50;
-			Projectile.height = 40;
-			Projectile.friendly = true;
-			Projectile.maxPenetrate = -1;
-			Projectile.timeLeft = 18000;
-			Projectile.netImportant = true;
+        public override void SetStaticDefaults () 
+		{
+            ProjectileID.Sets.TrailCacheLength [Projectile.type] = 12;
+            ProjectileID.Sets.TrailingMode [Projectile.type] = 0;
 
-			AIType = ProjectileID.SugarGlider; // Copy the AI of the Zephyr Fish.
-		}
+            base.SetStaticDefaults();
+        }
 
-		public override bool PreAI() {
-			Player player = Main.player[Projectile.owner];
+        public override void SetDefaults () 
+		{
+            int width = 40; int height = 32;
+            Projectile.Size = new Vector2(width, height);
 
-			//player.glider = false; // Relic from aiType
+            DrawOffsetX -= 4;
+            DrawOriginOffsetY = -8;
 
-			return true;
-		}
+            base.SetDefaults();
+        }
 
-		public override void AI() {
-			Player player = Main.player[Projectile.owner];
+        public override void AI () 
+		{
+            Player player = Main.player [Projectile.owner];
+            if (!player.dead && player.HasBuff(ModContent.BuffType<Content.Buffs.FlyingBasketballBuff>()))
+                Projectile.timeLeft = 2;
 
-			// Keep the projectile from disappearing as long as the player isn't dead and has the pet buff.
-			if (!player.dead && player.HasBuff(ModContent.BuffType<Content.Buffs.FlyingBasketballBuff>())) {
-				Projectile.timeLeft = 2;
-			}
-		}
-	}
+            WalkerAI();
+            PassiveAnimation(idleFrame: 0, jumpFrame: 2);
+            int finalFrame = maxFrames - 4;
+            WalkingAnimation(walkingAnimationSpeed: 3, walkingFirstFrame: 1, finalFrame);
+            FlyingAnimation(flyingAnimationSpeed: 3, flyingFirstFrame: 8, flyingLastFrame: 11);
+
+            if (isFlying) 
+			{
+                Projectile.rotation = Projectile.velocity.ToRotation() + (float) Math.PI / 2;
+                int dust = Dust.NewDust(new Vector2(Projectile.Center.X, Projectile.Center.Y) + new Vector2(0, 16).RotatedBy(Projectile.rotation), 0, 0, DustID.Cloud, 0, 0, 50, default, 1.4f);
+                Main.dust [dust].velocity = Vector2.Zero;
+                Main.dust [dust].noGravity = true;
+                Main.dust [dust].noLight = true;
+            }
+        }
+    }
 }

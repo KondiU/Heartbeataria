@@ -1,79 +1,54 @@
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
+using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace XDContentMod.Content.Projectiles.Friendly.Pets
+namespace XDContentMod.Content.Projectiles.Friendly.Pets 
 {
-	public class GreenFrogProjectile : ModProjectile
+    public class GreenFrogProjectile : ConsolariaPet
 	{
-		public override void SetStaticDefaults() 
+        public override int maxFrames => 15;
+
+        public override void SetStaticDefaults () 
 		{
-			Main.projFrames[Projectile.type] = 15;
-			Main.projPet[Projectile.type] = true;
-		}
+            ProjectileID.Sets.TrailCacheLength [Projectile.type] = 12;
+            ProjectileID.Sets.TrailingMode [Projectile.type] = 0;
 
-		public override void SetDefaults() 
+            base.SetStaticDefaults();
+        }
+
+        public override void SetDefaults () 
 		{
-			Projectile.CloneDefaults(ProjectileID.Bunny);
-//			Projectile.friendly = true;
-//			Projectile.maxPenetrate = -1;
-//			Projectile.timeLeft = 18000;
-//			Projectile.netImportant = true;
-			AIType = ProjectileID.Bunny;
+            int width = 30; int height = 31;
+            Projectile.Size = new Vector2(width, height);
 
+            DrawOffsetX -= 10;
+            DrawOriginOffsetY = -11;
 
-            int width = 46; int height = 44;
-			Projectile.Size = new Vector2(width, height);
-		}
+            base.SetDefaults();
+        }
 
-        public override bool PreAI () 
+        public override void AI () 
 		{
-			Main.player [Projectile.owner].bunny = false;
-            return true;
-		}
+            Player player = Main.player [Projectile.owner];
+            if (!player.dead && player.HasBuff(ModContent.BuffType<Content.Buffs.GreenFrogBuff>()))
+                Projectile.timeLeft = 2;
 
-		public override void AI() 
-		{
-			Player player = Main.player[Projectile.owner];
-			if (!player.dead && player.HasBuff(ModContent.BuffType<Content.Buffs.GreenFrogBuff>())) 
-				Projectile.timeLeft = 2;
+            WalkerAI();
+            PassiveAnimation(idleFrame: 0, jumpFrame: 3);
+            int finalFrame = maxFrames - 5;
+            WalkingAnimation(walkingAnimationSpeed: 3, walkingFirstFrame: 1, finalFrame);
+            FlyingAnimation(flyingAnimationSpeed: 3, flyingFirstFrame: 11, flyingLastFrame: 14);
 
-			Projectile.rotation = 0;
-            if (Projectile.velocity.Y != 0.4f) 
+            if (isFlying) 
 			{
-                if (Projectile.direction != player.direction) 
-                    Projectile.direction = player.direction;
-					}
-				}
-			private int texFrameCounter;
-        	private int texCurrentFrame;
-
-			public override bool PreDraw (ref Color lightColor) 
-			{
-        		Texture2D texture = (Texture2D) ModContent.Request<Texture2D>(Texture);
-            	bool onGround = Projectile.velocity.Y == 0f;
-            	texFrameCounter++;
-            	if (texFrameCounter >= 2) 
-				{
-                	texFrameCounter = 0;
-                	texCurrentFrame++;
-                	if (texCurrentFrame >= (onGround ? 10 : 14))
-                    	texCurrentFrame = onGround ? 0 : 11;
+                Projectile.rotation = Projectile.velocity.ToRotation() + (float) Math.PI / 2;
+                int dust = Dust.NewDust(new Vector2(Projectile.Center.X, Projectile.Center.Y) + new Vector2(0, 16).RotatedBy(Projectile.rotation), 0, 0, DustID.Cloud, 0, 0, 50, default, 1.4f);
+                Main.dust [dust].velocity = Vector2.Zero;
+                Main.dust [dust].noGravity = true;
+                Main.dust [dust].noLight = true;
             }
-            if (onGround && Projectile.velocity.X == 0f) 
-			{
-                texCurrentFrame = 0;
-                texFrameCounter = 0;
-            }
-            Vector2 position = new Vector2(Projectile.Center.X, Projectile.Center.Y) - Main.screenPosition;
-            Vector2 drawOrigin = new Vector2(texture.Width * 0.5f, Projectile.height * 0.5f);
-            var spriteEffects = Projectile.direction > 0 ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
-            int frameHeight = texture.Height / Main.projFrames [Projectile.type];
-            Rectangle frameRect = new Rectangle(0, texCurrentFrame * frameHeight, texture.Width, frameHeight);
-            Main.EntitySpriteDraw(texture, position, frameRect, lightColor, Projectile.rotation, drawOrigin, Projectile.scale, spriteEffects, 0);
-            return false;
         }
     }
 }
