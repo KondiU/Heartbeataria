@@ -1,51 +1,28 @@
+using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
-namespace XDContentMod.Content.Items.Pets
+namespace XDContentMod.Content.Items.Pets 
 {
-	public class FriedChickenNugget : ModItem
+	public class FriedChickenNugget : PetItem 
 	{
-		public override void SetStaticDefaults()
+		public override void SetStaticDefaults () 
 		{
 			DisplayName.SetDefault("Fried Chicken Nugget");
 			Tooltip.SetDefault("Summons a chicken");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
-		public override void SetDefaults() 
-		{
-			//Item.CloneDefaults(ItemID.AmberMosquito);
-			Item.useStyle = 1;
-			Item.useAnimation = 20;
-			Item.useTime = 20;
-			Item.width = 24;
-			Item.height = 26;
-			Item.useTime = 2;
-			Item.damage = 0;
-			Item.stack = 1;
-			Item.noMelee = true;
+		public override void SetDefaults () {
+			Item.DefaultToVanitypet(ModContent.ProjectileType<Content.Projectiles.Friendly.Pets.ChickenProjectile>(), ModContent.BuffType<Content.Buffs.ChickenBuff>());
+
+			int width = 24; int height = 26;
+			Item.Size = new Vector2(width, height);
+
 			Item.rare = 3;
-			Item.value = Item.buyPrice(gold: 10);
-			Item.rare = 3;
-			Item.UseSound = SoundID.Item2;
-
-
-			Item.shoot = ModContent.ProjectileType<Content.Projectiles.Friendly.Pets.ChickenProjectile>();
-			Item.buffType = ModContent.BuffType<Content.Buffs.ChickenBuff>();
-		}
-
-		public override void UseStyle(Player player, Rectangle heldItemFrame) 
-		{
-			if (player.whoAmI == Main.myPlayer && player.itemTime == 0) 
-			{
-				player.AddBuff(Item.buffType, 3600);
-			}
-		}
-
-		public override void AddRecipes()
-		{
-
+			Item.value = Item.sellPrice(gold: 10);
 		}
 	}
 }
