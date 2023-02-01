@@ -13,7 +13,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Heartbeat Orange Tuxedo Shirt");
-//			Tooltip.SetDefault("Most popular type of suit in Heartland");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

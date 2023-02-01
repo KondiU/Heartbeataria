@@ -13,7 +13,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Expeditioner Pants");
-//			Tooltip.SetDefault("With these shoes on, you'll never be late to work!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

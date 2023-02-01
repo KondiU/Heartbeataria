@@ -9,6 +9,8 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("AcFun Oil Painting");
+			Tooltip.SetDefault("'AcFun'");
+
 		}
 
 		public override void SetDefaults()

@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Small Heartbeat Townscape Oil Painting");
-//			Tooltip.SetDefault("");
+			Tooltip.SetDefault("'XD Inc.'");
 		}
 
 		public override void SetDefaults()

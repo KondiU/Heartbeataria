@@ -12,7 +12,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("BCY Cat Ears");
-//			Tooltip.SetDefault("A secret of Chinese cosplayers");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Get The Party Started");
-//			Tooltip.SetDefault("It's TapTap's 6th Birthday! Pong! Let's get the party started!");
+			Tooltip.SetDefault("'TapTap'");
 		}
 
 		public override void SetDefaults()

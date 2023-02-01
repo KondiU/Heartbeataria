@@ -13,7 +13,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("BCY Cosplay Dress");
-//			Tooltip.SetDefault("Anyone can fit in this cute dress!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

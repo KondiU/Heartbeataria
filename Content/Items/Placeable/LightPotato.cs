@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Light Potato");
-//			Tooltip.SetDefault("Photograph of Captain Potato enjoying music while forming the Little Red Book Orchestra");
+			Tooltip.SetDefault("'Xiaohongshu'");
 		}
 
 		public override void SetDefaults()

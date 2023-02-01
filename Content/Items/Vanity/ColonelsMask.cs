@@ -12,7 +12,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Colonel's Mask");
-//			Tooltip.SetDefault("You'll look much wiser with these glasses & beard!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

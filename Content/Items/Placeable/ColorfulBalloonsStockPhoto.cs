@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Colorful Balloons Stock Photo");
-//			Tooltip.SetDefault("Open the first page of TapTap's 6th Birthday album, and you'll see some colorful balloons!");
+			Tooltip.SetDefault("'TapTap'");
 		}
 
 		public override void SetDefaults()

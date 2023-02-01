@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Large Huya Oil Painting");
-//			Tooltip.SetDefault("An oil painting of Huya tiger.");
+			Tooltip.SetDefault("'Huya Inc.'");
 		}
 
 		public override void SetDefaults()

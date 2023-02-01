@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Pururu Portrait");
-			Tooltip.SetDefault("BU BU DO DI DU DONG DA!");
+			Tooltip.SetDefault("'TapTap'");
 		}
 
 		public override void SetDefaults()

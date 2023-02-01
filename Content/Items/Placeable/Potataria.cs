@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Potataria");
-//			Tooltip.SetDefault("I had no clue that the TapTap girl's name is Tarara!");
+			Tooltip.SetDefault("'Xiaohongshu'");
 		}
 
 		public override void SetDefaults()

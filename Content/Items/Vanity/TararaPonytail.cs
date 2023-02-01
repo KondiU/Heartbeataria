@@ -12,7 +12,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Tarara Ponytail");
-//			Tooltip.SetDefault("Hairstyle of a legendary Super Player!");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

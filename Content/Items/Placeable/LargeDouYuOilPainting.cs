@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Large DouYu Oil Painting");
-//			Tooltip.SetDefault("It's TapTap's 6th Birthday! Pong! Let's get the party started!");
+			Tooltip.SetDefault("'DouYu Ltd.'");
 		}
 
 		public override void SetDefaults()

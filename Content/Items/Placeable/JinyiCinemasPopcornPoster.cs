@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Jinyi Cinemas Popcorn Poster");
-//			Tooltip.SetDefault("An oil painting of Huya tiger.");
+			Tooltip.SetDefault("'Jinyi Cinemas'");
 		}
 
 		public override void SetDefaults()

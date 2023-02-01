@@ -12,7 +12,6 @@ namespace XDContentMod.Content.Items.Vanity
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Heartbeat Orange Wig");
-//			Tooltip.SetDefault("Hairstyle loved by every hunk\nVery good for covering baldness");
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

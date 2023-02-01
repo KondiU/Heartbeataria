@@ -9,7 +9,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Seiyuu-chan Support Poster");
-//			Tooltip.SetDefault("");
+			Tooltip.SetDefault("'NetEase, Inc.'");
 		}
 
 		public override void SetDefaults()
