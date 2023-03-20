@@ -1,3 +1,13 @@
-Addon for Consolaria Mod that brings unique content from Chinese Regional versions of Terraria to global Terraria
+Heartbeataria is a mod that aims to bring unique content from Chinese Regional versions of Terraria back to global version of the game.
 
-This includes: TBD
+This includes:
+- Chinese-exclusive Terraria x KFC collab
+- Cut content from old Mainland China Mobile Edition of the game
+- 9 new pets
+- 18 new vanity sets
+- 5 new mounts
+- 27 new paintings
+
+This mod doesn't affect the balance of vanilla game in an impactful way, so you can safely play it along with bigger content mods like Thorium or Calamity without problems.
+
+It is highly recommended to play this mod alongside Consolaria (https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929)

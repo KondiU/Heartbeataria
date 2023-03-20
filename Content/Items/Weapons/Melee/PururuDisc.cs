@@ -32,10 +32,5 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			Item.noUseGraphic = true;
 			Item.maxStack = 5;
 		}
-
-		public override void AddRecipes()
-		{
-
-		}
 	}
 }

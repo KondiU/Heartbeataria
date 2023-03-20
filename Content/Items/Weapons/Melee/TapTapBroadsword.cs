@@ -28,10 +28,5 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			//Item.UseSound = SoundID.Item1;
 			//Item.autoReuse = false;
 		}
-
-		public override void AddRecipes()
-		{
-
-		}
 	}
 }

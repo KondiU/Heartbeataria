@@ -17,7 +17,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.width = 32;
 			Item.height = 50;
 			Item.rare = ItemRarityID.White;
-			Item.value = Item.buyPrice(silver: 100);
+			Item.value = Item.buyPrice(silver: 250);
 
 			Item.maxStack = 99;
 

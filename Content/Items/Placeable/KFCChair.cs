@@ -18,7 +18,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.height = 34;
 
 			Item.maxStack = 99;
-			Item.value = Item.buyPrice(silver: 100);
+			Item.value = Item.buyPrice(silver: 250);
 
 			Item.useStyle = 1;
 			Item.useTime = 10;

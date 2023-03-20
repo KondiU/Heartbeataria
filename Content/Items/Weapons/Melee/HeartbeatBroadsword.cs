@@ -14,6 +14,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		public override void SetDefaults()
 		{
 			Item.CloneDefaults(ItemID.PlatinumBroadsword);
+			Item.rare = 0;
 			//Item.damage = 16;
 			//Item.DamageType = DamageClass.Melee;
 			//Item.width = 24;
@@ -23,14 +24,8 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			//Item.useStyle = 1;
 			//Item.knockBack = 6.5;
 			//Item.value = Item.buyPrice(silver: 135);
-			Item.rare = 0;
 			//Item.UseSound = SoundID.Item1;
 			//Item.autoReuse = false;
-		}
-
-		public override void AddRecipes()
-		{
-
 		}
 	}
 }
