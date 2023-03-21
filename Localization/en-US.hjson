@@ -1,0 +1,423 @@
+
+Mods: {
+	XDContentMod: {
+		Buffs: {
+			ChickenBuff: {
+				DisplayName: Chicken
+				Description: White and tender, perfect for frying
+			}
+
+			DiDiBikeBuff: {
+				DisplayName: DiDi Bike
+				Description: A great companion for traveling through the streets
+			}
+
+			DiDiCarBuff: {
+				DisplayName: DiDi Car
+				Description: A great companion for traveling through the streets
+			}
+
+			FlyingBasketballBuff: {
+				DisplayName: Flying Basketball
+				Description: If the basketball can't fly, it's worthless
+			}
+
+			GreenFrogBuff: {
+				DisplayName: Green Frog
+				Description: Little green frog that can't get lost in the wild
+			}
+
+			KFCDeliveryScooterBuff: {
+				DisplayName: KFC Delivery Scooter
+				Description: A great companion for traveling through the streets
+			}
+
+			LuxuryConvertibleBuff: {
+				DisplayName: Luxury Convertible
+				Description: Elegance never goes out of style!
+			}
+
+			PururuBuff: {
+				DisplayName: Pururu
+				Description: Pururu is following you
+			}
+
+			RedEyedToadBuff: {
+				DisplayName: Red Eyed Toad
+				Description: Little green toad that can't get lost in the wild
+			}
+
+			TapTapMinivanBuff: {
+				DisplayName: TapTap Minivan
+				Description: Pururu-powered Minivan!
+			}
+
+			WitchToadBuff: {
+				DisplayName: Witch Toad
+				Description: Little green toad that can't get lost in the wild
+			}
+
+			XiaokuaiBuff: {
+				DisplayName: Xiaokuai
+				Description: Small music-loving instrumentalist
+			}
+
+			XiaoliuBuff: {
+				DisplayName: Xiaoliu
+				Description: Small scientist with high IQ
+			}
+		}
+
+		Items: {
+			ConvertibleKeys: {
+				DisplayName: Convertible Keys
+				Tooltip: Summons a rideable orange Luxury Convertible mount
+			}
+
+			DiDiBikeKeys: {
+				DisplayName: DiDi Bike Keys
+				Tooltip: Summons a rideable DiDi Bike mount
+			}
+
+			DiDiCarKeys: {
+				DisplayName: DiDi Car Keys
+				Tooltip: Summons a rideable DiDi Car mount
+			}
+
+			KFCDeliveryScooterKeys: {
+				DisplayName: KFC Delivery Scooter Keys
+				Tooltip: Summons a rideable KFC Delivery Scooter mount
+			}
+
+			TapTapMinivanKeys: {
+				DisplayName: TapTap Minivan Keys
+				Tooltip: Summons a rideable Minivan full of feelings!
+			}
+
+			Basketball: {
+				DisplayName: Basketball
+				Tooltip: Summons a Flying Basketball
+			}
+
+			FriedChickenNugget: {
+				DisplayName: Fried Chicken Nugget
+				Tooltip: Summons a chicken
+			}
+
+			Leaf: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			PururuCharger: {
+				DisplayName: Pururu Charger
+				Tooltip: Summons Pururu
+			}
+
+			ToadQuack2R: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			ToadQuack2W: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			Xiaokuai: {
+				DisplayName: Xiaokuai
+				Tooltip: Summons Xiaokuai
+			}
+
+			Xiaoliu: {
+				DisplayName: Xiaoliu
+				Tooltip: Summons Xiaoliu
+			}
+
+			AcFunOilPainting: {
+				DisplayName: AcFun Oil Painting
+				Tooltip: "'AcFun'"
+			}
+
+			BirthdayCake: {
+				DisplayName: Birthday Cake
+				Tooltip: "'TapTap'"
+			}
+
+			ColorfulBalloonsStockPhoto: {
+				DisplayName: Colorful Balloons Stock Photo
+				Tooltip: "'TapTap'"
+			}
+
+			GetThePartyStarted: {
+				DisplayName: Get The Party Started
+				Tooltip: "'TapTap'"
+			}
+
+			HeartbeatOilPainting: {
+				DisplayName: Heartbeat Oil Painting
+				Tooltip: "'XD Inc.'"
+			}
+
+			JinyiCinemasPopcornPoster: {
+				DisplayName: Jinyi Cinemas Popcorn Poster
+				Tooltip: "'Jinyi Cinemas'"
+			}
+
+			KFCBar.DisplayName: KFC Bar
+
+			KFCBurgerAd: {
+				DisplayName: KFC Burger Ad
+				Tooltip: Anything But Ordinary!
+			}
+
+			KFCChair.DisplayName: KFC Chair
+
+			KFCChickenDrumstickAd: {
+				DisplayName: KFC Chicken Drumstick Ad
+				Tooltip: It's Finger Lickin' Good!
+			}
+
+			KFCFamilyBucketAd: {
+				DisplayName: KFC Family Bucket Ad
+				Tooltip: It's for the entire family to crunch!
+			}
+
+			KFCWorkBench.DisplayName: KFC Work Bench
+
+			LargeDouYuOilPainting: {
+				DisplayName: Large DouYu Oil Painting
+				Tooltip: "'DouYu Ltd.'"
+			}
+
+			LargeHeartbeatTownscapeOilPainting: {
+				DisplayName: Large Heartbeat Townscape Oil Painting
+				Tooltip: "'XD Inc.'"
+			}
+
+			LargeHuyaOilPainting: {
+				DisplayName: Large Huya Oil Painting
+				Tooltip: "'Huya Inc.'"
+			}
+
+			LightPotato: {
+				DisplayName: Light Potato
+				Tooltip: "'Xiaohongshu'"
+			}
+
+			MediumDouYuOilPainting: {
+				DisplayName: Medium DouYu Oil Painting
+				Tooltip: "'DouYu Ltd.'"
+			}
+
+			MediumHuyaOilPainting: {
+				DisplayName: Medium Huya Oil Painting
+				Tooltip: "'Huya Inc.'"
+			}
+
+			Potataria: {
+				DisplayName: Potataria
+				Tooltip: "'Xiaohongshu'"
+			}
+
+			PururuPortrait: {
+				DisplayName: Pururu Portrait
+				Tooltip: "'TapTap'"
+			}
+
+			RockPotato: {
+				DisplayName: Rock Potato
+				Tooltip: "'Xiaohongshu'"
+			}
+
+			SeiyuuchanSupportPoster: {
+				DisplayName: Seiyuu-chan Support Poster
+				Tooltip: "'NetEase, Inc.'"
+			}
+
+			SmallDouYuOilPainting: {
+				DisplayName: Small DouYu Oil Painting
+				Tooltip: "'DouYu Ltd.'"
+			}
+
+			SmallHeartbeatTownscapeOilPainting: {
+				DisplayName: Small Heartbeat Townscape Oil Painting
+				Tooltip: "'XD Inc.'"
+			}
+
+			SmallHuyaOilPainting: {
+				DisplayName: Small Huya Oil Painting
+				Tooltip: "'Huya Inc.'"
+			}
+
+			TapTapGroupPortrait: {
+				DisplayName: TapTap Group Portrait
+				Tooltip: "'TapTap'"
+			}
+
+			TararaPortrait: {
+				DisplayName: Tarara Portrait
+				Tooltip: "'TapTap'"
+			}
+
+			TV.DisplayName: TV
+			BCYCatEars.DisplayName: BCY Cat Ears
+			BCYCosplayDress.DisplayName: BCY Cosplay Dress
+			BCYCosplayShoes.DisplayName: BCY Cosplay Shoes
+			ChengXinYouXuanHat.DisplayName: ChengXin YouXuan Hat
+			ChengXinYouXuanPants.DisplayName: ChengXin YouXuan Pants
+			ChengXinYouXuanShirt.DisplayName: ChengXin YouXuan Shirt
+			ColonelsMask.DisplayName: Colonel's Mask
+
+			ColonelsTuxedoPants: {
+				DisplayName: Colonel's Tuxedo Pants
+				Tooltip: They have some oil stains on them
+			}
+
+			ColonelsTuxedoShirt: {
+				DisplayName: Colonel's Tuxedo Shirt
+				Tooltip: Smells like Hot Wings
+			}
+
+			CuteBrownWig.DisplayName: Cute Brown Wig
+			DeepColdBreastplate.DisplayName: Deep Cold Breastplate
+			DeepColdHelmet.DisplayName: Deep Cold Helmet
+			DeepColdLeggings.DisplayName: Deep Cold Leggings
+			DogMask.DisplayName: Dog Mask
+			DogPants.DisplayName: Dog Pants
+			DogShirt.DisplayName: Dog Shirt
+			ExpeditionerHat.DisplayName: Expeditioner Hat
+			ExpeditionerPants.DisplayName: Expeditioner Pants
+			ExpeditionerShirt.DisplayName: Expeditioner Shirt
+			GuaPiMao.DisplayName: Gua Pi Mao
+			HeartbeatOrangeDress.DisplayName: Heartbeat Orange Dress
+			HeartbeatOrangePonytail.DisplayName: Heartbeat Orange Ponytail
+			HeartbeatOrangeShoes.DisplayName: Heartbeat Orange Shoes
+			HeartbeatOrangeTuxedoPants.DisplayName: Heartbeat Orange Tuxedo Pants
+			HeartbeatOrangeTuxedoShirt.DisplayName: Heartbeat Orange Tuxedo Shirt
+			HeartbeatOrangeWig.DisplayName: Heartbeat Orange Wig
+			ImperialGuardBreastplate.DisplayName: Imperial Guard Breastplate
+			ImperialGuardHelmet.DisplayName: Imperial Guard Helmet
+			ImperialGuardLeggings.DisplayName: Imperial Guard Leggings
+			ImperialMasterBreastplate.DisplayName: Imperial Master Breastplate
+			ImperialMasterHelmet.DisplayName: Imperial Master Helmet
+			ImperialMasterLeggings.DisplayName: Imperial Master Leggings
+			iQIYIMechaHelmet.DisplayName: iQIYI Mecha Helmet
+			iQIYIMechaPants.DisplayName: iQIYI Mecha Pants
+			iQIYIMechaTorso.DisplayName: iQIYI Mecha Torso
+			MountainGuardBreastplate.DisplayName: Mountain Guard Breastplate
+			MountainGuardHelmet.DisplayName: Mountain Guard Helmet
+			MountainGuardLeggings.DisplayName: Mountain Guard Leggings
+			MythicalDogMask.DisplayName: Mythical Dog Mask
+			MythicalDogPants.DisplayName: Mythical Dog Pants
+			MythicalDogShirt.DisplayName: Mythical Dog Shirt
+			SeifukuShirt.DisplayName: Seifuku Shirt
+			SeifukuShoes.DisplayName: Seifuku Shoes
+			TangSuitPants.DisplayName: Tang Suit Pants
+			TangSuitShirt.DisplayName: Tang Suit Shirt
+			TangYuanHat.DisplayName: Tang Yuan Hat
+			TangYuanPants.DisplayName: Tang Yuan Pants
+			TangYuanShirt.DisplayName: Tang Yuan Shirt
+			TararaDress.DisplayName: Tarara Dress
+			TararaPonytail.DisplayName: Tarara Ponytail
+			TararaShoes.DisplayName: Tarara Shoes
+			TikTokNoteHat.DisplayName: TikTok Note Hat
+			TikTokPants.DisplayName: TikTok Pants
+			TikTokTorso.DisplayName: TikTok Torso
+
+			BaiduTiebaHuajiDisc: {
+				DisplayName: Baidu Tieba Huájí Disc
+				Tooltip: Remnant from the Baidu Tieba posting culture
+			}
+
+			HeartbeatBroadsword.DisplayName: Heartbeat Broadsword
+
+			HupuDisc: {
+				DisplayName: Hupu Disc
+				Tooltip: You can throw it, but can't catch it!
+			}
+
+			iFlytekDisc: {
+				DisplayName: iFlytek Disc
+				Tooltip: Marvelous AI-enhanced weapon straight from iFlytek factories!
+			}
+
+			KFCChickenDrumstick: {
+				DisplayName: KFC Chicken Drumstick
+				Tooltip: It's Finger Lickin' Good!
+			}
+
+			LOOKDisc: {
+				DisplayName: LOOK Disc
+				Tooltip: Look! It's a disc! No - it's LOOK #1 from LOOK Live!
+			}
+
+			PururuDisc: {
+				DisplayName: Pururu Disc
+				Tooltip: DONG DI BU?
+			}
+
+			TapTapBroadsword: {
+				DisplayName: TapTap Broadsword
+				Tooltip: Fight for Tarara & Pururu!
+			}
+		}
+
+		NPCs.StarMerchantNPC.DisplayName: Star Merchant
+
+		Projectiles: {
+			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
+			HupuDiscProjectile.DisplayName: Hupu Disc
+			iFlytekDiscProjectile.DisplayName: iFlytek Disc
+			LOOKDiscProjectile.DisplayName: LOOK Disc
+			ChickenProjectile.DisplayName: Chicken Projectile
+			FlyingBasketballProjectile.DisplayName: Flying Basketball Projectile
+			GreenFrogProjectile.DisplayName: Green Frog Projectile
+			PururuProjectile.DisplayName: Pururu Projectile
+			RedEyedToadProjectile.DisplayName: Red Eyed Toad Projectile
+			WitchToadProjectile.DisplayName: Witch Toad Projectile
+			XiaokuaiProjectile.DisplayName: Xiaokuai Projectile
+			XiaoliuProjectile.DisplayName: Xiaoliu Projectile
+			PururuDiscProjectile.DisplayName: Pururu Disc
+		}
+
+		Tiles: {
+			KFCWorkBenchTile.MapEntry: Work Bench
+			TVTile.MapEntry: TV
+			AcFunOilPaintingTile.MapEntry: Painting
+			BirthdayCakeTile.MapEntry: Painting
+			ColorfulBalloonsStockPhotoTile.MapEntry: Painting
+			GetThePartyStartedTile.MapEntry: Painting
+			HeartbeatOilPaintingTile.MapEntry: Painting
+			JinyiCinemasPopcornPosterTile.MapEntry: Painting
+			KFCBurgerAdTile.MapEntry: Picture
+			KFCChickenDrumstickAdTile.MapEntry: Painting
+			KFCFamilyBucketAdTile.MapEntry: Painting
+			LargeDouYuOilPaintingTile.MapEntry: Painting
+			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: Painting
+			LargeHuyaOilPaintingTile.MapEntry: Painting
+			LightPotatoTile.MapEntry: Painting
+			MediumDouYuOilPaintingTile.MapEntry: Painting
+			MediumHuyaOilPaintingTile.MapEntry: Painting
+			PotatariaTile.MapEntry: Painting
+			PururuPortraitTile.MapEntry: Painting
+			RockPotatoTile.MapEntry: Painting
+			SeiyuuchanSupportPosterTile.MapEntry: Painting
+			SmallDouYuOilPaintingTile.MapEntry: Picture
+			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: Picture
+			SmallHuyaOilPaintingTile.MapEntry: Picture
+			TapTapGroupPortraitTile.MapEntry: Painting
+			TararaPortraitTile.MapEntry: Painting
+		}
+		Dialogue: {
+			StarMerchant: {
+				StarMerchantDialogue1: You have absolutely no idea how high mud blocks sell for abroad.
+				StarMerchantDialogue2: The best trade I've ever done was when I exchanged coal for a diamond sword!
+				StarMerchantDialogue3: Hey, have you seen my blue armor? I think I lost it somewhere...
+				StarMerchantDialogue4: Ni hao! Wanna trade?
+				StarMerchantDialogue5: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
+				StarMerchantMechanicDialogue: I wonder if {0} have some redstone to sell.
+			}
+		}
+	}
+}
