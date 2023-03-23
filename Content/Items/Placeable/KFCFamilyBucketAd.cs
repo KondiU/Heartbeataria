@@ -10,6 +10,7 @@ namespace XDContentMod.Content.Items.Placeable
 		{
 			DisplayName.SetDefault("KFC Family Bucket Ad");
 			Tooltip.SetDefault("It's for the entire family to crunch!");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

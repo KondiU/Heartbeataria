@@ -10,6 +10,7 @@ namespace XDContentMod.Content.Items.Placeable
 		{
 			DisplayName.SetDefault("KFC Chicken Drumstick Ad");
 			Tooltip.SetDefault("It's Finger Lickin' Good!");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

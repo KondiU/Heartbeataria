@@ -10,6 +10,7 @@ namespace XDContentMod.Content.Items.Placeable
 		{
 			DisplayName.SetDefault("Pururu Portrait");
 			Tooltip.SetDefault("'TapTap'");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

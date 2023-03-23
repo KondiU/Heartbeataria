@@ -10,6 +10,7 @@ namespace XDContentMod.Content.Items.Placeable
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("KFC Bar");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

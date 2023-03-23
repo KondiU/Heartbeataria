@@ -10,6 +10,7 @@ namespace XDContentMod.Content.Items.Placeable
 		{
 			DisplayName.SetDefault("Medium Huya Oil Painting");
 			Tooltip.SetDefault("'Huya Inc.'");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

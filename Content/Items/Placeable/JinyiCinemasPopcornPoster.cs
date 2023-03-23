@@ -10,6 +10,7 @@ namespace XDContentMod.Content.Items.Placeable
 		{
 			DisplayName.SetDefault("Jinyi Cinemas Popcorn Poster");
 			Tooltip.SetDefault("'Jinyi Cinemas'");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

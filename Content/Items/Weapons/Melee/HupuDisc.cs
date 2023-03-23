@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
@@ -10,6 +11,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		{
 			DisplayName.SetDefault("Hupu Disc");
 			Tooltip.SetDefault("You can throw it, but can't catch it!");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

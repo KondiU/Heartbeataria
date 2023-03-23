@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
@@ -10,7 +11,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		{
 			DisplayName.SetDefault("iFlytek Disc");
 			Tooltip.SetDefault("Marvelous AI-enhanced weapon straight from iFlytek factories!");
-		}
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;		}
 
 		public override void SetDefaults()
 		{

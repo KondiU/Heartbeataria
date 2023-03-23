@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MiRvQlmhZnLj/z0j5Jv1K0A61qQ1NfiPFYA8KNtLfjjMhICNSuV6ZhK7rXC5mL6K9qtah5CQKHNmI9ZOCl6Lnw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Kondi\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\XDContentMod\\XDContentMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kondi\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

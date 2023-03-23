@@ -119,55 +119,19 @@ namespace XDContentMod.Content.NPCs
 			var itemIds = new List<int>();
 
 			// For each slot we add a switch case to determine what should go in that slot
-			switch (Main.rand.Next(5)) {
+			switch (Main.rand.Next(3)) { //SWORDS
 				case 0:
-					itemIds.Add(ModContent.ItemType<ConvertibleKeys>());
+					itemIds.Add(ModContent.ItemType<HeartbeatBroadsword>());
 					break;
 				case 1:
-					itemIds.Add(ModContent.ItemType<DiDiBikeKeys>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<DiDiCarKeys>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<KFCDeliveryScooterKeys>());
+					itemIds.Add(ModContent.ItemType<TapTapBroadsword>());
 					break;
 				default:
-					itemIds.Add(ModContent.ItemType<TapTapMinivanKeys>());
+					itemIds.Add(ModContent.ItemType<KFCChickenDrumstick>());
 					break;
 			}
 
-			switch (Main.rand.Next(5)) {
-				case 0:
-					itemIds.Add(ModContent.ItemType<Basketball>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<FriedChickenNugget>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<PururuCharger>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<Xiaokuai>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<Xiaoliu>());
-					break;
-			}
-
-			switch (Main.rand.Next(3)) {
-				case 0:
-					itemIds.Add(ModContent.ItemType<Leaf>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<ToadQuack2R>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<ToadQuack2W>());
-					break;
-			}
-
-			switch (Main.rand.Next(5)) {
+			switch (Main.rand.Next(5)) { //DISCS
 				case 0:
 					itemIds.Add(ModContent.ItemType<BaiduTiebaHuajiDisc>());
 					break;
@@ -185,20 +149,163 @@ namespace XDContentMod.Content.NPCs
 					break;
 			}
 
-			switch (Main.rand.Next(3)) {
+			switch (Main.rand.Next(5)) { //PETS
 				case 0:
-					itemIds.Add(ModContent.ItemType<HeartbeatBroadsword>());
+					itemIds.Add(ModContent.ItemType<Basketball>());
 					break;
 				case 1:
-					itemIds.Add(ModContent.ItemType<TapTapBroadsword>());
+					itemIds.Add(ModContent.ItemType<FriedChickenNugget>());
+					break;
+				case 2:
+					itemIds.Add(ModContent.ItemType<PururuCharger>());
+					break;
+				case 3:
+					itemIds.Add(ModContent.ItemType<Xiaokuai>());
 					break;
 				default:
-					itemIds.Add(ModContent.ItemType<KFCChickenDrumstick>());
+					itemIds.Add(ModContent.ItemType<Xiaoliu>());
 					break;
-
-			//NIE DODAŁEM VANITY SETÓW, OBRAZÓW I MEBLI
-
 			}
+
+			switch (Main.rand.Next(3)) { //LEAF PETS
+				case 0:
+					itemIds.Add(ModContent.ItemType<Leaf>());
+					break;
+				case 1:
+					itemIds.Add(ModContent.ItemType<ToadQuack2R>());
+					break;
+				default:
+					itemIds.Add(ModContent.ItemType<ToadQuack2W>());
+					break;
+			}
+
+			switch (Main.rand.Next(5)) { //MOUNTS
+				case 0:
+					itemIds.Add(ModContent.ItemType<ConvertibleKeys>());
+					break;
+				case 1:
+					itemIds.Add(ModContent.ItemType<DiDiBikeKeys>());
+					break;
+				case 2:
+					itemIds.Add(ModContent.ItemType<DiDiCarKeys>());
+					break;
+				case 3:
+					itemIds.Add(ModContent.ItemType<KFCDeliveryScooterKeys>());
+					break;
+				default:
+					itemIds.Add(ModContent.ItemType<TapTapMinivanKeys>());
+					break;
+			}
+
+			switch (Main.rand.Next(1)) { 
+				default:
+					itemIds.Add(ModContent.ItemType<KFCChair>());
+					break;
+			}
+
+			switch (Main.rand.Next(1)) { 
+				default:
+					itemIds.Add(ModContent.ItemType<KFCWorkBench>());
+					break;
+			}
+
+			switch (Main.rand.Next(1)) { 
+				default:
+					itemIds.Add(ModContent.ItemType<KFCBar>());
+					break;
+			}
+			
+
+			switch (Main.rand.Next(6)) { //PAINTINGS - SLOT 1
+				case 0:
+					itemIds.Add(ModContent.ItemType<BirthdayCake>());
+					break;
+				case 1:
+					itemIds.Add(ModContent.ItemType<ColorfulBalloonsStockPhoto>());
+					break;
+				case 2:
+					itemIds.Add(ModContent.ItemType<GetThePartyStarted>());
+					break;
+				case 3:
+					itemIds.Add(ModContent.ItemType<PururuPortrait>());
+					break;
+				case 4:
+					itemIds.Add(ModContent.ItemType<TapTapGroupPortrait>());
+					break;
+				default:
+					itemIds.Add(ModContent.ItemType<TararaPortrait>());
+					break;
+			}
+
+			switch (Main.rand.Next(6)) { //PAINTINGS - SLOT 2
+				case 0:
+					itemIds.Add(ModContent.ItemType<SmallHeartbeatTownscapeOilPainting>());
+					break;
+				case 1:
+					itemIds.Add(ModContent.ItemType<HeartbeatOilPainting>());
+					break;
+				case 2:
+					itemIds.Add(ModContent.ItemType<LargeHeartbeatTownscapeOilPainting>());
+					break;
+				case 3:
+					itemIds.Add(ModContent.ItemType<SmallDouYuOilPainting>());
+					break;
+				case 4:
+					itemIds.Add(ModContent.ItemType<MediumDouYuOilPainting>());
+					break;
+				default:
+					itemIds.Add(ModContent.ItemType<LargeDouYuOilPainting>());
+					break;
+			}
+
+			switch (Main.rand.Next(6)) { //PAINTINGS - SLOT 3
+				case 0:
+					itemIds.Add(ModContent.ItemType<KFCBurgerAd>());
+					break;
+				case 1:
+					itemIds.Add(ModContent.ItemType<KFCChickenDrumstickAd>());
+					break;
+				case 2:
+					itemIds.Add(ModContent.ItemType<KFCFamilyBucketAd>());
+					break;
+				case 3:
+					itemIds.Add(ModContent.ItemType<SmallHuyaOilPainting>());
+					break;
+				case 4:
+					itemIds.Add(ModContent.ItemType<MediumHuyaOilPainting>());
+					break;
+				default:
+					itemIds.Add(ModContent.ItemType<LargeHuyaOilPainting>());
+					break;
+			}
+
+			switch (Main.rand.Next(6)) { //PAINTINGS - SLOT 4
+				case 0:
+					itemIds.Add(ModContent.ItemType<RockPotato>());
+					break;
+				case 1:
+					itemIds.Add(ModContent.ItemType<LightPotato>());
+					break;
+				case 2:
+					itemIds.Add(ModContent.ItemType<Potataria>());
+					break;
+				case 3:
+					itemIds.Add(ModContent.ItemType<AcFunOilPainting>());
+					break;
+				case 4:
+					itemIds.Add(ModContent.ItemType<JinyiCinemasPopcornPoster>());
+					break;
+				default:
+					itemIds.Add(ModContent.ItemType<SeiyuuchanSupportPoster>());
+					break;
+			}
+
+
+
+				//ADD VANITY SETS
+
+
+
 
 			// convert to a list of items
 			shopItems = new List<Item>();
@@ -218,7 +325,7 @@ namespace XDContentMod.Content.NPCs
 			NPCID.Sets.AttackType[NPC.type] = 0;
 			NPCID.Sets.AttackTime[NPC.type] = 90;
 			NPCID.Sets.AttackAverageChance[NPC.type] = 30;
-			NPCID.Sets.HatOffsetY[NPC.type] = -2;
+			NPCID.Sets.HatOffsetY[NPC.type] = 2;
 		}
 
 		public override void SetDefaults() {
@@ -237,6 +344,14 @@ namespace XDContentMod.Content.NPCs
 			AnimationType = NPCID.TravellingMerchant;
 			CreateNewShop();
 		}
+
+		public override void SetBestiary(Terraria.GameContent.Bestiary.BestiaryDatabase database, Terraria.GameContent.Bestiary.BestiaryEntry bestiaryEntry)
+        {
+            bestiaryEntry.Info.AddRange(new Terraria.GameContent.Bestiary.IBestiaryInfoElement[] {
+                Terraria.GameContent.Bestiary.BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Surface,
+                new Terraria.GameContent.Bestiary.FlavorTextBestiaryInfoElement("There's very little info about the Star Merchant. Some say they came from space, others that they live in China. We're not even sure about their gender, but it's pretty clear that they love to sell some unique items in their shop!"),
+            });
+        }
 
 		public override void SaveData(TagCompound tag) {
 			tag["itemIds"] = shopItems;
@@ -322,11 +437,20 @@ namespace XDContentMod.Content.NPCs
 			NPC.homeless = true; // Make sure it stays homeless
 		}
 
-		/*
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
-			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<ExampleCostume>()));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<StarMerchantHat>()));
 		}
-		*/
+
+		public override void HitEffect(int hitDirection, double damage)
+   		{
+        	if (NPC.life <= 0)
+       		{
+         		Gore.NewGore(NPC.GetSource_FromAI(), NPC.position, NPC.velocity, Mod.Find<ModGore>("StarMerchantNPC").Type, 1f);
+        		Gore.NewGore(NPC.GetSource_FromAI(), NPC.position, NPC.velocity, Mod.Find<ModGore>("StarMerchantNPC2").Type, 1f);
+            	Gore.NewGore(NPC.GetSource_FromAI(), NPC.position, NPC.velocity, Mod.Find<ModGore>("StarMerchantNPC3").Type, 1f);
+            	Gore.NewGore(NPC.GetSource_FromAI(), NPC.position, NPC.velocity, Mod.Find<ModGore>("StarMerchantNPC4").Type, 1f);
+        	}
+    	}
 	}
 
 	public class ExampleTravelingMerchantProfile : ITownNPCProfile

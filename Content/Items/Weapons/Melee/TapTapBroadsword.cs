@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
@@ -10,6 +11,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 		{
 			DisplayName.SetDefault("TapTap Broadsword");
 			Tooltip.SetDefault("Fight for Tarara & Pururu!");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
 		}
 
 		public override void SetDefaults()

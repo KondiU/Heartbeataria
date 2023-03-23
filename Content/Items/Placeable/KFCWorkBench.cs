@@ -1,12 +1,16 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-
+using Terraria.GameContent.Creative;
 namespace XDContentMod.Content.Items.Placeable
 {
 	public class KFCWorkBench : ModItem
 	{
-		public override void SetStaticDefaults() => DisplayName.SetDefault("KFC Work Bench");
+		public override void SetStaticDefaults()
+		{
+			DisplayName.SetDefault("KFC Work Bench");
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+		}
 
 		public override void SetDefaults()
 		{

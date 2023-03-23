@@ -11,3 +11,8 @@ This includes:
 This mod doesn't affect the balance of vanilla game in an impactful way, so you can safely play it along with bigger content mods like Thorium or Calamity without problems.
 
 It is highly recommended to play this mod alongside Consolaria (https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929)
+
+Credits:
+-Consolaria Team for help with coding
+-HenryChe, for sending me an extracted package of important sprites
+-Uncle Badass (https://steamcommunity.com/id/unclebadass/) for providing important missing sprites of Star Merchant NPC & it's items
