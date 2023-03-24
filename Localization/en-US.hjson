@@ -416,7 +416,10 @@ Mods: {
 				StarMerchantDialogue3: Hey, have you seen my blue armor? I think I lost it somewhere...
 				StarMerchantDialogue4: Ni hao! Wanna trade?
 				StarMerchantDialogue5: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
+				StarMerchantDialogue6: Microtransactions? Never heard of that!
+				StarMerchantDialogue7: Ahhh, the sky looks so beautiful today!
 				StarMerchantMechanicDialogue: I wonder if {0} have some redstone to sell.
+				StarMerchantTravelingMerchantDialogue: Huh? {0} is here too? Finally! A worthy opponent!
 			}
 		}
 	}
