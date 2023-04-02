@@ -21,7 +21,7 @@ namespace XDContentMod.Content.Items.Vanity
 			int width = 38; int height = 34;
 			Item.Size = new Vector2(width, height);
 
-			Item.value = Item.buyPrice(silver: 100);
+			Item.value = Item.buyPrice(gold: 3);
 			Item.vanity = true;
 		}
 	}

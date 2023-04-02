@@ -411,15 +411,32 @@ Mods: {
 		}
 		Dialogue: {
 			StarMerchant: {
-				StarMerchantDialogue1: You have absolutely no idea how high mud blocks sell for abroad.
+				StarMerchantDialogue1: You have no idea how much Mud Blocks sell for abroad.
 				StarMerchantDialogue2: The best trade I've ever done was when I exchanged coal for a diamond sword!
 				StarMerchantDialogue3: Hey, have you seen my blue armor? I think I lost it somewhere...
 				StarMerchantDialogue4: Ni hao! Wanna trade?
 				StarMerchantDialogue5: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
 				StarMerchantDialogue6: Microtransactions? Never heard of that!
-				StarMerchantDialogue7: Ahhh, the sky looks so beautiful today!
-				StarMerchantMechanicDialogue: I wonder if {0} have some redstone to sell.
-				StarMerchantTravelingMerchantDialogue: Huh? {0} is here too? Finally! A worthy opponent!
+				StarMerchantDialogue7: Are you a huge frog lover? Try your luck in my Leaf Lottery!
+				StarMerchantDialogue8: Trust me, kryptonite won't make you stronger - I tested it.
+				StarMerchantDialogue9: Hello there! Wanna buy some stuff?
+				StarMerchantDialogue10: Huh, this place changed a lot since my last visit - just like my stock! Check it out!
+				StarMerchantDialogue11: I love this place, although I hope I'll get back to my home planet one day... Anyway, would you like to buy something?
+				StarMerchantDialogue12: It's always a good time for hongbao... And some trading, of course!
+				StarMerchantDay1: Ahh, the sky looks so beautiful today!
+				StarMerchantNight1: I bet these guys burn up in no time!
+				StarMerchantNight2: If every night here looks like this I gotta get myself a rail gun!
+				StarMerchantNight3: Should we look at the stars tonight?
+				StarMerchantRain1: Huh, at least my robe is waterproof! 
+				StarMerchantRain2: This rain is a drizzle compared to the ones on Neptune!
+				StarMerchantBloodMoon1: What's the panic? At least the skeletons here don't ride spiders... Do they?
+				StarMerchantMechanicDialogue1: I wonder if {0} have some Redstone to sell.
+				StarMerchantGuideDialogue1: I gotta visit {0}, he seems like a very knowledgable guy - maybe he would help me to get back home?
+				StarMerchantTravellingMerchantDialogue1: Huh? {0} is here too? Finally! A worthy opponent!
+				StarMerchantZoologistDialogue1: Never ask a woman her age, a man his salary, and {0} how some of my KFC items are made...
+				StarMerchantMerchantDialogue1: Turns out some folks here really enjoy my style - just look at the {0}'s wardrobe!
+				StarMerchantClothierDialogue1: Looks like {0} knows a lot about clothes, but I bet he never saw pieces I got for sale!
+				StarMerchantTruffleDialogue1: Ahh, {0}! They understand me like no one else... Looks like we have a lot of things in common!
 			}
 		}
 	}

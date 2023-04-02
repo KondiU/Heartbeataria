@@ -13,6 +13,7 @@ using Terraria;
 using Terraria.Audio;
 using Terraria.Chat;
 using Terraria.GameContent;
+using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.Localization;
@@ -30,7 +31,7 @@ namespace XDContentMod.Content.NPCs
 
 		// the time of day the traveler will spawn (double.MaxValue for no spawn)
 		// saved and loaded with the world in TravelingMerchantSystem
-		public static double spawnTime = double.MaxValue;
+		public static double spawnTime = 5400;
 
 		// The list of items in the traveler's shop. Saved with the world and set when the traveler spawns
 		public List<Item> shopItems = new List<Item>();
@@ -93,10 +94,6 @@ namespace XDContentMod.Content.NPCs
 
 		private static bool CanSpawnNow() 
 		{
-			// can't spawn if any events are running
-			if (Main.eclipse || Main.invasionType > 0 && Main.invasionDelay == 0 && Main.invasionSize > 0)
-				return false;
-
 			// can't spawn if the sundial is active
 			if (Main.fastForwardTime)
 				return false;
@@ -131,7 +128,7 @@ namespace XDContentMod.Content.NPCs
 
 			// For each slot we add a switch case to determine what should go in that slot
 			switch (Main.rand.Next(3)) 
-			{ //SWORDS
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<HeartbeatBroadsword>());
 					break;
@@ -144,7 +141,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(5)) 
-			{ //DISCS
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<BaiduTiebaHuajiDisc>());
 					break;
@@ -163,7 +160,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(5)) 
-			{ //PETS
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<Basketball>());
 					break;
@@ -182,7 +179,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(3)) 
-			{ //LEAF PETS
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<Leaf>());
 					break;
@@ -195,7 +192,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(5)) 
-			{ //MOUNTS
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<ConvertibleKeys>());
 					break;
@@ -213,30 +210,12 @@ namespace XDContentMod.Content.NPCs
 					break;
 			}
 
-			switch (Main.rand.Next(1)) 
-			{ 
-				default:
-					itemIds.Add(ModContent.ItemType<KFCChair>());
-					break;
-			}
-
-			switch (Main.rand.Next(1)) 
-			{ 
-				default:
-					itemIds.Add(ModContent.ItemType<KFCWorkBench>());
-					break;
-			}
-
-			switch (Main.rand.Next(1)) 
-			{ 
-				default:
-					itemIds.Add(ModContent.ItemType<KFCBar>());
-					break;
-			}
-			
+			itemIds.Add(ModContent.ItemType<KFCChair>());
+			itemIds.Add(ModContent.ItemType<KFCWorkBench>());
+			itemIds.Add(ModContent.ItemType<KFCBar>());
 
 			switch (Main.rand.Next(6)) 
-			{ //PAINTINGS - SLOT 1
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<BirthdayCake>());
 					break;
@@ -258,7 +237,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(6)) 
-			{ //PAINTINGS - SLOT 2
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<SmallHeartbeatTownscapeOilPainting>());
 					break;
@@ -280,7 +259,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(6)) 
-			{ //PAINTINGS - SLOT 3
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<KFCBurgerAd>());
 					break;
@@ -302,7 +281,7 @@ namespace XDContentMod.Content.NPCs
 			}
 
 			switch (Main.rand.Next(6)) 
-			{ //PAINTINGS - SLOT 4
+			{
 				case 0:
 					itemIds.Add(ModContent.ItemType<RockPotato>());
 					break;
@@ -322,15 +301,72 @@ namespace XDContentMod.Content.NPCs
 					itemIds.Add(ModContent.ItemType<SeiyuuchanSupportPoster>());
 					break;
 			}
+			
+			if (Main.moonPhase == 0) 
+			{
+		 		itemIds.Add(ModContent.ItemType<ColonelsMask>());
+				itemIds.Add(ModContent.ItemType<ColonelsTuxedoShirt>());
+				itemIds.Add(ModContent.ItemType<ColonelsTuxedoPants>());
+			}
 
+			if (Main.moonPhase == 1) 
+			{
+		 		itemIds.Add(ModContent.ItemType<CuteBrownWig>());
+				itemIds.Add(ModContent.ItemType<SeifukuShirt>());
+				itemIds.Add(ModContent.ItemType<SeifukuShoes>());
+			}
 
+			if (Main.moonPhase == 2) 
+			{
+				itemIds.Add(ModContent.ItemType<HeartbeatOrangePonytail>());
+		 		itemIds.Add(ModContent.ItemType<HeartbeatOrangeDress>());
+				itemIds.Add(ModContent.ItemType<HeartbeatOrangeShoes>());
+				itemIds.Add(ModContent.ItemType<HeartbeatOrangeWig>());
+				itemIds.Add(ModContent.ItemType<HeartbeatOrangeTuxedoShirt>());
+				itemIds.Add(ModContent.ItemType<HeartbeatOrangeTuxedoPants>());
+			}
 
-				//ADD VANITY SETS
+			if (Main.moonPhase == 3) 
+			{
+		 		itemIds.Add(ModContent.ItemType<BCYCatEars>());
+				itemIds.Add(ModContent.ItemType<BCYCosplayDress>());
+				itemIds.Add(ModContent.ItemType<BCYCosplayShoes>());
+			}
 
+			if (Main.moonPhase == 4) 
+			{
+				itemIds.Add(ModContent.ItemType<TikTokNoteHat>());
+				itemIds.Add(ModContent.ItemType<TikTokTorso>());
+				itemIds.Add(ModContent.ItemType<TikTokPants>());
+		 		itemIds.Add(ModContent.ItemType<DogMask>());
+				itemIds.Add(ModContent.ItemType<DogShirt>());
+				itemIds.Add(ModContent.ItemType<DogPants>());
+			}
 
+			if (Main.moonPhase == 5) 
+			{
+				itemIds.Add(ModContent.ItemType<TararaPonytail>());
+				itemIds.Add(ModContent.ItemType<TararaDress>());
+				itemIds.Add(ModContent.ItemType<TararaShoes>());
+			}
 
+			if (Main.moonPhase == 6) 
+			{
+				itemIds.Add(ModContent.ItemType<iQIYIMechaHelmet>());
+				itemIds.Add(ModContent.ItemType<iQIYIMechaTorso>());
+				itemIds.Add(ModContent.ItemType<iQIYIMechaPants>());
+			}
 
-			// convert to a list of items
+			if (Main.moonPhase == 7) 
+			{
+				itemIds.Add(ModContent.ItemType<ExpeditionerHat>());
+				itemIds.Add(ModContent.ItemType<ExpeditionerShirt>());
+				itemIds.Add(ModContent.ItemType<ExpeditionerPants>());
+		 		itemIds.Add(ModContent.ItemType<ChengXinYouXuanHat>());
+				itemIds.Add(ModContent.ItemType<ChengXinYouXuanShirt>());
+				itemIds.Add(ModContent.ItemType<ChengXinYouXuanPants>());
+			}
+
 			shopItems = new List<Item>();
 			foreach (int itemId in itemIds) 
 			{
@@ -353,8 +389,8 @@ namespace XDContentMod.Content.NPCs
 			NPCID.Sets.HatOffsetY[NPC.type] = 2;
 
 			NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers(0) 
-			{ // Influences how the NPC looks in the Bestiary
-				Velocity = 1f // Draws the NPC in the bestiary as if its walking +1 tiles in the x direction
+			{
+				Velocity = 1f
 			};
 			NPCID.Sets.NPCBestiaryDrawOffset.Add(Type, value);
 		}
@@ -382,7 +418,7 @@ namespace XDContentMod.Content.NPCs
             bestiaryEntry.Info.AddRange(new Terraria.GameContent.Bestiary.IBestiaryInfoElement[] 
 			{
                 Terraria.GameContent.Bestiary.BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Surface,
-                new Terraria.GameContent.Bestiary.FlavorTextBestiaryInfoElement("There's very little info about the Star Merchant. Some say they came from space, others that they live in China. We're not even sure about their gender, but it's pretty clear that they love to sell some unique items in their shop!"),
+                new Terraria.GameContent.Bestiary.FlavorTextBestiaryInfoElement("There's very little info about the Star Merchant. Some say they got here from other space and for some reason they can't get back home. We're not even sure about their gender, but it's pretty clear that they love to sell some unique items in their shop!"),
             });
         }
 
@@ -395,16 +431,6 @@ namespace XDContentMod.Content.NPCs
 		{
 			shopItems = tag.Get<List<Item>>("shopItems");
 		}
-
-/*
-		public override void HitEffect(int hitDirection, double damage) 
-		{
-			int num = NPC.life > 0 ? 1 : 5;
-			for (int k = 0; k < num; k++) {
-				Dust.NewDust(NPC.position, NPC.width, NPC.height, ModContent.DustType<Sparkle>());
-			}
-		}
-*/
 
 		public override bool CanTownNPCSpawn(int numTownNPCs, int money) 
 		{
@@ -435,19 +461,71 @@ namespace XDContentMod.Content.NPCs
 		public override string GetChat() 
 		{
 			WeightedRandom<string> chat = new WeightedRandom<string>();
+
+			int clothier = NPC.FindFirstNPC(NPCID.Clothier);
+			if (clothier >= 0) 
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantClothierDialogue1", Main.npc[clothier].GivenName));
+			}
 			
 			int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
 			if (mechanic >= 0) 
 			{
-				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantMechanicDialogue", Main.npc[mechanic].GivenName));
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantMechanicDialogue1", Main.npc[mechanic].GivenName));
 			}
 
-/*			int travelingmerchant = NPC.FindFirstNPC(NPCID.TravelingMerchant);
-			if (travelingmerchant >= 0) 
+			int merchant = NPC.FindFirstNPC(NPCID.Merchant);
+			if (merchant >= 0) 
 			{
-				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantTravelingMerchantDialogue", Main.npc[travelingmerchant].GivenName));
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantMerchantDialogue1", Main.npc[merchant].GivenName));
 			}
-*/			
+
+			int travellingmerchant = NPC.FindFirstNPC(NPCID.TravellingMerchant);
+			if (travellingmerchant >= 0) 
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantTravellingMerchantDialogue1", Main.npc[travellingmerchant].GivenName));
+			}
+	
+			int guide = NPC.FindFirstNPC(NPCID.Guide);
+			if (guide >= 0) 
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantGuideDialogue1", Main.npc[guide].GivenName));
+			}
+
+			int zoologist = NPC.FindFirstNPC(NPCID.BestiaryGirl);
+			if (zoologist >= 0) 
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantZoologistDialogue1", Main.npc[zoologist].GivenName));
+			}
+
+			int truffle = NPC.FindFirstNPC(NPCID.Truffle);
+			if (truffle >= 0) 
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantTruffleDialogue1", Main.npc[truffle].GivenName));
+			}
+
+			//if (Main.dayTime = true)
+			//{
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDay1"));
+			//}
+
+			//if (Main.dayTime = false)
+			//{
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight1"));
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight2"));
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight3"));
+			//}
+
+			//if (Main.raining = true)
+			//{
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain1"));
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain2"));
+			//}
+
+			//if (Main.bloodMoon = true)
+			//{
+			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantBloodMoon1"));
+			//}
 			
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue1"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue2"));
@@ -456,11 +534,15 @@ namespace XDContentMod.Content.NPCs
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue5"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue6"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue7"));
+			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue8"));
+			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue9"));
+			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue10"));
+			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue11"));
+			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue12"));
 
 			string dialogueLine = chat;
 			return dialogueLine;
 		}
-		
 
 		public override void SetChatButtons(ref string button, ref string button2) 
 		{

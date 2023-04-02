@@ -20,7 +20,7 @@ namespace XDContentMod.Content.Items.Mounts
 		{
 			Item.width = 24;
 			Item.height = 24;
-			Item.value = Item.buyPrice(gold: 50);
+			Item.value = Item.buyPrice(gold: 30);
 			Item.rare = 8;
 			Item.useAnimation = 15;
 			Item.useTime = 20;
