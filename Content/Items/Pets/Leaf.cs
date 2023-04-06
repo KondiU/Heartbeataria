@@ -22,7 +22,7 @@ namespace XDContentMod.Content.Items.Pets
 			Item.Size = new Vector2(width, height);
 
 			Item.rare = 3;
-			Item.value = Item.sellPrice(gold: 15);
+			Item.value = Item.buyPrice(gold: 15);
 		}
 	}
 }

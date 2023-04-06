@@ -164,14 +164,18 @@ Mods: {
 				Tooltip: "'Jinyi Cinemas'"
 			}
 
-			KFCBar.DisplayName: KFC Bar
+			KFCBar: {
+				DisplayName: KFC Bar
+			}
 
 			KFCBurgerAd: {
 				DisplayName: KFC Burger Ad
 				Tooltip: Anything But Ordinary!
 			}
 
-			KFCChair.DisplayName: KFC Chair
+			KFCChair: {
+				DisplayName: KFC Chair
+			}
 
 			KFCChickenDrumstickAd: {
 				DisplayName: KFC Chicken Drumstick Ad
@@ -183,7 +187,9 @@ Mods: {
 				Tooltip: It's for the entire family to crunch!
 			}
 
-			KFCWorkBench.DisplayName: KFC Work Bench
+			KFCWorkBench: {
+				DisplayName: KFC Work Bench
+			}
 
 			LargeDouYuOilPainting: {
 				DisplayName: Large DouYu Oil Painting
@@ -260,14 +266,37 @@ Mods: {
 				Tooltip: "'TapTap'"
 			}
 
-			TV.DisplayName: TV
-			BCYCatEars.DisplayName: BCY Cat Ears
-			BCYCosplayDress.DisplayName: BCY Cosplay Dress
-			BCYCosplayShoes.DisplayName: BCY Cosplay Shoes
-			ChengXinYouXuanHat.DisplayName: ChengXin YouXuan Hat
-			ChengXinYouXuanPants.DisplayName: ChengXin YouXuan Pants
-			ChengXinYouXuanShirt.DisplayName: ChengXin YouXuan Shirt
-			ColonelsMask.DisplayName: Colonel's Mask
+			TV: {
+				DisplayName: TV
+			}
+
+			BCYCatEars: {
+				DisplayName: BCY Cat Ears
+			}
+
+			BCYCosplayDress: {
+				DisplayName: BCY Cosplay Dress
+			}
+
+			BCYCosplayShoes: {
+				DisplayName: BCY Cosplay Shoes
+			}
+
+			ChengXinYouXuanHat: {
+				DisplayName: ChengXin YouXuan Hat
+			}
+
+			ChengXinYouXuanPants: {
+				DisplayName: ChengXin YouXuan Pants
+			}
+
+			ChengXinYouXuanShirt: {
+				DisplayName: ChengXin YouXuan Shirt
+			}
+
+			ColonelsMask: {
+				DisplayName: Colonel's Mask
+			}
 
 			ColonelsTuxedoPants: {
 				DisplayName: Colonel's Tuxedo Pants
@@ -279,58 +308,194 @@ Mods: {
 				Tooltip: Smells like Hot Wings
 			}
 
-			CuteBrownWig.DisplayName: Cute Brown Wig
-			DeepColdBreastplate.DisplayName: Deep Cold Breastplate
-			DeepColdHelmet.DisplayName: Deep Cold Helmet
-			DeepColdLeggings.DisplayName: Deep Cold Leggings
-			DogMask.DisplayName: Dog Mask
-			DogPants.DisplayName: Dog Pants
-			DogShirt.DisplayName: Dog Shirt
-			ExpeditionerHat.DisplayName: Expeditioner Hat
-			ExpeditionerPants.DisplayName: Expeditioner Pants
-			ExpeditionerShirt.DisplayName: Expeditioner Shirt
-			GuaPiMao.DisplayName: Gua Pi Mao
-			HeartbeatOrangeDress.DisplayName: Heartbeat Orange Dress
-			HeartbeatOrangePonytail.DisplayName: Heartbeat Orange Ponytail
-			HeartbeatOrangeShoes.DisplayName: Heartbeat Orange Shoes
-			HeartbeatOrangeTuxedoPants.DisplayName: Heartbeat Orange Tuxedo Pants
-			HeartbeatOrangeTuxedoShirt.DisplayName: Heartbeat Orange Tuxedo Shirt
-			HeartbeatOrangeWig.DisplayName: Heartbeat Orange Wig
-			ImperialGuardBreastplate.DisplayName: Imperial Guard Breastplate
-			ImperialGuardHelmet.DisplayName: Imperial Guard Helmet
-			ImperialGuardLeggings.DisplayName: Imperial Guard Leggings
-			ImperialMasterBreastplate.DisplayName: Imperial Master Breastplate
-			ImperialMasterHelmet.DisplayName: Imperial Master Helmet
-			ImperialMasterLeggings.DisplayName: Imperial Master Leggings
-			iQIYIMechaHelmet.DisplayName: iQIYI Mecha Helmet
-			iQIYIMechaPants.DisplayName: iQIYI Mecha Pants
-			iQIYIMechaTorso.DisplayName: iQIYI Mecha Torso
-			MountainGuardBreastplate.DisplayName: Mountain Guard Breastplate
-			MountainGuardHelmet.DisplayName: Mountain Guard Helmet
-			MountainGuardLeggings.DisplayName: Mountain Guard Leggings
-			MythicalDogMask.DisplayName: Mythical Dog Mask
-			MythicalDogPants.DisplayName: Mythical Dog Pants
-			MythicalDogShirt.DisplayName: Mythical Dog Shirt
-			SeifukuShirt.DisplayName: Seifuku Shirt
-			SeifukuShoes.DisplayName: Seifuku Shoes
-			TangSuitPants.DisplayName: Tang Suit Pants
-			TangSuitShirt.DisplayName: Tang Suit Shirt
-			TangYuanHat.DisplayName: Tang Yuan Hat
-			TangYuanPants.DisplayName: Tang Yuan Pants
-			TangYuanShirt.DisplayName: Tang Yuan Shirt
-			TararaDress.DisplayName: Tarara Dress
-			TararaPonytail.DisplayName: Tarara Ponytail
-			TararaShoes.DisplayName: Tarara Shoes
-			TikTokNoteHat.DisplayName: TikTok Note Hat
-			TikTokPants.DisplayName: TikTok Pants
-			TikTokTorso.DisplayName: TikTok Torso
+			CuteBrownWig: {
+				DisplayName: Cute Brown Wig
+			}
+
+			DeepColdBreastplate: {
+				DisplayName: Deep Cold Breastplate
+			}
+
+			DeepColdHelmet: {
+				DisplayName: Deep Cold Helmet
+			}
+
+			DeepColdLeggings: {
+				DisplayName: Deep Cold Leggings
+			}
+
+			DogMask: {
+				DisplayName: Dog Mask
+			}
+
+			DogPants: {
+				DisplayName: Dog Pants
+			}
+
+			DogShirt: {
+				DisplayName: Dog Shirt
+			}
+
+			ExpeditionerHat: {
+				DisplayName: Expeditioner Hat
+			}
+
+			ExpeditionerPants: {
+				DisplayName: Expeditioner Pants
+			}
+
+			ExpeditionerShirt: {
+				DisplayName: Expeditioner Shirt
+			}
+
+			GuaPiMao: {
+				DisplayName: Gua Pi Mao
+			}
+
+			HeartbeatOrangeDress: {
+				DisplayName: Heartbeat Orange Dress
+			}
+
+			HeartbeatOrangePonytail: {
+				DisplayName: Heartbeat Orange Ponytail
+			}
+
+			HeartbeatOrangeShoes: {
+				DisplayName: Heartbeat Orange Shoes
+			}
+
+			HeartbeatOrangeTuxedoPants: {
+				DisplayName: Heartbeat Orange Tuxedo Pants
+			}
+
+			HeartbeatOrangeTuxedoShirt: {
+				DisplayName: Heartbeat Orange Tuxedo Shirt
+			}
+
+			HeartbeatOrangeWig: {
+				DisplayName: Heartbeat Orange Wig
+			}
+
+			ImperialGuardBreastplate: {
+				DisplayName: Imperial Guard Breastplate
+			}
+
+			ImperialGuardHelmet: {
+				DisplayName: Imperial Guard Helmet
+			}
+
+			ImperialGuardLeggings: {
+				DisplayName: Imperial Guard Leggings
+			}
+
+			ImperialMasterBreastplate: {
+				DisplayName: Imperial Master Breastplate
+			}
+
+			ImperialMasterHelmet: {
+				DisplayName: Imperial Master Helmet
+			}
+
+			ImperialMasterLeggings: {
+				DisplayName: Imperial Master Leggings
+			}
+
+			iQIYIMechaHelmet: {
+				DisplayName: iQIYI Mecha Helmet
+			}
+
+			iQIYIMechaPants: {
+				DisplayName: iQIYI Mecha Pants
+			}
+
+			iQIYIMechaTorso: {
+				DisplayName: iQIYI Mecha Torso
+			}
+
+			MountainGuardBreastplate: {
+				DisplayName: Mountain Guard Breastplate
+			}
+
+			MountainGuardHelmet: {
+				DisplayName: Mountain Guard Helmet
+			}
+
+			MountainGuardLeggings: {
+				DisplayName: Mountain Guard Leggings
+			}
+
+			MythicalDogMask: {
+				DisplayName: Mythical Dog Mask
+			}
+
+			MythicalDogPants: {
+				DisplayName: Mythical Dog Pants
+			}
+
+			MythicalDogShirt: {
+				DisplayName: Mythical Dog Shirt
+			}
+
+			SeifukuShirt: {
+				DisplayName: Seifuku Shirt
+			}
+
+			SeifukuShoes: {
+				DisplayName: Seifuku Shoes
+			}
+
+			TangSuitPants: {
+				DisplayName: Tang Suit Pants
+			}
+
+			TangSuitShirt: {
+				DisplayName: Tang Suit Shirt
+			}
+
+			TangYuanHat: {
+				DisplayName: Tang Yuan Hat
+			}
+
+			TangYuanPants: {
+				DisplayName: Tang Yuan Pants
+			}
+
+			TangYuanShirt: {
+				DisplayName: Tang Yuan Shirt
+			}
+
+			TararaDress: {
+				DisplayName: Tarara Dress
+			}
+
+			TararaPonytail: {
+				DisplayName: Tarara Ponytail
+			}
+
+			TararaShoes: {
+				DisplayName: Tarara Shoes
+			}
+
+			TikTokNoteHat: {
+				DisplayName: TikTok Note Hat
+			}
+
+			TikTokPants: {
+				DisplayName: TikTok Pants
+			}
+
+			TikTokTorso: {
+				DisplayName: TikTok Torso
+			}
 
 			BaiduTiebaHuajiDisc: {
 				DisplayName: Baidu Tieba Huájí Disc
 				Tooltip: Remnant from the Baidu Tieba posting culture
 			}
 
-			HeartbeatBroadsword.DisplayName: Heartbeat Broadsword
+			HeartbeatBroadsword: {
+				DisplayName: Heartbeat Broadsword
+			}
 
 			HupuDisc: {
 				DisplayName: Hupu Disc
@@ -361,54 +526,176 @@ Mods: {
 				DisplayName: TapTap Broadsword
 				Tooltip: Fight for Tarara & Pururu!
 			}
+
+			StarMerchantHat.DisplayName: Star Merchant Hat
 		}
 
-		NPCs.StarMerchantNPC.DisplayName: Star Merchant
+		NPCs: {
+			StarMerchantNPC: {
+				DisplayName: Star Merchant
+			}
+		}
 
 		Projectiles: {
-			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
-			HupuDiscProjectile.DisplayName: Hupu Disc
-			iFlytekDiscProjectile.DisplayName: iFlytek Disc
-			LOOKDiscProjectile.DisplayName: LOOK Disc
-			ChickenProjectile.DisplayName: Chicken Projectile
-			FlyingBasketballProjectile.DisplayName: Flying Basketball Projectile
-			GreenFrogProjectile.DisplayName: Green Frog Projectile
-			PururuProjectile.DisplayName: Pururu Projectile
-			RedEyedToadProjectile.DisplayName: Red Eyed Toad Projectile
-			WitchToadProjectile.DisplayName: Witch Toad Projectile
-			XiaokuaiProjectile.DisplayName: Xiaokuai Projectile
-			XiaoliuProjectile.DisplayName: Xiaoliu Projectile
-			PururuDiscProjectile.DisplayName: Pururu Disc
+			BaiduTiebaHuajiDiscProjectile: {
+				DisplayName: Baidu Tieba Huájí Disc
+			}
+
+			HupuDiscProjectile: {
+				DisplayName: Hupu Disc
+			}
+
+			iFlytekDiscProjectile: {
+				DisplayName: iFlytek Disc
+			}
+
+			LOOKDiscProjectile: {
+				DisplayName: LOOK Disc
+			}
+
+			ChickenProjectile: {
+				DisplayName: Chicken Projectile
+			}
+
+			FlyingBasketballProjectile: {
+				DisplayName: Flying Basketball Projectile
+			}
+
+			GreenFrogProjectile: {
+				DisplayName: Green Frog Projectile
+			}
+
+			PururuProjectile: {
+				DisplayName: Pururu Projectile
+			}
+
+			RedEyedToadProjectile: {
+				DisplayName: Red Eyed Toad Projectile
+			}
+
+			WitchToadProjectile: {
+				DisplayName: Witch Toad Projectile
+			}
+
+			XiaokuaiProjectile: {
+				DisplayName: Xiaokuai Projectile
+			}
+
+			XiaoliuProjectile: {
+				DisplayName: Xiaoliu Projectile
+			}
+
+			PururuDiscProjectile: {
+				DisplayName: Pururu Disc
+			}
 		}
 
 		Tiles: {
-			KFCWorkBenchTile.MapEntry: Work Bench
-			TVTile.MapEntry: TV
-			AcFunOilPaintingTile.MapEntry: Painting
-			BirthdayCakeTile.MapEntry: Painting
-			ColorfulBalloonsStockPhotoTile.MapEntry: Painting
-			GetThePartyStartedTile.MapEntry: Painting
-			HeartbeatOilPaintingTile.MapEntry: Painting
-			JinyiCinemasPopcornPosterTile.MapEntry: Painting
-			KFCBurgerAdTile.MapEntry: Picture
-			KFCChickenDrumstickAdTile.MapEntry: Painting
-			KFCFamilyBucketAdTile.MapEntry: Painting
-			LargeDouYuOilPaintingTile.MapEntry: Painting
-			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: Painting
-			LargeHuyaOilPaintingTile.MapEntry: Painting
-			LightPotatoTile.MapEntry: Painting
-			MediumDouYuOilPaintingTile.MapEntry: Painting
-			MediumHuyaOilPaintingTile.MapEntry: Painting
-			PotatariaTile.MapEntry: Painting
-			PururuPortraitTile.MapEntry: Painting
-			RockPotatoTile.MapEntry: Painting
-			SeiyuuchanSupportPosterTile.MapEntry: Painting
-			SmallDouYuOilPaintingTile.MapEntry: Picture
-			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: Picture
-			SmallHuyaOilPaintingTile.MapEntry: Picture
-			TapTapGroupPortraitTile.MapEntry: Painting
-			TararaPortraitTile.MapEntry: Painting
+			KFCWorkBenchTile: {
+				MapEntry: Work Bench
+			}
+
+			TVTile: {
+				MapEntry: TV
+			}
+
+			AcFunOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			BirthdayCakeTile: {
+				MapEntry: Painting
+			}
+
+			ColorfulBalloonsStockPhotoTile: {
+				MapEntry: Painting
+			}
+
+			GetThePartyStartedTile: {
+				MapEntry: Painting
+			}
+
+			HeartbeatOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			JinyiCinemasPopcornPosterTile: {
+				MapEntry: Painting
+			}
+
+			KFCBurgerAdTile: {
+				MapEntry: Picture
+			}
+
+			KFCChickenDrumstickAdTile: {
+				MapEntry: Painting
+			}
+
+			KFCFamilyBucketAdTile: {
+				MapEntry: Painting
+			}
+
+			LargeDouYuOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			LargeHeartbeatTownscapeOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			LargeHuyaOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			LightPotatoTile: {
+				MapEntry: Painting
+			}
+
+			MediumDouYuOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			MediumHuyaOilPaintingTile: {
+				MapEntry: Painting
+			}
+
+			PotatariaTile: {
+				MapEntry: Painting
+			}
+
+			PururuPortraitTile: {
+				MapEntry: Painting
+			}
+
+			RockPotatoTile: {
+				MapEntry: Painting
+			}
+
+			SeiyuuchanSupportPosterTile: {
+				MapEntry: Painting
+			}
+
+			SmallDouYuOilPaintingTile: {
+				MapEntry: Picture
+			}
+
+			SmallHeartbeatTownscapeOilPaintingTile: {
+				MapEntry: Picture
+			}
+
+			SmallHuyaOilPaintingTile: {
+				MapEntry: Picture
+			}
+
+			TapTapGroupPortraitTile: {
+				MapEntry: Painting
+			}
+
+			TararaPortraitTile: {
+				MapEntry: Painting
+			}
 		}
+
 		Dialogue: {
 			StarMerchant: {
 				StarMerchantDialogue1: You have no idea how much Mud Blocks sell for abroad.
@@ -427,8 +714,11 @@ Mods: {
 				StarMerchantNight1: I bet these guys burn up in no time!
 				StarMerchantNight2: If every night here looks like this I gotta get myself a rail gun!
 				StarMerchantNight3: Should we look at the stars tonight?
-				StarMerchantRain1: Huh, at least my robe is waterproof! 
+				StarMerchantRain1: Huh, at least my robe is waterproof!
 				StarMerchantRain2: This rain is a drizzle compared to the ones on Neptune!
+				StarMerchantRain3: Rainworld, this the matrix!
+				StarMerchantWind1: I love cold winds 'cause it tells me where to go!
+				StarMerchantHat1: That hat seems weirdly familiar...
 				StarMerchantBloodMoon1: What's the panic? At least the skeletons here don't ride spiders... Do they?
 				StarMerchantMechanicDialogue1: I wonder if {0} have some Redstone to sell.
 				StarMerchantGuideDialogue1: I gotta visit {0}, he seems like a very knowledgable guy - maybe he would help me to get back home?

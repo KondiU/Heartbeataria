@@ -31,7 +31,7 @@ namespace XDContentMod.Content.NPCs
 
 		// the time of day the traveler will spawn (double.MaxValue for no spawn)
 		// saved and loaded with the world in TravelingMerchantSystem
-		public static double spawnTime = 5400;
+		public static double spawnTime = 13500;
 
 		// The list of items in the traveler's shop. Saved with the world and set when the traveler spawns
 		public List<Item> shopItems = new List<Item>();
@@ -64,10 +64,10 @@ namespace XDContentMod.Content.NPCs
 				// You can also add a day counter here to prevent the merchant from possibly spawning multiple days in a row.
 
 				// NPC won't spawn today if it stayed all night
-				if (!travelerIsThere && Main.rand.NextBool(4)) 
+				if (!travelerIsThere && Main.rand.NextBool(5)) 
 				{ // 4 = 25% Chance
 																// Here we can make it so the NPC doesnt spawn at the EXACT same time every time it does spawn
-					spawnTime = GetRandomSpawnTime(5400, 8100); // minTime = 6:00am, maxTime = 7:30am
+					spawnTime = GetRandomSpawnTime(0, 27000); // minTime = 6:00am, maxTime = 7:30am
 				}
 				else {
 					spawnTime = double.MaxValue; // no spawn today
@@ -504,28 +504,38 @@ namespace XDContentMod.Content.NPCs
 				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantTruffleDialogue1", Main.npc[truffle].GivenName));
 			}
 
-			//if (Main.dayTime = true)
-			//{
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDay1"));
-			//}
+			if (Main.dayTime)
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDay1"));
+			}
+			else
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight1"));
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight2"));
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight3"));
+			}
 
-			//if (Main.dayTime = false)
-			//{
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight1"));
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight2"));
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNight3"));
-			//}
+			if (Main.raining)
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain1"));
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain2"));
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain3"));
+			}
 
-			//if (Main.raining = true)
-			//{
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain1"));
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain2"));
-			//}
+//			if (Main.WindyDay)
+//			{
+//				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantWind1"));
+//			}
 
-			//if (Main.bloodMoon = true)
-			//{
-			//	chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantBloodMoon1"));
-			//}
+			if (Main.bloodMoon)
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantBloodMoon1"));
+			}
+
+			if (Main.LocalPlayer.armor[0].type != ModContent.ItemType<StarMerchantHat>())
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantHat1"));
+			}
 			
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue1"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue2"));

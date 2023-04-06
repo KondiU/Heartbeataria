@@ -1,5 +1,0 @@
-TV:
-	-Any wood (x12)
-	-Glas (x10)
-	-Wire (x10)
-
