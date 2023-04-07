@@ -1,18 +1,26 @@
-Heartbeataria is a mod that aims to bring unique content from Chinese Regional versions of Terraria back to global version of the game.
+Heartbeataria is a mod that aims to bring unique content from both old & new Chinese Regional versions of Terraria back to global version of the game.
 
 This includes:
-- Chinese-exclusive Terraria x KFC collab
-- Cut content from old Mainland China Mobile Edition of the game
-- 9 new pets
-- 18 new vanity sets
+- Star Merchant - a fan favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
+- Chinese-exclusive Terraria x KFC items
+- 5 cut vanity sets from old Chinese Regional version of the game, re-imagined as completely new Mythical Vanity Sets
+- 8 new pets
+- 18 new vanity sets in total
 - 5 new mounts
-- 27 new paintings
+- 24 new paintings
+- 4 new furniture items
 
-This mod doesn't affect the balance of vanilla game in an impactful way, so you can safely play it along with bigger content mods like Thorium or Calamity without problems.
+This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as Thorium or Calamity without any problems.
 
-It is highly recommended to play this mod alongside Consolaria (https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929)
+It is highly recommended to play this mod alongside Consolaria.
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
--Consolaria Team for help with coding
--HenryChe, for sending me an extracted package of important sprites
--Uncle Badass (https://steamcommunity.com/id/unclebadass/) for providing important missing sprites of Star Merchant NPC & it's items
+- RoA/Consolaria Team for help with coding
+- HenryChe for providing most of the sprites
+- Uncle Badass for providing some important missing sprites of Star Merchant NPC
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+Mod source on GitHub: https://github.com/KondiU/Heartbeataria
+
+This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, you can buy me a small coffee here. I would gladly appreciate it!: https://ko-fi.com/kondiu
