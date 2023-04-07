@@ -4,7 +4,7 @@
 **This includes:**
 - **Star Merchant** - a fan favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
-- **5 cut vanity sets** from old Chinese Regional version of the game, re-imagined as completely new **Mythical Vanity Sets**
+- **7 cut vanity sets** from old Chinese Regional version of the game, re-imagined as completely new **Mythical Vanity Sets**
 - **8 new pets**
 - **18 new vanity sets** in total
 - **5 new mounts**
