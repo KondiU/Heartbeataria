@@ -2,7 +2,7 @@
 ## Heartbeataria is a mod that aims to bring unique content from both old & new Chinese Regional versions of Terraria back to global version of the game.
 
 **This includes:**
-- **Star Merchant** - a fan favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
+- **Star Merchant** - a fan-favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
 - **7 cut vanity sets** from old Chinese Regional version of the game, re-imagined as completely new **Mythical Vanity Sets**
 - **8 new pets**
@@ -13,7 +13,7 @@
 
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as Thorium or Calamity without any problems.
 
-It is highly recommended to play this mod alongside [Consolaria.](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929)
+It is highly recommended to play this mod alongside [Consolaria](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929), since both mods complement each other in aim to restore previously unaccessible features making the PC Terraria **the most complete experience ever!**
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 ## Star Merchant
