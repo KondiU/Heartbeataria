@@ -15,7 +15,7 @@ namespace XDContentMod.Content.Tiles.Furniture
 			Main.tileNoAttach[Type] = true;
 			Main.tileTable[Type] = false;
 			Main.tileLavaDeath[Type] = true;
-			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);
+			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3);
 			TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16, 16 };
 			TileObjectData.addTile(Type);
 			ModTranslation name = CreateMapEntryName();
