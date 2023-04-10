@@ -16,9 +16,7 @@ namespace XDContentMod.Content.Tiles.Furniture
 			Main.tileNoAttach[Type] = true;
 			Main.tileTable[Type] = true;
 			Main.tileLavaDeath[Type] = true;
-            
             TileID.Sets.DisableSmartCursor[Type] = true;
-			
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);
 			TileObjectData.newTile.CoordinateHeights = new int[] { 16, 18 };
 			TileObjectData.addTile(Type);

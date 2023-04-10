@@ -1,7 +1,7 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.GameContent.Creative;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
@@ -9,22 +9,21 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("iFlytek Disc");
-			Tooltip.SetDefault("Marvelous AI-enhanced weapon straight from iFlytek factories!");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;		}
+			Item.ResearchUnlockCount = 1;
+		}
 
 		public override void SetDefaults()
 		{
 			Item.damage = 12;
 			Item.DamageType = DamageClass.Melee;
-			Item.width = 24;
-			Item.height = 24;
+			int width = 24; int height = 24;
+			Item.Size = new Vector2(width, height);
 			Item.useTime = 15;
 			Item.useAnimation = 15;
 			Item.useStyle = 1;
 			Item.knockBack = 8;
 			Item.value = Item.buyPrice(gold: 15);
-			Item.rare = 5;
+			Item.rare = ItemRarityID.Pink;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
 			Item.shoot = ModContent.ProjectileType<Content.Projectiles.Friendly.iFlytekDiscProjectile>();

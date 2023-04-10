@@ -1,6 +1,5 @@
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -12,8 +11,7 @@ namespace XDContentMod.Content.Items.Vanity
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Dog Shirt");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+			Item.ResearchUnlockCount = 1;
 
 			int equipSlotBody = EquipLoader.GetEquipSlot(Mod, Name, EquipType.Body);
 			int equipSlotBodyAlt = EquipLoader.GetEquipSlot(Mod, "DogShirt", EquipType.Body);

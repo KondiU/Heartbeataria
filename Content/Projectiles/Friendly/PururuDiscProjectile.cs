@@ -6,11 +6,6 @@ namespace XDContentMod.Content.Projectiles.Friendly
 {
 	public class PururuDiscProjectile : ModProjectile
 	{
-		public override void SetStaticDefaults()
-		{
-			DisplayName.SetDefault("Pururu Disc");
-		}
-
 		public override void SetDefaults()
 		{	
 			Projectile.width = 32;

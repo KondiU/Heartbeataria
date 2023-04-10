@@ -1,18 +1,17 @@
-using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
-using Microsoft.Xna.Framework;
-using Terraria.GameContent.Creative;
+using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Head)]
+	
 	public class TararaPonytail : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Tarara Ponytail");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults() 

@@ -6,11 +6,6 @@ namespace XDContentMod.Content.Projectiles.Friendly
 {
 	public class HupuDiscProjectile : ModProjectile
 	{
-		public override void SetStaticDefaults()
-		{
-			DisplayName.SetDefault("Hupu Disc");
-		}
-
 		public override void SetDefaults()
 		{	
 			Projectile.width = 32;

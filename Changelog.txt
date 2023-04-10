@@ -1,0 +1,6 @@
+v1.2.0
+-Ported mod to 1.4.4
+-Cleaned up the code
+-Made Star Merchant Shop trurly randomised
+-Fixed broken Star Merchant dialogue lines
+///////////-Made Star Merchant use TapTap Sword for self-defense

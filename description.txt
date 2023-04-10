@@ -16,7 +16,9 @@ It is highly recommended to play this mod alongside Consolaria, since both mods 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- RoA/Consolaria Team for help with coding
+- Has2r for testing the mod & help with coding
+- Sparcdoctor for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
+- Peege•on for drawing the mod's artwork
 - HenryChe for providing most of the sprites
 - Uncle Badass for providing some important missing sprites of Star Merchant NPC
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

@@ -1,22 +1,21 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.GameContent.Creative;
+
 namespace XDContentMod.Content.Items.Placeable
 {
 	public class LargeHuyaOilPainting : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Large Huya Oil Painting");
-			Tooltip.SetDefault("'Huya Inc.'");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults()
 		{
-			Item.width = 32;
-			Item.height = 50;
+			int width = 32; int height = 50;
+			Item.Size = new Vector2(width, height);
 			Item.rare = ItemRarityID.White;
 			Item.value = Item.buyPrice(silver: 50);
 
@@ -30,7 +29,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.autoReuse = true;
 			Item.consumable = true;
 
-			Item.createTile = ModContent.TileType<Content.Tiles.Paintings.LargeHuyaOilPaintingTile>();
+			Item.DefaultToPlaceableTile(ModContent.TileType<Content.Tiles.Paintings.LargeHuyaOilPaintingTile>());
 		}
 
 	}

@@ -9,9 +9,6 @@ namespace XDContentMod.Content.Buffs
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Green Frog");
-			Description.SetDefault("Little green frog that can't get lost in the wild");
-
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.vanityPet[Type] = true;
 		}

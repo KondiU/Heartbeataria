@@ -1,22 +1,21 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.GameContent.Creative;
+
 namespace XDContentMod.Content.Items.Placeable
 {
 	public class PururuPortrait : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Pururu Portrait");
-			Tooltip.SetDefault("'TapTap'");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults()
 		{
-			Item.width = 28;
-			Item.height = 28;
+			int width = 28; int height = 28;
+			Item.Size = new Vector2(width, height);
 			Item.rare = ItemRarityID.White;
 			Item.value = Item.buyPrice(silver: 50);
 
@@ -30,7 +29,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.autoReuse = true;
 			Item.consumable = true;
 
-			Item.createTile = ModContent.TileType<Content.Tiles.Paintings.PururuPortraitTile>();
+			Item.DefaultToPlaceableTile(ModContent.TileType<Content.Tiles.Paintings.PururuPortraitTile>());
 		}
 
 	}

@@ -9,9 +9,6 @@ namespace XDContentMod.Content.Buffs
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Flying Basketball");
-			Description.SetDefault("If the basketball can't fly, it's worthless");
-
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.vanityPet[Type] = true;
 		}

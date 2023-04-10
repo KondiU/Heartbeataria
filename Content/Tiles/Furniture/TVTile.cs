@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using Terraria.Localization;
 
 namespace XDContentMod.Content.Tiles.Furniture
 {
@@ -18,8 +19,8 @@ namespace XDContentMod.Content.Tiles.Furniture
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3);
 			TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16, 16 };
 			TileObjectData.addTile(Type);
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("TV");
+			
+			LocalizedText name = CreateMapEntryName();
             AddMapEntry(new Color(99, 99, 99), name);
 			TileID.Sets.DisableSmartCursor[Type] = true;
 		}

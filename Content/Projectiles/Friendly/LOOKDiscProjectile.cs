@@ -6,11 +6,6 @@ namespace XDContentMod.Content.Projectiles.Friendly
 {
 	public class LOOKDiscProjectile : ModProjectile
 	{
-		public override void SetStaticDefaults()
-		{
-			DisplayName.SetDefault("LOOK Disc");
-		}
-
 		public override void SetDefaults()
 		{	
 			Projectile.width = 32;
