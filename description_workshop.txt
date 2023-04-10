@@ -56,7 +56,9 @@ The [b]TV[/b] is a vintage-looking furniture item found in the files of the Old 
 
 Credits:
 [list]
-[*][url=https://discord.gg/cNknqyHbxW]RoA/Consolaria Team[/url] for help with coding
+[*][url=https://steamcommunity.com/id/has2r_]Has2r[/url] for testing the mod & help with coding
+[*][url=https://steamcommunity.com/id/Sparcdoctor/]Sparcdoctor[/url] for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
+[*][url=https://steamcommunity.com/id/m_pigeon]Peege•on[/url] for drawing the mod's artwork
 [*][url=https://steamcommunity.com/profiles/76561199058845384]HenryChe[/url] for providing most of the sprites
 [*][url=https://steamcommunity.com/id/unclebadass/]Uncle Badass[/url] for providing some important missing sprites of Star Merchant NPC
 [/list]
