@@ -52,7 +52,9 @@ The **TV** is a vintage-looking furniture item found in the files of the Old Chi
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- [RoA/Consolaria Team](https://discord.gg/cNknqyHbxW) for help with coding
+- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod & help with coding
+- [Sparcdoctor](https://steamcommunity.com/id/Sparcdoctor/) for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
+- [Peege•on](https://steamcommunity.com/id/m_pigeon) for drawing the mod's artwork
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
 
