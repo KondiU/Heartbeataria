@@ -522,17 +522,17 @@ namespace XDContentMod.Content.NPCs
 				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantRain3"));
 			}
 
-//			if (Main.WindyDay)
-//			{
-//				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantWind1"));
-//			}
+			if (Main.IsItAHappyWindyDay)
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantWind1"));
+			}
 
 			if (Main.bloodMoon)
 			{
 				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantBloodMoon1"));
 			}
 
-			if (Main.LocalPlayer.armor[0].type != ModContent.ItemType<StarMerchantHat>())
+			if (Main.LocalPlayer.armor[0].type == ModContent.ItemType<StarMerchantHat>())
 			{
 				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantHat1"));
 			}
