@@ -21,7 +21,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 			Item.useTime = 17;
 			Item.useAnimation = 17;
 			Item.useStyle = 1;
-			Item.knockBack = 6.5;
+			Item.knockBack = 6.5f;
 			Item.value = Item.buyPrice(silver: 135);
 			Item.rare = 0;
 			Item.UseSound = SoundID.Item1;

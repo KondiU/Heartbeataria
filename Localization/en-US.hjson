@@ -588,6 +588,36 @@ Mods: {
 				DisplayName: Star Merchant Hat
 				Tooltip: ""
 			}
+
+			FilthySap: {
+				DisplayName: Filthy Sap
+				Tooltip: ""
+			}
+
+			DreadFangs: {
+				DisplayName: Dread Fangs
+				Tooltip: ""
+			}
+
+			GreenScales: {
+				DisplayName: Green Scales
+				Tooltip: ""
+			}
+
+			MagmaShell: {
+				DisplayName: Magma Shell
+				Tooltip: ""
+			}
+
+			OtherworldCore: {
+				DisplayName: Otherworld Core
+				Tooltip: ""
+			}
+
+			FusionModule: {
+				DisplayName: Fusion Module
+				Tooltip: ""
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Star Merchant

@@ -3,4 +3,8 @@ v1.2.0
 -Cleaned up the code
 -Made Star Merchant Shop trurly randomised
 -Fixed broken Star Merchant dialogue lines
+-Added old Star Merchant sprite as a Shimmered variant
+-Added Otherworld Core
+-Added 5 new materials
+
 ///////////-Made Star Merchant use TapTap Sword for self-defense

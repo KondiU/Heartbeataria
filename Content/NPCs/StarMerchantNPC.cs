@@ -113,49 +113,58 @@ namespace XDContentMod.Content.NPCs
 			Shop.Add<KFCChair>();
 			Shop.Add<KFCWorkBench>();
 			Shop.Add<KFCBar>();
-
-
-			Shop.AddPool("Vanity Sets", slots: 6)
+			
+			Shop.AddPool("Colonel's Set", slots: 3)
 				.Add<ColonelsMask>(Condition.MoonPhaseFull)
 				.Add<ColonelsTuxedoShirt>(Condition.MoonPhaseFull)
-				.Add<ColonelsTuxedoPants>(Condition.MoonPhaseFull)
+				.Add<ColonelsTuxedoPants>(Condition.MoonPhaseFull);
 
+			Shop.AddPool("Seifuku Set", slots: 3)
 				.Add<CuteBrownWig>(Condition.MoonPhaseWaningGibbous)
 				.Add<SeifukuShirt>(Condition.MoonPhaseWaningGibbous)
-				.Add<SeifukuShoes>(Condition.MoonPhaseWaningGibbous)
+				.Add<SeifukuShoes>(Condition.MoonPhaseWaningGibbous);
 
+			Shop.AddPool("Heartbeat Orange F Set", slots: 3)
 				.Add<HeartbeatOrangePonytail>(Condition.MoonPhaseThirdQuarter)
 				.Add<HeartbeatOrangeDress>(Condition.MoonPhaseThirdQuarter)
-				.Add<HeartbeatOrangeShoes>(Condition.MoonPhaseThirdQuarter)
+				.Add<HeartbeatOrangeShoes>(Condition.MoonPhaseThirdQuarter);
 
+			Shop.AddPool("Heartbeat Orange M Set", slots: 3)
 				.Add<HeartbeatOrangeWig>(Condition.MoonPhaseThirdQuarter)
 				.Add<HeartbeatOrangeTuxedoShirt>(Condition.MoonPhaseThirdQuarter)
-				.Add<HeartbeatOrangeTuxedoPants>(Condition.MoonPhaseThirdQuarter)
+				.Add<HeartbeatOrangeTuxedoPants>(Condition.MoonPhaseThirdQuarter);
 
+			Shop.AddPool("BCY Cosplay Set", slots: 3)
 				.Add<BCYCatEars>(Condition.MoonPhaseWaningCrescent)
 				.Add<BCYCosplayDress>(Condition.MoonPhaseWaningCrescent)
-				.Add<BCYCosplayShoes>(Condition.MoonPhaseWaningCrescent)
+				.Add<BCYCosplayShoes>(Condition.MoonPhaseWaningCrescent);
 
+			Shop.AddPool("TikTok Set", slots: 3)
 				.Add<TikTokNoteHat>(Condition.MoonPhaseNew)
 				.Add<TikTokTorso>(Condition.MoonPhaseNew)
-				.Add<TikTokPants>(Condition.MoonPhaseNew)
+				.Add<TikTokPants>(Condition.MoonPhaseNew);
 
+			Shop.AddPool("Dog Set", slots: 3)
 				.Add<DogMask>(Condition.MoonPhaseNew)
 				.Add<DogShirt>(Condition.MoonPhaseNew)
-				.Add<DogPants>(Condition.MoonPhaseNew)
+				.Add<DogPants>(Condition.MoonPhaseNew);
 
+			Shop.AddPool("Tarara Set", slots: 3)
 				.Add<TararaPonytail>(Condition.MoonPhaseWaxingCrescent)
 				.Add<TararaDress>(Condition.MoonPhaseWaxingCrescent)
-				.Add<TararaShoes>(Condition.MoonPhaseWaxingCrescent)
-
+				.Add<TararaShoes>(Condition.MoonPhaseWaxingCrescent);
+				
+			Shop.AddPool("iQIYI Mecha Set", slots: 3)
 				.Add<iQIYIMechaHelmet>(Condition.MoonPhaseFirstQuarter)
 				.Add<iQIYIMechaTorso>(Condition.MoonPhaseFirstQuarter)
-				.Add<iQIYIMechaPants>(Condition.MoonPhaseFirstQuarter)
+				.Add<iQIYIMechaPants>(Condition.MoonPhaseFirstQuarter);
 
+			Shop.AddPool("Expeditioner Set", slots: 3)
 				.Add<ExpeditionerHat>(Condition.MoonPhaseWaxingGibbous)
 				.Add<ExpeditionerShirt>(Condition.MoonPhaseWaxingGibbous)
-				.Add<ExpeditionerPants>(Condition.MoonPhaseWaxingGibbous)
+				.Add<ExpeditionerPants>(Condition.MoonPhaseWaxingGibbous);
 
+			Shop.AddPool("ChengXin YouXuan Set", slots: 3)
 				.Add<ChengXinYouXuanHat>(Condition.MoonPhaseWaxingGibbous)
 				.Add<ChengXinYouXuanShirt>(Condition.MoonPhaseWaxingGibbous)
 				.Add<ChengXinYouXuanPants>(Condition.MoonPhaseWaxingGibbous);
