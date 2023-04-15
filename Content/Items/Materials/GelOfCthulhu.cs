@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Materials
 {
-	public class FilthySap : ModItem
+	public class GelOfCthulhu : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
@@ -14,7 +14,7 @@ namespace XDContentMod.Content.Items.Materials
 
 		public override void SetDefaults() 
 		{
-            int width = 32; int height = 32;
+        	int width = 34; int height = 34;
            	Item.Size = new Vector2(width, height);
 
         	Item.rare = ItemRarityID.Blue;

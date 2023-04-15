@@ -7,17 +7,19 @@ namespace XDContentMod.Content.Items.Materials
 {
 	public class MagmaShell : ModItem
 	{
+		public override void SetStaticDefaults()
+		{
+			Item.ResearchUnlockCount = 5;
+		}
+
 		public override void SetDefaults() 
 		{
         	int width = 32; int height = 32;
         	Item.Size = new Vector2(width, height);
 
-        	Item.rare = ItemRarityID.White;
+        	Item.rare = ItemRarityID.Blue;
         	Item.maxStack = 9999;
 			Item.value = Item.buyPrice(silver: 50);
         }
     }
 }
-
-//DROP: WOF
-//INSPO: ZNALEŹĆ

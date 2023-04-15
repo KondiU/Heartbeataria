@@ -8,9 +8,14 @@ namespace XDContentMod.Content.Items.Accessories
 {
 	public class OtherworldCore : ModItem
 	{
-		public override void SetDefaults() 
+		public override void SetStaticDefaults()
 		{
-			int width = 32; int height = 32;
+			Item.ResearchUnlockCount = 1;
+		}
+
+		public override void SetDefaults()
+		{
+			int width = 40; int height = 40;
             Item.Size = new Vector2(width, height);
 			
 			Item.accessory = true;
@@ -18,12 +23,27 @@ namespace XDContentMod.Content.Items.Accessories
 			Item.value = Item.buyPrice(silver: 750);
 		}
 
+		public override void UpdateAccessory (Player player, bool hideVisual) 
+		{
+            player.luck += 0.1f;
+		//NOT WORKING - FIX!
+        }
+
 		public override void AddRecipes() 
 		{
         CreateRecipe()
             .AddIngredient<FilthySap>()
 			.AddIngredient<GreenScales>()
 			.AddIngredient<DreadFangs>()
+			.AddIngredient<MagmaShell>()
+			.AddIngredient<FusionModule>()
+            .AddTile(TileID.Hellforge)
+            .Register();
+
+		CreateRecipe()
+            .AddIngredient<FilthySap>()
+			.AddIngredient<GreenScales>()
+			.AddIngredient<GelOfCthulhu>()
 			.AddIngredient<MagmaShell>()
 			.AddIngredient<FusionModule>()
             .AddTile(TileID.Hellforge)

@@ -4,6 +4,7 @@ using XDContentMod.Content.Items.Placeable;
 using XDContentMod.Content.Items.Vanity;
 using XDContentMod.Content.Items.Weapons;
 using XDContentMod.Content.Items.Weapons.Melee;
+using XDContentMod.Content.Items.Materials;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -113,6 +114,8 @@ namespace XDContentMod.Content.NPCs
 			Shop.Add<KFCChair>();
 			Shop.Add<KFCWorkBench>();
 			Shop.Add<KFCBar>();
+
+			Shop.Add<FusionModule>();
 			
 			Shop.AddPool("Colonel's Set", slots: 3)
 				.Add<ColonelsMask>(Condition.MoonPhaseFull)

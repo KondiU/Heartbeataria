@@ -591,22 +591,27 @@ Mods: {
 
 			FilthySap: {
 				DisplayName: Filthy Sap
-				Tooltip: ""
+				Tooltip: Used for crafting Otherworld Core
 			}
 
 			DreadFangs: {
 				DisplayName: Dread Fangs
-				Tooltip: ""
+				Tooltip: Used for crafting Otherworld Core
 			}
 
 			GreenScales: {
 				DisplayName: Green Scales
-				Tooltip: ""
+				Tooltip: Used for crafting Otherworld Core
 			}
 
 			MagmaShell: {
 				DisplayName: Magma Shell
-				Tooltip: ""
+				Tooltip: Used for crafting Otherworld Core
+			}
+
+			GelOfCthulhu: {
+				DisplayName: Gel of Cthulhu
+				Tooltip: Used for crafting Otherworld Core
 			}
 
 			OtherworldCore: {
@@ -616,7 +621,7 @@ Mods: {
 
 			FusionModule: {
 				DisplayName: Fusion Module
-				Tooltip: ""
+				Tooltip: Used for crafting Otherworld Core
 			}
 		}
 

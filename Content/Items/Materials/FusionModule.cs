@@ -7,6 +7,11 @@ namespace XDContentMod.Content.Items.Materials
 {
 	public class FusionModule : ModItem
 	{
+		public override void SetStaticDefaults()
+		{
+			Item.ResearchUnlockCount = 5;
+		}
+
 		public override void SetDefaults() 
 		{
         	int width = 32; int height = 32;
@@ -18,6 +23,3 @@ namespace XDContentMod.Content.Items.Materials
         }
     }
 }
-
-//KUPIĆ OD MERCHANTA
-//INSPO: ZNALEŹĆ
