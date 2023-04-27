@@ -1,4 +1,5 @@
 using XDContentMod.Content.Items.Materials;
+using XDContentMod.Common.Players;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -23,11 +24,10 @@ namespace XDContentMod.Content.Items.Accessories
 			Item.value = Item.buyPrice(silver: 750);
 		}
 
-		public override void UpdateAccessory (Player player, bool hideVisual) 
+		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
-            player.luck += 0.1f;
-		//NOT WORKING - FIX!
-        }
+			player.GetModPlayer<HeartbeatariaPlayer>().OtherworldCoreEffect = true;
+		}
 
 		public override void AddRecipes() 
 		{
@@ -51,13 +51,3 @@ namespace XDContentMod.Content.Items.Accessories
         }
     }
 }
-
-//		public override void UpdateAccessory(Player player, bool hideVisual) 
-//		{
-//			// Set the HasExampleImmunityAcc bool to true to ensure we have this accessory
-//			// And apply the changes in ModPlayer.PostHurt correctly
-//			player.GetModPlayer<ExampleImmunityPlayer>().HasExampleImmunityAcc = true;
-//		}
-
-//CRAFTING
-//INSPO: ZNALEŹĆ

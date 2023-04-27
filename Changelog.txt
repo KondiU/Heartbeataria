@@ -1,10 +1,10 @@
 v1.2.0
 -Ported mod to 1.4.4
 -Cleaned up the code
--Made Star Merchant Shop trurly randomised
+-Made paintings in Star Merchant Shop more randomised
 -Fixed broken Star Merchant dialogue lines
 -Added old Star Merchant sprite as a Shimmered variant
 -Added Otherworld Core
--Added 5 new materials
+-Added 6 new materials, used to craft Otherworld Core
 
 ///////////-Made Star Merchant use TapTap Sword for self-defense

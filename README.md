@@ -5,10 +5,11 @@
 **This includes:**
 - **Star Merchant** - a fan-favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
-- **7 cut vanity sets** from old Chinese Regional version of the game, re-imagined as completely new **Mythical Vanity Sets**
+- **18 new vanity sets**
 - **8 new pets**
-- **18 new vanity sets** in total
 - **5 new mounts**
+- **8 new weapons**
+- **1 new accessory**
 - **24 new paintings**
 - **4 new furniture items**
 
@@ -18,7 +19,6 @@ It is highly recommended to play this mod alongside [Consolaria](https://steamco
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 ## Star Merchant
-
 The **Star Merchant** is a unique NPC vendor who randomly visits the player's town for one day. Their inventory is randomized and different every visit, always selling:
 - 1 melee weapon
 - 1 disc weapon
@@ -35,19 +35,26 @@ The Star Merchant has a 20% chance of spawning each day, appearing at a random t
 ## Mythical Vanity Sets 
 **Mythical Vanity Sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these seven sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss or event.
 - **Mountain Guard Set**, available after defeating Eye of Cthulhu
-- **Tang Suit Set**, available after defeating Brain of Cthulhu/Eater of Worlds
+- **Tang Suit Set**, available after defeating Eater of Worlds/Brain of Cthulhu
 - **Imperial Guard Set**, available after defeating Skeletron
 - **Mythical Dog Set**, available after defeating Wall of Flesh
 - **Deep Cold Set**, available after defeating Ice Queen
 - **Tang Yuan Set**, available after defeating the Pirate Invasion
 - **Imperial Master Set**, available after defeating Moon Lord
 
-## TV
+## Otherworld Core
+**Otherworld Core** is a new early Hardmode accessory that grants 20% increased damage to all weapons against Old One's Army enemies. It can be crafted at a Hellforge using 5 new materials:
+- **Green Scales**, dropped from Eye of Cthulhu
+- **Dread Fangs**, dropped from Eater of Worlds / **Gel of Cthulhu**, dropped from Brain of Cthulhu
+- **Filthy Sap**, dropped from Skeletron
+- **Magma Shell**, dropped from Wall of Flesh
+- **Fusion Module**, purchased from Star Merchant
 
+## TV
 The **TV** is a vintage-looking furniture item found in the files of the Old Chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
-- Any wood (x12)
-- Glass (x10)
-- Wire (x10)
+- **Any wood** (x12)
+- **Glass** (x10)
+- **Wire** (x10)
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
@@ -57,6 +64,7 @@ Credits:
 - [Peege•on](https://steamcommunity.com/id/m_pigeon) for drawing the mod's artwork
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
+- [Oersted](https://steamcommunity.com/id/DSVaniaRomhacker/) for bringing an awesome idea of the new accessory
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 

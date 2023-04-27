@@ -1,4 +1,3 @@
-
 Mods: {
 	XDContentMod: {
 		Buffs: {
@@ -591,37 +590,37 @@ Mods: {
 
 			FilthySap: {
 				DisplayName: Filthy Sap
-				Tooltip: Used for crafting Otherworld Core
+				Tooltip: Used to craft Otherworld Core
 			}
 
 			DreadFangs: {
 				DisplayName: Dread Fangs
-				Tooltip: Used for crafting Otherworld Core
+				Tooltip: Used to craft Otherworld Core
 			}
 
 			GreenScales: {
 				DisplayName: Green Scales
-				Tooltip: Used for crafting Otherworld Core
+				Tooltip: Used to craft Otherworld Core
 			}
 
 			MagmaShell: {
 				DisplayName: Magma Shell
-				Tooltip: Used for crafting Otherworld Core
+				Tooltip: Used to craft Otherworld Core
 			}
 
 			GelOfCthulhu: {
 				DisplayName: Gel of Cthulhu
-				Tooltip: Used for crafting Otherworld Core
+				Tooltip: Used to craft Otherworld Core
 			}
 
 			OtherworldCore: {
 				DisplayName: Otherworld Core
-				Tooltip: ""
+				Tooltip: 20% increased damage dealt to Old One's Army enemies
 			}
 
 			FusionModule: {
 				DisplayName: Fusion Module
-				Tooltip: Used for crafting Otherworld Core
+				Tooltip: Used to craft Otherworld Core
 			}
 		}
 
