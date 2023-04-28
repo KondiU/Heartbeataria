@@ -25,7 +25,8 @@ The [b]Star Merchant[/b] is a unique NPC vendor who randomly visits the player's
 [*]1 disc weapon
 [*]2 pets
 [*]1 mount
-[*]2 furniture items
+[*]3 furniture items
+[*]Fusion module
 [*]4 paintings 
 [*]1 to 2 vanity sets
 [/list]
