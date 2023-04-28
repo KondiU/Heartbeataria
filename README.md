@@ -1,14 +1,14 @@
 # Heartbeataria
 
-## **Heartbeataria** is a mod that aims to bring unique content from both old & new Chinese Regional versions of Terraria back to global version of the game.
+## **Heartbeataria** is a mod that aims to bring unique content from both old & new chinese Regional versions of Terraria back to global version of the game.
 
 **This includes:**
-- **Star Merchant** - a fan-favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
+- **Star Merchant** - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
 - **18 new vanity sets**
 - **8 new pets**
 - **5 new mounts**
-- **8 new weapons**
+- **8 new early-game weapons**
 - **1 new accessory**
 - **24 new paintings**
 - **4 new furniture items**
@@ -44,14 +44,14 @@ The Star Merchant has a 20% chance of spawning each day, appearing at a random t
 
 ## Otherworld Core
 **Otherworld Core** is a new early Hardmode accessory that grants 20% increased damage to all weapons against Old One's Army enemies. It can be crafted at a Hellforge using 5 new materials:
-- **Green Scales**, dropped from Eye of Cthulhu
-- **Dread Fangs**, dropped from Eater of Worlds / **Gel of Cthulhu**, dropped from Brain of Cthulhu
-- **Filthy Sap**, dropped from Skeletron
-- **Magma Shell**, dropped from Wall of Flesh
+- **Green Scales**, has 20% chance to be dropped from Eye of Cthulhu
+- **Dread Fangs**, has 20% chance to be dropped from Eater of Worlds/**Gel of Cthulhu**, has 20% chance to be dropped from Brain of Cthulhu
+- **Filthy Sap**, has 20% chance to be dropped from Skeletron
+- **Magma Shell**, has 20% chance to be dropped from Wall of Flesh
 - **Fusion Module**, purchased from Star Merchant
 
 ## TV
-The **TV** is a vintage-looking furniture item found in the files of the Old Chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
+**TV** is a vintage-looking furniture item found in the files of the Old chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
 - **Any wood** (x12)
 - **Glass** (x10)
 - **Wire** (x10)
@@ -59,10 +59,10 @@ The **TV** is a vintage-looking furniture item found in the files of the Old Chi
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod & help with coding
+- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod & helping with coding
 - [Sparcdoctor](https://steamcommunity.com/id/Sparcdoctor/) for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
 - [Peege•on](https://steamcommunity.com/id/m_pigeon) for drawing the mod's artwork
-- [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the sprites
+- [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the chinese sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
 - [Oersted](https://steamcommunity.com/id/DSVaniaRomhacker/) for bringing an awesome idea of the new accessory
 

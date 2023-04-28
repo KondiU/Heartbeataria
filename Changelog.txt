@@ -6,5 +6,4 @@ v1.2.0
 -Added old Star Merchant sprite as a Shimmered variant
 -Added Otherworld Core
 -Added 6 new materials, used to craft Otherworld Core
-
-///////////-Made Star Merchant use TapTap Sword for self-defense
+-Updated description

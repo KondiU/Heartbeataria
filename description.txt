@@ -1,12 +1,13 @@
-Heartbeataria is a mod that aims to bring unique content from both old & new Chinese Regional versions of Terraria back to global version of the game.
+Heartbeataria is a mod that aims to bring unique content from both old & new chinese Regional versions of Terraria back to global version of the game.
 
 This includes:
-- Star Merchant - a fan-favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
+- Star Merchant - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive Terraria x KFC items
-- 5 cut vanity sets from old Chinese Regional version of the game, re-imagined as completely new Mythical Vanity Sets
+- 18 new vanity sets
 - 8 new pets
-- 18 new vanity sets in total
 - 5 new mounts
+- 8 new early-game weapons
+- 1 new accessory
 - 24 new paintings
 - 4 new furniture items
 
@@ -16,11 +17,12 @@ It is highly recommended to play this mod alongside Consolaria, since both mods 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- Has2r for testing the mod & help with coding
+- Has2r for testing the mod & helping with coding
 - Sparcdoctor for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
 - Peege•on for drawing the mod's artwork
-- HenryChe for providing most of the sprites
+- HenryChe for providing most of the chinese sprites
 - Uncle Badass for providing some important missing sprites of Star Merchant NPC
+- Oersted for bringing an awesome idea of the new accessory
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Mod source on GitHub: https://github.com/KondiU/Heartbeataria
