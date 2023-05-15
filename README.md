@@ -5,7 +5,7 @@
 **This includes:**
 - **Star Merchant** - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
-- **18 new vanity sets**
+- **15 new vanity sets**
 - **8 new pets**
 - **5 new mounts**
 - **8 new early-game weapons**
@@ -34,13 +34,10 @@ They does not require their own house in order to spawn, and will instead spawn 
 The Star Merchant has a 20% chance of spawning each day, appearing at a random time between 4:30 AM and 12:00 PM. The chances of them spawning are always the same regardless if the player is sleeping. They leave the same day at 6:00 PM, but can only do so once they are off-screen. They despawn if the world is vacated any time after they spawns.
 
 ## Mythical Vanity Sets 
-**Mythical Vanity Sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these seven sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss or event.
+**Mythical Vanity Sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these four sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss or event.
 - **Mountain Guard Set**, available after defeating Eye of Cthulhu
-- **Tang Suit Set**, available after defeating Eater of Worlds/Brain of Cthulhu
 - **Imperial Guard Set**, available after defeating Skeletron
-- **Mythical Dog Set**, available after defeating Wall of Flesh
 - **Deep Cold Set**, available after defeating Ice Queen
-- **Tang Yuan Set**, available after defeating the Pirate Invasion
 - **Imperial Master Set**, available after defeating Moon Lord
 
 ## Otherworld Core
