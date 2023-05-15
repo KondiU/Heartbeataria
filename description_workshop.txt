@@ -2,7 +2,7 @@
 
 [b]This includes:[/b]
 [list]
-[*][b]Star Merchant[/b] [*]a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
+[*][b]Star Merchant[/b] - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 [*]Chinese-exclusive [b]Terraria x KFC[/b] items
 [*][b]18 new vanity sets[/b]
 [*][b]8 new pets[/b]

@@ -622,6 +622,11 @@ Mods: {
 				DisplayName: Fusion Module
 				Tooltip: Used to craft Otherworld Core
 			}
+
+			Stargazer: {
+				Tooltip: ""
+				DisplayName: Stargazer
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Star Merchant

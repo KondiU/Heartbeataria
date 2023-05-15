@@ -14,7 +14,7 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 
 		public override void SetDefaults()
 		{
-			Item.damage = 12;
+			Item.damage = 10;
 			Item.DamageType = DamageClass.Melee;
 			int width = 24; int height = 24;
 			Item.Size = new Vector2(width, height);
