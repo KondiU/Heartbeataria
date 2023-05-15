@@ -368,11 +368,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			GuaPiMao: {
-				DisplayName: Gua Pi Mao
-				Tooltip: ""
-			}
-
 			HeartbeatOrangeDress: {
 				DisplayName: Heartbeat Orange Dress
 				Tooltip: ""
@@ -463,21 +458,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			MythicalDogMask: {
-				DisplayName: Mythical Dog Mask
-				Tooltip: ""
-			}
-
-			MythicalDogPants: {
-				DisplayName: Mythical Dog Pants
-				Tooltip: ""
-			}
-
-			MythicalDogShirt: {
-				DisplayName: Mythical Dog Shirt
-				Tooltip: ""
-			}
-
 			SeifukuShirt: {
 				DisplayName: Seifuku Shirt
 				Tooltip: ""
@@ -485,31 +465,6 @@ Mods: {
 
 			SeifukuShoes: {
 				DisplayName: Seifuku Shoes
-				Tooltip: ""
-			}
-
-			TangSuitPants: {
-				DisplayName: Tang Suit Pants
-				Tooltip: ""
-			}
-
-			TangSuitShirt: {
-				DisplayName: Tang Suit Shirt
-				Tooltip: ""
-			}
-
-			TangYuanHat: {
-				DisplayName: Tang Yuan Hat
-				Tooltip: ""
-			}
-
-			TangYuanPants: {
-				DisplayName: Tang Yuan Pants
-				Tooltip: ""
-			}
-
-			TangYuanShirt: {
-				DisplayName: Tang Yuan Shirt
 				Tooltip: ""
 			}
 
