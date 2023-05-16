@@ -47,10 +47,10 @@ The Star Merchant has a 20% chance of spawning each day, appearing at a random t
 [h1]Otherworld Core[/h1]
 [b]Otherworld Core[/b] is a new early Hardmode accessory that grants 20% increased damage to all weapons against Old One's Army enemies. It can be crafted at a Hellforge using 5 new materials:
 [list]
-[*][b]Green Scales[/b], has 20% chance to be dropped from Eye of Cthulhu
-[*][b]Dread Fangs[/b], has 20% chance to be dropped from Eater of Worlds/[b]Gel of Cthulhu[b], has 20% chance to be dropped from Brain of Cthulhu
-[*][b]Filthy Sap[/b], has 20% chance to be dropped from Skeletron
-[*][b]Magma Shell[/b], has 20% chance to be dropped from Wall of Flesh
+[*][b]Green Scales[/b], has 33% chance to be dropped from Eye of Cthulhu
+[*][b]Dread Fangs[/b], has 33% chance to be dropped from Eater of Worlds/[b]Gel of Cthulhu[b], has 33% chance to be dropped from Brain of Cthulhu
+[*][b]Filthy Sap[/b], has 33% chance to be dropped from Skeletron
+[*][b]Magma Shell[/b], has 33% chance to be dropped from Wall of Flesh
 [*][b]Fusion Module[/b], purchased from Star Merchant
 [/list]
 
