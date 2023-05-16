@@ -6,6 +6,7 @@ v1.2.0
 -Added old Star Merchant sprite as a Shimmered variant
 -Added Otherworld Core
 -Added 6 new materials, used to craft Otherworld Core
+-Changed the progression of getting Mythical Vanity Sets. Now you have to beat Skeletron in order to unlock Deep Cold Set, and beat Wall Of Flesh in order to unlock Imperial Guard set.
 -Removed Tang Suit, Mythical Dog & Tang Yuan Vanity Sets. They are now part of Consolaria mod as I decided they better fit there as special rewards for Chinese New Year event instead of being Mythical Vanity sets.
 -Reduced iFlytek Disc damage from 12 to 10
 -Updated description

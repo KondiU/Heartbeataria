@@ -12,21 +12,21 @@ namespace XDContentMod.Common
 		{
             if (shop.NpcType == NPCID.TravellingMerchant) 
             {
-					shop.Add<ImperialMasterHelmet>(Condition.DownedMoonLord, Condition.MoonPhaseFull);
-					shop.Add<ImperialMasterBreastplate>(Condition.DownedMoonLord, Condition.MoonPhaseFull);
-                    shop.Add<ImperialMasterLeggings>(Condition.DownedMoonLord, Condition.MoonPhaseFull);
+					shop.Add<MountainGuardHelmet>(Condition.DownedEyeOfCthulhu, Condition.MoonPhaseFull);
+					shop.Add<MountainGuardBreastplate>(Condition.DownedEyeOfCthulhu, Condition.MoonPhaseFull);
+                    shop.Add<MountainGuardLeggings>(Condition.DownedEyeOfCthulhu, Condition.MoonPhaseFull);
 
-					shop.Add<ImperialGuardHelmet>(Condition.DownedSkeletron, Condition.MoonPhaseWaningCrescent);
-					shop.Add<ImperialGuardBreastplate>(Condition.DownedSkeletron, Condition.MoonPhaseWaningCrescent);
-                    shop.Add<ImperialGuardLeggings>(Condition.DownedSkeletron, Condition.MoonPhaseWaningCrescent);
+					shop.Add<DeepColdHelmet>(Condition.DownedSkeletron, Condition.MoonPhaseWaxingCrescent);
+					shop.Add<DeepColdBreastplate>(Condition.DownedSkeletron, Condition.MoonPhaseWaxingCrescent);
+                    shop.Add<DeepColdLeggings>(Condition.DownedSkeletron, Condition.MoonPhaseWaxingCrescent);
 
-					shop.Add<MountainGuardHelmet>(Condition.DownedEyeOfCthulhu, Condition.MoonPhaseWaxingCrescent);
-					shop.Add<MountainGuardBreastplate>(Condition.DownedEyeOfCthulhu, Condition.MoonPhaseWaxingCrescent);
-                    shop.Add<MountainGuardLeggings>(Condition.DownedEyeOfCthulhu, Condition.MoonPhaseWaxingCrescent);
+					shop.Add<ImperialGuardHelmet>(Condition.Hardmode, Condition.MoonPhaseThirdQuarter);
+					shop.Add<ImperialGuardBreastplate>(Condition.Hardmode, Condition.MoonPhaseThirdQuarter);
+                    shop.Add<ImperialGuardLeggings>(Condition.Hardmode, Condition.MoonPhaseThirdQuarter);
 
-					shop.Add<DeepColdHelmet>(Condition.DownedIceQueen, Condition.MoonPhaseFirstQuarter);
-					shop.Add<DeepColdBreastplate>(Condition.DownedIceQueen, Condition.MoonPhaseFirstQuarter);
-                    shop.Add<DeepColdLeggings>(Condition.DownedIceQueen, Condition.MoonPhaseFirstQuarter);
+					shop.Add<ImperialMasterHelmet>(Condition.DownedMoonLord, Condition.MoonPhaseFirstQuarter);
+					shop.Add<ImperialMasterBreastplate>(Condition.DownedMoonLord, Condition.MoonPhaseFirstQuarter);
+                    shop.Add<ImperialMasterLeggings>(Condition.DownedMoonLord, Condition.MoonPhaseFirstQuarter);
             }
         }
     }
