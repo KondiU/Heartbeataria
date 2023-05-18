@@ -30,7 +30,7 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
             Projectile.Size = new Vector2(width, height);
 
             DrawOffsetX -= 6;
-            DrawOriginOffsetY = -2;
+            DrawOriginOffsetY = -4;
 
             base.SetDefaults();
         }
