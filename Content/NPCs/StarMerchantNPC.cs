@@ -180,7 +180,7 @@ namespace XDContentMod.Content.NPCs
 			bool travelerIsThere = (NPC.FindFirstNPC(ModContent.NPCType<StarMerchantNPC>()) != -1);
 			if (Main.dayTime && Main.time == 0) 
 			{
-				if (!travelerIsThere && Main.rand.NextBool(5)) 
+				if (!travelerIsThere && Main.rand.NextBool(8))
 				{
 					spawnTime = GetRandomSpawnTime(0, 27000);
 				}
