@@ -235,15 +235,16 @@ namespace XDContentMod.Content.NPCs
 
 		public override void SetStaticDefaults() 
 		{
-			Main.npcFrameCount[NPC.type] = 25;
-			NPCID.Sets.ExtraFramesCount[NPC.type] = 9;
-			NPCID.Sets.AttackFrameCount[NPC.type] = 4;
-			NPCID.Sets.DangerDetectRange[NPC.type] = 700;
-			NPCID.Sets.AttackType[NPC.type] = 0;
-			NPCID.Sets.AttackTime[NPC.type] = 90;
-			NPCID.Sets.AttackAverageChance[NPC.type] = 30;
-			NPCID.Sets.HatOffsetY[NPC.type] = 2;
+			Main.npcFrameCount[Type] = 25;
+			NPCID.Sets.ExtraFramesCount[Type] = 9;
+			NPCID.Sets.AttackFrameCount[Type] = 4;
+			NPCID.Sets.DangerDetectRange[Type] = 700;
+			NPCID.Sets.AttackType[Type] = 0;
+			NPCID.Sets.AttackTime[Type] = 90;
+			NPCID.Sets.AttackAverageChance[Type] = 30;
+			NPCID.Sets.HatOffsetY[Type] = 2;
 			NPCID.Sets.ShimmerTownTransform[Type] = true;
+			NPCID.Sets.NoTownNPCHappiness[Type] = true;
 
 			NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers(0) 
 			{
@@ -594,28 +595,3 @@ namespace XDContentMod.Content.NPCs
 		}
 	}
 }
-
-
-
-
-
-/*	public class ExampleTravelingMerchantProfile : ITownNPCProfile
-	{
-		public int RollVariation() => 0;
-		public string GetNameForVariant(NPC npc) => npc.getNewNPCName();
-
-		public Asset<Texture2D> GetTextureNPCShouldUse(NPC npc) 
-		{
-			if (npc.IsABestiaryIconDummy && !npc.ForcePartyHatOn)
-				return ModContent.Request<Texture2D>("XDContentMod/Content/NPCs/StarMerchantNPC");
-
-			if (npc.altTexture == 1)
-				return ModContent.Request<Texture2D>("XDContentMod/Content/NPCs/StarMerchantNPC_Alt");
-
-			return ModContent.Request<Texture2D>("XDContentMod/Content/NPCs/StarMerchantNPC");
-		}
-
-		public int GetHeadTextureIndex(NPC npc) => ModContent.GetModHeadSlot("XDContentMod/Content/NPCs/StarMerchantNPC_Head");
-	}
-}
-*/
