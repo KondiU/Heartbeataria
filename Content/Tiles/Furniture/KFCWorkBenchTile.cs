@@ -16,14 +16,15 @@ namespace XDContentMod.Content.Tiles.Furniture
 			Main.tileNoAttach[Type] = true;
 			Main.tileTable[Type] = true;
 			Main.tileLavaDeath[Type] = true;
+			TileID.Sets.DisableSmartCursor[Type] = true;
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x1);
 			TileObjectData.newTile.CoordinateHeights = new int[] { 18 };
 			TileObjectData.addTile(Type);
+
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Work Bench");
+			LocalizedText name = CreateMapEntryName();
             AddMapEntry(new Color(191, 142, 111), name);
-			TileID.Sets.DisableSmartCursor[Type] = true;
+
 			AdjTiles = new int[] { TileID.WorkBenches };
 		}
 

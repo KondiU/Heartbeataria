@@ -1,7 +1,7 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.GameContent.Creative;
 
 namespace XDContentMod.Content.Items.Weapons.Melee
 {
@@ -9,23 +9,21 @@ namespace XDContentMod.Content.Items.Weapons.Melee
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("KFC Chicken Drumstick");
-			Tooltip.SetDefault("It's Finger Lickin' Good!");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults()
 		{
 			Item.damage = 15;
 			Item.DamageType = DamageClass.Melee;
-			Item.width = 24;
-			Item.height = 28;
+			int width = 24; int height = 28;
+			Item.Size = new Vector2(width, height);
 			Item.useTime = 19;
 			Item.useAnimation = 19;
 			Item.useStyle = 1;
 			Item.knockBack = 5;
 			Item.value = Item.buyPrice(silver: 135);
-			Item.rare = 0;
+			Item.rare = ItemRarityID.White;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
 		}

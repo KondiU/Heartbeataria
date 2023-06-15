@@ -9,9 +9,6 @@ namespace XDContentMod.Content.Buffs
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("TapTap Minivan");
-			Description.SetDefault("Pururu-powered Minivan!");
-
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.buffNoSave[Type] = true;
 		}

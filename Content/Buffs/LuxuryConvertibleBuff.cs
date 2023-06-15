@@ -9,9 +9,6 @@ namespace XDContentMod.Content.Buffs
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Luxury Convertible");
-			Description.SetDefault("Elegance never goes out of style!");
-
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.buffNoSave[Type] = true;
 		}

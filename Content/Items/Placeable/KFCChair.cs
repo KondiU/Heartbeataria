@@ -1,7 +1,8 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.GameContent.Creative;
+
 
 namespace XDContentMod.Content.Items.Placeable
 {
@@ -9,14 +10,13 @@ namespace XDContentMod.Content.Items.Placeable
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("KFC Chair");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults()
 		{
-			Item.width = 64;
-			Item.height = 34;
+			int width = 64; int height = 34;
+			Item.Size = new Vector2(width, height);
 
 			Item.maxStack = 99;
 			Item.value = Item.buyPrice(silver: 50);
@@ -29,7 +29,7 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.autoReuse = true;
 			Item.consumable = true;
 
-			Item.createTile = ModContent.TileType<Content.Tiles.Furniture.KFCChairTile>();
+			Item.DefaultToPlaceableTile(ModContent.TileType<Content.Tiles.Furniture.KFCChairTile>());
 		}
 	}
 }

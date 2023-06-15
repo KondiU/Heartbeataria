@@ -6,11 +6,6 @@ namespace XDContentMod.Content.Projectiles.Friendly
 {
 	public class iFlytekDiscProjectile : ModProjectile
 	{
-		public override void SetStaticDefaults()
-		{
-			DisplayName.SetDefault("iFlytek Disc");
-		}
-
 		public override void SetDefaults()
 		{	
 			Projectile.width = 32;

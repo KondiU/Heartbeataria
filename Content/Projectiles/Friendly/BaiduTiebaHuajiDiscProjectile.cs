@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -6,11 +6,6 @@ namespace XDContentMod.Content.Projectiles.Friendly
 {
 	public class BaiduTiebaHuajiDiscProjectile : ModProjectile
 	{
-		public override void SetStaticDefaults()
-		{
-			DisplayName.SetDefault("Baidu Tieba Huájí Disc");
-		}
-
 		public override void SetDefaults()
 		{	
 			Projectile.width = 32;

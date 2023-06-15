@@ -1,19 +1,18 @@
-using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
-using Microsoft.Xna.Framework;
-using Terraria.GameContent.Creative;
+using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Head)]
+
 	public class ChengXinYouXuanHat : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
 			ArmorIDs.Head.Sets.DrawFullHair[Item.headSlot] = true;
-			DisplayName.SetDefault("ChengXin YouXuan Hat");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults() 

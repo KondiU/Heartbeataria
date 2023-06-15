@@ -9,9 +9,6 @@ namespace XDContentMod.Content.Buffs
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Pururu");
-			Description.SetDefault("Pururu is following you");
-
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.vanityPet[Type] = true;
 		}

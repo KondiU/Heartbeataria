@@ -1,7 +1,7 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.GameContent.Creative;
 
 namespace XDContentMod.Content.Items.Placeable
 {
@@ -9,14 +9,13 @@ namespace XDContentMod.Content.Items.Placeable
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("TV");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults()
 		{
-			Item.width = 44;
-			Item.height = 25;
+			int width = 44; int height = 25;
+			Item.Size = new Vector2(width, height);
 			Item.rare = ItemRarityID.White;
 			Item.value = Item.buyPrice(silver: 100);
 
@@ -30,17 +29,16 @@ namespace XDContentMod.Content.Items.Placeable
 			Item.autoReuse = true;
 			Item.consumable = true;
 
-			Item.createTile = ModContent.TileType<Content.Tiles.Furniture.TVTile>();
+			Item.DefaultToPlaceableTile(ModContent.TileType<Content.Tiles.Furniture.TVTile>());
 		}
-		public override void AddRecipes()
+		public override void AddRecipes() 
 		{
-			Recipe recipe = CreateRecipe(1);
-			recipe.AddRecipeGroup(RecipeGroupID.Wood, 12);
-			recipe.AddIngredient(ItemID.Glass, 10);
-			recipe.AddIngredient(ItemID.Wire, 10);
-			recipe.AddTile(TileID.Sawmill);
-			recipe.Register();
+			CreateRecipe()
+				.AddRecipeGroup(RecipeGroupID.Wood, 12)
+				.AddIngredient(ItemID.Glass, 10)
+				.AddIngredient(ItemID.Wire, 10)
+				.AddTile(TileID.Sawmill)
+				.Register();
 		}
-
 	}
 }

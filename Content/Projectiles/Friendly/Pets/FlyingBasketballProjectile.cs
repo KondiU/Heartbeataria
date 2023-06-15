@@ -15,6 +15,11 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
             ProjectileID.Sets.TrailCacheLength [Projectile.type] = 12;
             ProjectileID.Sets.TrailingMode [Projectile.type] = 0;
 
+            ProjectileID.Sets.CharacterPreviewAnimations[Projectile.type] = ProjectileID.Sets.SimpleLoop(1, 8)
+                .WhenNotSelected(0, 0)
+				.WithOffset(-16, 0)
+				.WithSpriteDirection(-1);
+
             base.SetStaticDefaults();
         }
 

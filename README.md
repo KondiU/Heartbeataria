@@ -1,14 +1,15 @@
 # Heartbeataria
 
-## **Heartbeataria** is a mod that aims to bring unique content from both old & new Chinese Regional versions of Terraria back to global version of the game.
+## **Heartbeataria** is a mod that aims to bring unique content from both old & new chinese Regional versions of Terraria back to global version of the game.
 
 **This includes:**
-- **Star Merchant** - a fan-favourite cut NPC from old Chinese Terraria, re-imagined as completely new vendor
+- **Star Merchant** - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
-- **7 cut vanity sets** from old Chinese Regional version of the game, re-imagined as completely new **Mythical Vanity Sets**
+- **15 new vanity sets**
 - **8 new pets**
-- **18 new vanity sets** in total
 - **5 new mounts**
+- **8 new early-game weapons**
+- **1 new accessory**
 - **24 new paintings**
 - **4 new furniture items**
 
@@ -18,45 +19,50 @@ It is highly recommended to play this mod alongside [Consolaria](https://steamco
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 ## Star Merchant
-
 The **Star Merchant** is a unique NPC vendor who randomly visits the player's town for one day. Their inventory is randomized and different every visit, always selling:
 - 1 melee weapon
 - 1 disc weapon
 - 2 pets
 - 1 mount
-- 2 furniture items
+- 3 furniture items
+- Fusion Module
 - 4 paintings 
 - 1 to 2 vanity sets
 
 They does not require their own house in order to spawn, and will instead spawn next to NPCs, including town pets, spending the day walking around them.
 
-The Star Merchant has a 20% chance of spawning each day, appearing at a random time between 4:30 AM and 12:00 PM. The chances of them spawning are always the same regardless if the player is sleeping. They leave the same day at 6:00 PM, but can only do so once they are off-screen. They despawn if the world is vacated any time after they spawns.
+The Star Merchant has a 12,5% chance of spawning each day, appearing at a random time between 4:30 AM and 12:00 PM. The chances of them spawning are always the same regardless if the player is sleeping. They leave the same day at 6:00 PM, but can only do so once they are off-screen. They despawn if the world is vacated any time after they spawns.
 
 ## Mythical Vanity Sets 
-**Mythical Vanity Sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these seven sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss or event.
+**Mythical Vanity Sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these four sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss.
 - **Mountain Guard Set**, available after defeating Eye of Cthulhu
-- **Tang Suit Set**, available after defeating Brain of Cthulhu/Eater of Worlds
-- **Imperial Guard Set**, available after defeating Skeletron
-- **Mythical Dog Set**, available after defeating Wall of Flesh
-- **Deep Cold Set**, available after defeating Ice Queen
-- **Tang Yuan Set**, available after defeating the Pirate Invasion
+- **Deep Cold Set**, available after defeating Skeletron
+- **Imperial Guard Set**, available after defeating Wall of Flesh
 - **Imperial Master Set**, available after defeating Moon Lord
 
-## TV
+## Otherworld Core
+**Otherworld Core** is a new early Hardmode accessory that grants 20% increased damage to all weapons against Old One's Army enemies. It can be crafted at a Hellforge using 5 new materials:
+- **Green Scales**, has 33% chance to be dropped from Eye of Cthulhu
+- **Dread Fangs**, has 33% chance to be dropped from Eater of Worlds/**Gel of Cthulhu**, has 33% chance to be dropped from Brain of Cthulhu
+- **Filthy Sap**, has 33% chance to be dropped from Skeletron
+- **Magma Shell**, has 33% chance to be dropped from Wall of Flesh
+- **Fusion Module**, purchased from Star Merchant
 
-The **TV** is a vintage-looking furniture item found in the files of the Old Chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
-- Any wood (x12)
-- Glass (x10)
-- Wire (x10)
+## TV
+**TV** is a vintage-looking furniture item found in the files of the Old chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
+- **Any wood** (x12)
+- **Glass** (x10)
+- **Wire** (x10)
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod & help with coding
+- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod & helping with coding
 - [Sparcdoctor](https://steamcommunity.com/id/Sparcdoctor/) for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
 - [Peege•on](https://steamcommunity.com/id/m_pigeon) for drawing the mod's artwork
-- [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the sprites
+- [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the chinese sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
+- [Oersted](https://steamcommunity.com/id/DSVaniaRomhacker/) for bringing an awesome idea of the new accessory
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 

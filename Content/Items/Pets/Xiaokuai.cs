@@ -1,6 +1,5 @@
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -10,9 +9,7 @@ namespace XDContentMod.Content.Items.Pets
 	{
 		public override void SetStaticDefaults () 
 		{
-			DisplayName.SetDefault("Xiaokuai");
-			Tooltip.SetDefault("Summons Xiaokuai");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
 
 		public override void SetDefaults () {
@@ -21,7 +18,7 @@ namespace XDContentMod.Content.Items.Pets
 			int width = 24; int height = 26;
 			Item.Size = new Vector2(width, height);
 
-			Item.rare = 3;
+			Item.rare = ItemRarityID.Orange;
 			Item.value = Item.buyPrice(gold: 25);
 		}
 	}

@@ -1,4 +1,3 @@
-
 Mods: {
 	XDContentMod: {
 		Buffs: {
@@ -166,6 +165,7 @@ Mods: {
 
 			KFCBar: {
 				DisplayName: KFC Bar
+				Tooltip: ""
 			}
 
 			KFCBurgerAd: {
@@ -175,6 +175,7 @@ Mods: {
 
 			KFCChair: {
 				DisplayName: KFC Chair
+				Tooltip: ""
 			}
 
 			KFCChickenDrumstickAd: {
@@ -189,6 +190,7 @@ Mods: {
 
 			KFCWorkBench: {
 				DisplayName: KFC Work Bench
+				Tooltip: ""
 			}
 
 			LargeDouYuOilPainting: {
@@ -268,34 +270,42 @@ Mods: {
 
 			TV: {
 				DisplayName: TV
+				Tooltip: ""
 			}
 
 			BCYCatEars: {
 				DisplayName: BCY Cat Ears
+				Tooltip: ""
 			}
 
 			BCYCosplayDress: {
 				DisplayName: BCY Cosplay Dress
+				Tooltip: ""
 			}
 
 			BCYCosplayShoes: {
 				DisplayName: BCY Cosplay Shoes
+				Tooltip: ""
 			}
 
 			ChengXinYouXuanHat: {
 				DisplayName: ChengXin YouXuan Hat
+				Tooltip: ""
 			}
 
 			ChengXinYouXuanPants: {
 				DisplayName: ChengXin YouXuan Pants
+				Tooltip: ""
 			}
 
 			ChengXinYouXuanShirt: {
 				DisplayName: ChengXin YouXuan Shirt
+				Tooltip: ""
 			}
 
 			ColonelsMask: {
 				DisplayName: Colonel's Mask
+				Tooltip: ""
 			}
 
 			ColonelsTuxedoPants: {
@@ -310,182 +320,182 @@ Mods: {
 
 			CuteBrownWig: {
 				DisplayName: Cute Brown Wig
+				Tooltip: ""
 			}
 
 			DeepColdBreastplate: {
 				DisplayName: Deep Cold Breastplate
+				Tooltip: ""
 			}
 
 			DeepColdHelmet: {
 				DisplayName: Deep Cold Helmet
+				Tooltip: ""
 			}
 
 			DeepColdLeggings: {
 				DisplayName: Deep Cold Leggings
+				Tooltip: ""
 			}
 
 			DogMask: {
 				DisplayName: Dog Mask
+				Tooltip: ""
 			}
 
 			DogPants: {
 				DisplayName: Dog Pants
+				Tooltip: ""
 			}
 
 			DogShirt: {
 				DisplayName: Dog Shirt
+				Tooltip: ""
 			}
 
 			ExpeditionerHat: {
 				DisplayName: Expeditioner Hat
+				Tooltip: ""
 			}
 
 			ExpeditionerPants: {
 				DisplayName: Expeditioner Pants
+				Tooltip: ""
 			}
 
 			ExpeditionerShirt: {
 				DisplayName: Expeditioner Shirt
-			}
-
-			GuaPiMao: {
-				DisplayName: Gua Pi Mao
+				Tooltip: ""
 			}
 
 			HeartbeatOrangeDress: {
 				DisplayName: Heartbeat Orange Dress
+				Tooltip: ""
 			}
 
 			HeartbeatOrangePonytail: {
 				DisplayName: Heartbeat Orange Ponytail
+				Tooltip: ""
 			}
 
 			HeartbeatOrangeShoes: {
 				DisplayName: Heartbeat Orange Shoes
+				Tooltip: ""
 			}
 
 			HeartbeatOrangeTuxedoPants: {
 				DisplayName: Heartbeat Orange Tuxedo Pants
+				Tooltip: ""
 			}
 
 			HeartbeatOrangeTuxedoShirt: {
 				DisplayName: Heartbeat Orange Tuxedo Shirt
+				Tooltip: ""
 			}
 
 			HeartbeatOrangeWig: {
 				DisplayName: Heartbeat Orange Wig
+				Tooltip: ""
 			}
 
 			ImperialGuardBreastplate: {
 				DisplayName: Imperial Guard Breastplate
+				Tooltip: ""
 			}
 
 			ImperialGuardHelmet: {
 				DisplayName: Imperial Guard Helmet
+				Tooltip: ""
 			}
 
 			ImperialGuardLeggings: {
 				DisplayName: Imperial Guard Leggings
+				Tooltip: ""
 			}
 
 			ImperialMasterBreastplate: {
 				DisplayName: Imperial Master Breastplate
+				Tooltip: ""
 			}
 
 			ImperialMasterHelmet: {
 				DisplayName: Imperial Master Helmet
+				Tooltip: ""
 			}
 
 			ImperialMasterLeggings: {
 				DisplayName: Imperial Master Leggings
+				Tooltip: ""
 			}
 
 			iQIYIMechaHelmet: {
 				DisplayName: iQIYI Mecha Helmet
+				Tooltip: ""
 			}
 
 			iQIYIMechaPants: {
 				DisplayName: iQIYI Mecha Pants
+				Tooltip: ""
 			}
 
 			iQIYIMechaTorso: {
 				DisplayName: iQIYI Mecha Torso
+				Tooltip: ""
 			}
 
 			MountainGuardBreastplate: {
 				DisplayName: Mountain Guard Breastplate
+				Tooltip: ""
 			}
 
 			MountainGuardHelmet: {
 				DisplayName: Mountain Guard Helmet
+				Tooltip: ""
 			}
 
 			MountainGuardLeggings: {
 				DisplayName: Mountain Guard Leggings
-			}
-
-			MythicalDogMask: {
-				DisplayName: Mythical Dog Mask
-			}
-
-			MythicalDogPants: {
-				DisplayName: Mythical Dog Pants
-			}
-
-			MythicalDogShirt: {
-				DisplayName: Mythical Dog Shirt
+				Tooltip: ""
 			}
 
 			SeifukuShirt: {
 				DisplayName: Seifuku Shirt
+				Tooltip: ""
 			}
 
 			SeifukuShoes: {
 				DisplayName: Seifuku Shoes
-			}
-
-			TangSuitPants: {
-				DisplayName: Tang Suit Pants
-			}
-
-			TangSuitShirt: {
-				DisplayName: Tang Suit Shirt
-			}
-
-			TangYuanHat: {
-				DisplayName: Tang Yuan Hat
-			}
-
-			TangYuanPants: {
-				DisplayName: Tang Yuan Pants
-			}
-
-			TangYuanShirt: {
-				DisplayName: Tang Yuan Shirt
+				Tooltip: ""
 			}
 
 			TararaDress: {
 				DisplayName: Tarara Dress
+				Tooltip: ""
 			}
 
 			TararaPonytail: {
 				DisplayName: Tarara Ponytail
+				Tooltip: ""
 			}
 
 			TararaShoes: {
 				DisplayName: Tarara Shoes
+				Tooltip: ""
 			}
 
 			TikTokNoteHat: {
 				DisplayName: TikTok Note Hat
+				Tooltip: ""
 			}
 
 			TikTokPants: {
 				DisplayName: TikTok Pants
+				Tooltip: ""
 			}
 
 			TikTokTorso: {
 				DisplayName: TikTok Torso
+				Tooltip: ""
 			}
 
 			BaiduTiebaHuajiDisc: {
@@ -495,6 +505,7 @@ Mods: {
 
 			HeartbeatBroadsword: {
 				DisplayName: Heartbeat Broadsword
+				Tooltip: ""
 			}
 
 			HupuDisc: {
@@ -527,189 +538,137 @@ Mods: {
 				Tooltip: Fight for Tarara & Pururu!
 			}
 
-			StarMerchantHat.DisplayName: Star Merchant Hat
+			StarMerchantHat: {
+				DisplayName: Star Merchant Hat
+				Tooltip: ""
+			}
+
+			FilthySap: {
+				DisplayName: Filthy Sap
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			DreadFangs: {
+				DisplayName: Dread Fangs
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			GreenScales: {
+				DisplayName: Green Scales
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			MagmaShell: {
+				DisplayName: Magma Shell
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			GelOfCthulhu: {
+				DisplayName: Gel of Cthulhu
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			OtherworldCore: {
+				DisplayName: Otherworld Core
+				Tooltip: 20% increased damage dealt to Old One's Army enemies
+			}
+
+			FusionModule: {
+				DisplayName: Fusion Module
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			Stargazer: {
+				Tooltip: ""
+				DisplayName: Stargazer
+			}
 		}
 
 		NPCs: {
 			StarMerchantNPC: {
 				DisplayName: Star Merchant
+
+				TownNPCMood: {
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LoveBiome: I love {BiomeName}.
+					LikeBiome: I like {BiomeName}.
+					DislikeBiome: I dislike {BiomeName}.
+					HateBiome: I hate {BiomeName}.
+					LoveNPC: I love {NPCName}.
+					LikeNPC: I like {NPCName}.
+					DislikeNPC: I dislike {NPCName}.
+					HateNPC: I hate {NPCName}.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
+				}
 			}
 		}
 
 		Projectiles: {
-			BaiduTiebaHuajiDiscProjectile: {
-				DisplayName: Baidu Tieba Huájí Disc
-			}
-
-			HupuDiscProjectile: {
-				DisplayName: Hupu Disc
-			}
-
-			iFlytekDiscProjectile: {
-				DisplayName: iFlytek Disc
-			}
-
-			LOOKDiscProjectile: {
-				DisplayName: LOOK Disc
-			}
-
-			ChickenProjectile: {
-				DisplayName: Chicken Projectile
-			}
-
-			FlyingBasketballProjectile: {
-				DisplayName: Flying Basketball Projectile
-			}
-
-			GreenFrogProjectile: {
-				DisplayName: Green Frog Projectile
-			}
-
-			PururuProjectile: {
-				DisplayName: Pururu Projectile
-			}
-
-			RedEyedToadProjectile: {
-				DisplayName: Red Eyed Toad Projectile
-			}
-
-			WitchToadProjectile: {
-				DisplayName: Witch Toad Projectile
-			}
-
-			XiaokuaiProjectile: {
-				DisplayName: Xiaokuai Projectile
-			}
-
-			XiaoliuProjectile: {
-				DisplayName: Xiaoliu Projectile
-			}
-
-			PururuDiscProjectile: {
-				DisplayName: Pururu Disc
-			}
+			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
+			HupuDiscProjectile.DisplayName: Hupu Disc
+			iFlytekDiscProjectile.DisplayName: iFlytek Disc
+			LOOKDiscProjectile.DisplayName: LOOK Disc
+			ChickenProjectile.DisplayName: Chicken Projectile
+			FlyingBasketballProjectile.DisplayName: Flying Basketball Projectile
+			GreenFrogProjectile.DisplayName: Green Frog Projectile
+			PururuProjectile.DisplayName: Pururu Projectile
+			RedEyedToadProjectile.DisplayName: Red Eyed Toad Projectile
+			WitchToadProjectile.DisplayName: Witch Toad Projectile
+			XiaokuaiProjectile.DisplayName: Xiaokuai Projectile
+			XiaoliuProjectile.DisplayName: Xiaoliu Projectile
+			PururuDiscProjectile.DisplayName: Pururu Disc
 		}
 
 		Tiles: {
-			KFCWorkBenchTile: {
-				MapEntry: Work Bench
-			}
-
-			TVTile: {
-				MapEntry: TV
-			}
-
-			AcFunOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			BirthdayCakeTile: {
-				MapEntry: Painting
-			}
-
-			ColorfulBalloonsStockPhotoTile: {
-				MapEntry: Painting
-			}
-
-			GetThePartyStartedTile: {
-				MapEntry: Painting
-			}
-
-			HeartbeatOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			JinyiCinemasPopcornPosterTile: {
-				MapEntry: Painting
-			}
-
-			KFCBurgerAdTile: {
-				MapEntry: Picture
-			}
-
-			KFCChickenDrumstickAdTile: {
-				MapEntry: Painting
-			}
-
-			KFCFamilyBucketAdTile: {
-				MapEntry: Painting
-			}
-
-			LargeDouYuOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			LargeHeartbeatTownscapeOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			LargeHuyaOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			LightPotatoTile: {
-				MapEntry: Painting
-			}
-
-			MediumDouYuOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			MediumHuyaOilPaintingTile: {
-				MapEntry: Painting
-			}
-
-			PotatariaTile: {
-				MapEntry: Painting
-			}
-
-			PururuPortraitTile: {
-				MapEntry: Painting
-			}
-
-			RockPotatoTile: {
-				MapEntry: Painting
-			}
-
-			SeiyuuchanSupportPosterTile: {
-				MapEntry: Painting
-			}
-
-			SmallDouYuOilPaintingTile: {
-				MapEntry: Picture
-			}
-
-			SmallHeartbeatTownscapeOilPaintingTile: {
-				MapEntry: Picture
-			}
-
-			SmallHuyaOilPaintingTile: {
-				MapEntry: Picture
-			}
-
-			TapTapGroupPortraitTile: {
-				MapEntry: Painting
-			}
-
-			TararaPortraitTile: {
-				MapEntry: Painting
-			}
+			KFCWorkBenchTile.MapEntry: Work Bench
+			TVTile.MapEntry: TV
+			AcFunOilPaintingTile.MapEntry: Painting
+			BirthdayCakeTile.MapEntry: Painting
+			ColorfulBalloonsStockPhotoTile.MapEntry: Painting
+			GetThePartyStartedTile.MapEntry: Painting
+			HeartbeatOilPaintingTile.MapEntry: Painting
+			JinyiCinemasPopcornPosterTile.MapEntry: Painting
+			KFCBurgerAdTile.MapEntry: Picture
+			KFCChickenDrumstickAdTile.MapEntry: Painting
+			KFCFamilyBucketAdTile.MapEntry: Painting
+			LargeDouYuOilPaintingTile.MapEntry: Painting
+			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: Painting
+			LargeHuyaOilPaintingTile.MapEntry: Painting
+			LightPotatoTile.MapEntry: Painting
+			MediumDouYuOilPaintingTile.MapEntry: Painting
+			MediumHuyaOilPaintingTile.MapEntry: Painting
+			PotatariaTile.MapEntry: Painting
+			PururuPortraitTile.MapEntry: Painting
+			RockPotatoTile.MapEntry: Painting
+			SeiyuuchanSupportPosterTile.MapEntry: Painting
+			SmallDouYuOilPaintingTile.MapEntry: Picture
+			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: Picture
+			SmallHuyaOilPaintingTile.MapEntry: Picture
+			TapTapGroupPortraitTile.MapEntry: Painting
+			TararaPortraitTile.MapEntry: Painting
 		}
 
 		Dialogue: {
 			StarMerchant: {
 				StarMerchantDialogue1: You have no idea how much Mud Blocks sell for abroad.
 				StarMerchantDialogue2: The best trade I've ever done was when I exchanged coal for a diamond sword!
-				StarMerchantDialogue3: Hey, have you seen my blue armor? I think I lost it somewhere...
-				StarMerchantDialogue4: Ni hao! Wanna trade?
-				StarMerchantDialogue5: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
-				StarMerchantDialogue6: Microtransactions? Never heard of that!
-				StarMerchantDialogue7: Are you a huge frog lover? Try your luck in my Leaf Lottery!
-				StarMerchantDialogue8: Trust me, kryptonite won't make you stronger - I tested it.
-				StarMerchantDialogue9: Hello there! Wanna buy some stuff?
-				StarMerchantDialogue10: Huh, this place changed a lot since my last visit - just like my stock! Check it out!
-				StarMerchantDialogue11: I love this place, although I hope I'll get back to my home planet one day... Anyway, would you like to buy something?
-				StarMerchantDialogue12: It's always a good time for hongbao... And some trading, of course!
+				StarMerchantDialogue3: Ni hao! Wanna trade?
+				StarMerchantDialogue4: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
+				StarMerchantDialogue5: Microtransactions? Never heard of that!
+				StarMerchantDialogue6: Are you a huge frog lover? Try your luck in my Leaf Lottery!
+				StarMerchantDialogue7: Trust me, kryptonite won't make you stronger - I tested it.
+				StarMerchantDialogue8: Hello there! Wanna buy some stuff?
+				StarMerchantDialogue9: Huh, this place changed a lot since my last visit - just like my stock! Check it out!
+				StarMerchantDialogue10: I love this place, although I hope I'll get back to my home planet one day... Anyway, would you like to buy something?
+				StarMerchantDialogue11: It's always a good time for hongbao... And some trading, of course!
+				StarMerchantNoShimmerDialogue1: Hey, have you seen my blue armor? I think I lost it somewhere...
+				StarMerchantShimmerDialogue1: My comfiest suit! So happy I got it back!
 				StarMerchantDay1: Ahh, the sky looks so beautiful today!
 				StarMerchantNight1: I bet these guys burn up in no time!
 				StarMerchantNight2: If every night here looks like this I gotta get myself a rail gun!

@@ -1,6 +1,5 @@
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -10,16 +9,13 @@ namespace XDContentMod.Content.Items.Mounts
 	{
 		public override void SetStaticDefaults () 
 		{
-			DisplayName.SetDefault("DiDi Bike Keys");
-			Tooltip.SetDefault("Summons a rideable DiDi Bike mount");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId [Type] = 1;
+			Item.ResearchUnlockCount = 1;
 		}
-
 
 		public override void SetDefaults()
 		{
-			Item.width = 24;
-			Item.height = 24;
+			int width = 24; int height = 24;
+            Item.Size = new Vector2(width, height);
 			Item.value = Item.buyPrice(gold: 30);
 			Item.rare = 8;
 			Item.useAnimation = 15;

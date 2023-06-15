@@ -1,17 +1,18 @@
-using XDContentMod.Content.Items;
 using XDContentMod.Content.Items.Mounts;
 using XDContentMod.Content.Items.Pets;
 using XDContentMod.Content.Items.Placeable;
 using XDContentMod.Content.Items.Vanity;
 using XDContentMod.Content.Items.Weapons;
 using XDContentMod.Content.Items.Weapons.Melee;
+using XDContentMod.Content.Items.Materials;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using ReLogic.Content;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using Terraria;
-using Terraria.Audio;
 using Terraria.Chat;
+using Terraria.DataStructures;
 using Terraria.GameContent;
 using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
@@ -20,28 +21,26 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using Terraria.Utilities;
+using Terraria.Audio;
 
 namespace XDContentMod.Content.NPCs
 {
 	[AutoloadHead]
 	class StarMerchantNPC : ModNPC
 	{
-		// Time of day for traveller to leave (6PM)
 		public const double despawnTime = 48600.0;
-
-		// the time of day the traveler will spawn (double.MaxValue for no spawn)
-		// saved and loaded with the world in TravelingMerchantSystem
 		public static double spawnTime = 13500;
+		public static StarMerchantShop Shop;
 
-		// The list of items in the traveler's shop. Saved with the world and set when the traveler spawns
-		public List<Item> shopItems = new List<Item>();
+		public List<Item> shopItems;
+
+		private static int ShimmerHeadIndex;
+		private static Profiles.StackedNPCProfile NPCProfile;
 
 		public override bool PreAI() 
 		{
-			if ((!Main.dayTime || Main.time >= despawnTime) && !IsNpcOnscreen(NPC.Center)) // If it's past the despawn time and the NPC isn't onscreen
+			if ((!Main.dayTime || Main.time >= despawnTime) && !IsNpcOnscreen(NPC.Center))
 			{
-				// Here we despawn the NPC and send a message stating that the NPC has despawned
-				// LegacyMisc.35 is {0) has departed!
 				if (Main.netMode == NetmodeID.SinglePlayer) Main.NewText(Language.GetTextValue("LegacyMisc.35", NPC.FullName), 50, 125, 255);
 				else ChatHelper.BroadcastChatMessage(NetworkText.FromKey("LegacyMisc.35", NPC.GetFullNetName()), new Color(50, 125, 255));
 				NPC.active = false;
@@ -52,29 +51,144 @@ namespace XDContentMod.Content.NPCs
 
 			return true;
 		}
+		public override void AddShops() {
+			Shop = new StarMerchantShop(NPC.type);
+
+			Shop.AddPool("Melee Weapons", slots: 1)
+				.Add<HeartbeatBroadsword>()
+				.Add<TapTapBroadsword>()
+				.Add<KFCChickenDrumstick>();
+
+			Shop.AddPool("Disc Weapons", slots: 1)
+				.Add<BaiduTiebaHuajiDisc>()
+				.Add<HupuDisc>()
+				.Add<iFlytekDisc>()
+				.Add<LOOKDisc>()
+				.Add<PururuDisc>();
+
+			Shop.AddPool("Pets", slots: 1)
+				.Add<Basketball>()
+				.Add<FriedChickenNugget>()
+				.Add<PururuCharger>()
+				.Add<Xiaokuai>()
+				.Add<Xiaoliu>();
+
+			Shop.AddPool("Leaf Pets", slots: 1)
+				.Add<Leaf>()
+				.Add<ToadQuack2R>()
+				.Add<ToadQuack2W>();
+
+			Shop.AddPool("Mounts", slots: 1)
+				.Add<ConvertibleKeys>()
+				.Add<DiDiBikeKeys>()
+				.Add<DiDiCarKeys>()
+				.Add<KFCDeliveryScooterKeys>()
+				.Add<TapTapMinivanKeys>();
+
+			Shop.AddPool("Paintings", slots: 4)
+				.Add<BirthdayCake>()
+				.Add<ColorfulBalloonsStockPhoto>()
+				.Add<GetThePartyStarted>()
+				.Add<PururuPortrait>()
+				.Add<TapTapGroupPortrait>()
+				.Add<TararaPortrait>()
+				.Add<SmallHeartbeatTownscapeOilPainting>()
+				.Add<HeartbeatOilPainting>()
+				.Add<LargeHeartbeatTownscapeOilPainting>()
+				.Add<SmallDouYuOilPainting>()
+				.Add<MediumDouYuOilPainting>()
+				.Add<LargeDouYuOilPainting>()
+				.Add<KFCBurgerAd>()
+				.Add<KFCChickenDrumstickAd>()
+				.Add<KFCFamilyBucketAd>()
+				.Add<SmallHuyaOilPainting>()
+				.Add<MediumHuyaOilPainting>()
+				.Add<LargeHuyaOilPainting>()
+				.Add<RockPotato>()
+				.Add<LightPotato>()
+				.Add<Potataria>()
+				.Add<AcFunOilPainting>()
+				.Add<JinyiCinemasPopcornPoster>()
+				.Add<SeiyuuchanSupportPoster>();
+
+			Shop.Add<KFCChair>();
+			Shop.Add<KFCWorkBench>();
+			Shop.Add<KFCBar>();
+
+			Shop.Add<FusionModule>();
+			
+			Shop.AddPool("Colonel's Set", slots: 3)
+				.Add<ColonelsMask>(Condition.MoonPhaseFull)
+				.Add<ColonelsTuxedoShirt>(Condition.MoonPhaseFull)
+				.Add<ColonelsTuxedoPants>(Condition.MoonPhaseFull);
+
+			Shop.AddPool("Seifuku Set", slots: 3)
+				.Add<CuteBrownWig>(Condition.MoonPhaseWaningGibbous)
+				.Add<SeifukuShirt>(Condition.MoonPhaseWaningGibbous)
+				.Add<SeifukuShoes>(Condition.MoonPhaseWaningGibbous);
+
+			Shop.AddPool("Heartbeat Orange F Set", slots: 3)
+				.Add<HeartbeatOrangePonytail>(Condition.MoonPhaseThirdQuarter)
+				.Add<HeartbeatOrangeDress>(Condition.MoonPhaseThirdQuarter)
+				.Add<HeartbeatOrangeShoes>(Condition.MoonPhaseThirdQuarter);
+
+			Shop.AddPool("Heartbeat Orange M Set", slots: 3)
+				.Add<HeartbeatOrangeWig>(Condition.MoonPhaseThirdQuarter)
+				.Add<HeartbeatOrangeTuxedoShirt>(Condition.MoonPhaseThirdQuarter)
+				.Add<HeartbeatOrangeTuxedoPants>(Condition.MoonPhaseThirdQuarter);
+
+			Shop.AddPool("BCY Cosplay Set", slots: 3)
+				.Add<BCYCatEars>(Condition.MoonPhaseWaningCrescent)
+				.Add<BCYCosplayDress>(Condition.MoonPhaseWaningCrescent)
+				.Add<BCYCosplayShoes>(Condition.MoonPhaseWaningCrescent);
+
+			Shop.AddPool("TikTok Set", slots: 3)
+				.Add<TikTokNoteHat>(Condition.MoonPhaseNew)
+				.Add<TikTokTorso>(Condition.MoonPhaseNew)
+				.Add<TikTokPants>(Condition.MoonPhaseNew);
+
+			Shop.AddPool("Dog Set", slots: 3)
+				.Add<DogMask>(Condition.MoonPhaseNew)
+				.Add<DogShirt>(Condition.MoonPhaseNew)
+				.Add<DogPants>(Condition.MoonPhaseNew);
+
+			Shop.AddPool("Tarara Set", slots: 3)
+				.Add<TararaPonytail>(Condition.MoonPhaseWaxingCrescent)
+				.Add<TararaDress>(Condition.MoonPhaseWaxingCrescent)
+				.Add<TararaShoes>(Condition.MoonPhaseWaxingCrescent);
+				
+			Shop.AddPool("iQIYI Mecha Set", slots: 3)
+				.Add<iQIYIMechaHelmet>(Condition.MoonPhaseFirstQuarter)
+				.Add<iQIYIMechaTorso>(Condition.MoonPhaseFirstQuarter)
+				.Add<iQIYIMechaPants>(Condition.MoonPhaseFirstQuarter);
+
+			Shop.AddPool("Expeditioner Set", slots: 3)
+				.Add<ExpeditionerHat>(Condition.MoonPhaseWaxingGibbous)
+				.Add<ExpeditionerShirt>(Condition.MoonPhaseWaxingGibbous)
+				.Add<ExpeditionerPants>(Condition.MoonPhaseWaxingGibbous);
+
+			Shop.AddPool("ChengXin YouXuan Set", slots: 3)
+				.Add<ChengXinYouXuanHat>(Condition.MoonPhaseWaxingGibbous)
+				.Add<ChengXinYouXuanShirt>(Condition.MoonPhaseWaxingGibbous)
+				.Add<ChengXinYouXuanPants>(Condition.MoonPhaseWaxingGibbous);
+
+			Shop.Register();
+		}
 
 		public static void UpdateTravelingMerchant() 
 		{
-			bool travelerIsThere = (NPC.FindFirstNPC(ModContent.NPCType<StarMerchantNPC>()) != -1); // Find a Merchant if there's one spawned in the world
-
-			// Main.time is set to 0 each morning, and only for one update. Sundialling will never skip past time 0 so this is the place for 'on new day' code
+			bool travelerIsThere = (NPC.FindFirstNPC(ModContent.NPCType<StarMerchantNPC>()) != -1);
 			if (Main.dayTime && Main.time == 0) 
 			{
-				// insert code here to change the spawn chance based on other conditions (say, npcs which have arrived, or milestones the player has passed)
-				// You can also add a day counter here to prevent the merchant from possibly spawning multiple days in a row.
-
-				// NPC won't spawn today if it stayed all night
-				if (!travelerIsThere && Main.rand.NextBool(5)) 
-				{ // 4 = 25% Chance
-																// Here we can make it so the NPC doesnt spawn at the EXACT same time every time it does spawn
-					spawnTime = GetRandomSpawnTime(0, 27000); // minTime = 6:00am, maxTime = 7:30am
+				if (!travelerIsThere && Main.rand.NextBool(8))
+				{
+					spawnTime = GetRandomSpawnTime(0, 27000);
 				}
 				else {
-					spawnTime = double.MaxValue; // no spawn today
+					spawnTime = double.MaxValue;
 				}
 			}
 
-			// Spawn the traveler if the spawn conditions are met (time of day, no events, no sundial)
 			if (!travelerIsThere && CanSpawnNow()) 
 			{
 				int newTraveler = NPC.NewNPC(Terraria.Entity.GetSource_TownSpawn(), Main.spawnTileX * 16, Main.spawnTileY * 16, ModContent.NPCType<StarMerchantNPC>(), 1); // Spawning at the world spawn
@@ -83,10 +197,8 @@ namespace XDContentMod.Content.NPCs
 				traveler.direction = Main.spawnTileX >= WorldGen.bestX ? -1 : 1;
 				traveler.netUpdate = true;
 
-				// Prevents the traveler from spawning again the same day
 				spawnTime = double.MaxValue;
 
-				// Annouce that the traveler has spawned in!
 				if (Main.netMode == NetmodeID.SinglePlayer) Main.NewText(Language.GetTextValue("Announcement.HasArrived", traveler.FullName), 50, 125, 255);
 				else ChatHelper.BroadcastChatMessage(NetworkText.FromKey("Announcement.HasArrived", traveler.GetFullNetName()), new Color(50, 125, 255));
 			}
@@ -94,11 +206,9 @@ namespace XDContentMod.Content.NPCs
 
 		private static bool CanSpawnNow() 
 		{
-			// can't spawn if the sundial is active
-			if (Main.fastForwardTime)
+			if (Main.IsFastForwardingTime())
 				return false;
 
-			// can spawn if daytime, and between the spawn and despawn times
 			return Main.dayTime && Main.time >= spawnTime && Main.time < despawnTime;
 		}
 
@@ -109,7 +219,6 @@ namespace XDContentMod.Content.NPCs
 			Rectangle npcScreenRect = new Rectangle((int)center.X - w / 2, (int)center.Y - h / 2, w, h);
 			foreach (Player player in Main.player) 
 			{
-				// If any player is close enough to the traveling merchant, it will prevent the npc from despawning
 				if (player.active && player.getRect().Intersects(npcScreenRect)) return true;
 			}
 			return false;
@@ -117,282 +226,38 @@ namespace XDContentMod.Content.NPCs
 
 		public static double GetRandomSpawnTime(double minTime, double maxTime) 
 		{
-			// A simple formula to get a random time between two chosen times
 			return (maxTime - minTime) * Main.rand.NextDouble() + minTime;
 		}
 
-		public void CreateNewShop() 
-		{
-			// create a list of item ids
-			var itemIds = new List<int>();
-
-			// For each slot we add a switch case to determine what should go in that slot
-			switch (Main.rand.Next(3)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<HeartbeatBroadsword>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<TapTapBroadsword>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<KFCChickenDrumstick>());
-					break;
-			}
-
-			switch (Main.rand.Next(5)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<BaiduTiebaHuajiDisc>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<HupuDisc>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<iFlytekDisc>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<LOOKDisc>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<PururuDisc>());
-					break;
-			}
-
-			switch (Main.rand.Next(5)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<Basketball>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<FriedChickenNugget>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<PururuCharger>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<Xiaokuai>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<Xiaoliu>());
-					break;
-			}
-
-			switch (Main.rand.Next(3)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<Leaf>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<ToadQuack2R>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<ToadQuack2W>());
-					break;
-			}
-
-			switch (Main.rand.Next(5)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<ConvertibleKeys>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<DiDiBikeKeys>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<DiDiCarKeys>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<KFCDeliveryScooterKeys>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<TapTapMinivanKeys>());
-					break;
-			}
-
-			itemIds.Add(ModContent.ItemType<KFCChair>());
-			itemIds.Add(ModContent.ItemType<KFCWorkBench>());
-			itemIds.Add(ModContent.ItemType<KFCBar>());
-
-			switch (Main.rand.Next(6)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<BirthdayCake>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<ColorfulBalloonsStockPhoto>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<GetThePartyStarted>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<PururuPortrait>());
-					break;
-				case 4:
-					itemIds.Add(ModContent.ItemType<TapTapGroupPortrait>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<TararaPortrait>());
-					break;
-			}
-
-			switch (Main.rand.Next(6)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<SmallHeartbeatTownscapeOilPainting>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<HeartbeatOilPainting>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<LargeHeartbeatTownscapeOilPainting>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<SmallDouYuOilPainting>());
-					break;
-				case 4:
-					itemIds.Add(ModContent.ItemType<MediumDouYuOilPainting>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<LargeDouYuOilPainting>());
-					break;
-			}
-
-			switch (Main.rand.Next(6)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<KFCBurgerAd>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<KFCChickenDrumstickAd>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<KFCFamilyBucketAd>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<SmallHuyaOilPainting>());
-					break;
-				case 4:
-					itemIds.Add(ModContent.ItemType<MediumHuyaOilPainting>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<LargeHuyaOilPainting>());
-					break;
-			}
-
-			switch (Main.rand.Next(6)) 
-			{
-				case 0:
-					itemIds.Add(ModContent.ItemType<RockPotato>());
-					break;
-				case 1:
-					itemIds.Add(ModContent.ItemType<LightPotato>());
-					break;
-				case 2:
-					itemIds.Add(ModContent.ItemType<Potataria>());
-					break;
-				case 3:
-					itemIds.Add(ModContent.ItemType<AcFunOilPainting>());
-					break;
-				case 4:
-					itemIds.Add(ModContent.ItemType<JinyiCinemasPopcornPoster>());
-					break;
-				default:
-					itemIds.Add(ModContent.ItemType<SeiyuuchanSupportPoster>());
-					break;
-			}
-			
-			if (Main.moonPhase == 0) 
-			{
-		 		itemIds.Add(ModContent.ItemType<ColonelsMask>());
-				itemIds.Add(ModContent.ItemType<ColonelsTuxedoShirt>());
-				itemIds.Add(ModContent.ItemType<ColonelsTuxedoPants>());
-			}
-
-			if (Main.moonPhase == 1) 
-			{
-		 		itemIds.Add(ModContent.ItemType<CuteBrownWig>());
-				itemIds.Add(ModContent.ItemType<SeifukuShirt>());
-				itemIds.Add(ModContent.ItemType<SeifukuShoes>());
-			}
-
-			if (Main.moonPhase == 2) 
-			{
-				itemIds.Add(ModContent.ItemType<HeartbeatOrangePonytail>());
-		 		itemIds.Add(ModContent.ItemType<HeartbeatOrangeDress>());
-				itemIds.Add(ModContent.ItemType<HeartbeatOrangeShoes>());
-				itemIds.Add(ModContent.ItemType<HeartbeatOrangeWig>());
-				itemIds.Add(ModContent.ItemType<HeartbeatOrangeTuxedoShirt>());
-				itemIds.Add(ModContent.ItemType<HeartbeatOrangeTuxedoPants>());
-			}
-
-			if (Main.moonPhase == 3) 
-			{
-		 		itemIds.Add(ModContent.ItemType<BCYCatEars>());
-				itemIds.Add(ModContent.ItemType<BCYCosplayDress>());
-				itemIds.Add(ModContent.ItemType<BCYCosplayShoes>());
-			}
-
-			if (Main.moonPhase == 4) 
-			{
-				itemIds.Add(ModContent.ItemType<TikTokNoteHat>());
-				itemIds.Add(ModContent.ItemType<TikTokTorso>());
-				itemIds.Add(ModContent.ItemType<TikTokPants>());
-		 		itemIds.Add(ModContent.ItemType<DogMask>());
-				itemIds.Add(ModContent.ItemType<DogShirt>());
-				itemIds.Add(ModContent.ItemType<DogPants>());
-			}
-
-			if (Main.moonPhase == 5) 
-			{
-				itemIds.Add(ModContent.ItemType<TararaPonytail>());
-				itemIds.Add(ModContent.ItemType<TararaDress>());
-				itemIds.Add(ModContent.ItemType<TararaShoes>());
-			}
-
-			if (Main.moonPhase == 6) 
-			{
-				itemIds.Add(ModContent.ItemType<iQIYIMechaHelmet>());
-				itemIds.Add(ModContent.ItemType<iQIYIMechaTorso>());
-				itemIds.Add(ModContent.ItemType<iQIYIMechaPants>());
-			}
-
-			if (Main.moonPhase == 7) 
-			{
-				itemIds.Add(ModContent.ItemType<ExpeditionerHat>());
-				itemIds.Add(ModContent.ItemType<ExpeditionerShirt>());
-				itemIds.Add(ModContent.ItemType<ExpeditionerPants>());
-		 		itemIds.Add(ModContent.ItemType<ChengXinYouXuanHat>());
-				itemIds.Add(ModContent.ItemType<ChengXinYouXuanShirt>());
-				itemIds.Add(ModContent.ItemType<ChengXinYouXuanPants>());
-			}
-
-			shopItems = new List<Item>();
-			foreach (int itemId in itemIds) 
-			{
-				Item item = new Item();
-				item.SetDefaults(itemId);
-				shopItems.Add(item);
-			}
+		public override void Load() {
+			ShimmerHeadIndex = Mod.AddNPCHeadTexture(Type, Texture + "_Shimmer_Head");
 		}
 
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Star Merchant");
-			Main.npcFrameCount[NPC.type] = 25;
-			NPCID.Sets.ExtraFramesCount[NPC.type] = 9;
-			NPCID.Sets.AttackFrameCount[NPC.type] = 4;
-			NPCID.Sets.DangerDetectRange[NPC.type] = 700;
-			NPCID.Sets.AttackType[NPC.type] = 0;
-			NPCID.Sets.AttackTime[NPC.type] = 90;
-			NPCID.Sets.AttackAverageChance[NPC.type] = 30;
-			NPCID.Sets.HatOffsetY[NPC.type] = 2;
+			Main.npcFrameCount[Type] = 25;
+			NPCID.Sets.ExtraFramesCount[Type] = 9;
+			NPCID.Sets.AttackFrameCount[Type] = 4;
+			NPCID.Sets.DangerDetectRange[Type] = 700;
+			NPCID.Sets.AttackType[Type] = 0;
+			NPCID.Sets.AttackTime[Type] = 90;
+			NPCID.Sets.AttackAverageChance[Type] = 30;
+			NPCID.Sets.HatOffsetY[Type] = 2;
+			NPCID.Sets.ShimmerTownTransform[Type] = true;
+			NPCID.Sets.NoTownNPCHappiness[Type] = true;
 
 			NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers(0) 
 			{
-				Velocity = 1f
+				Velocity = 1f,
+				Direction = -1
 			};
+
 			NPCID.Sets.NPCBestiaryDrawOffset.Add(Type, value);
+
+			NPCProfile = new Profiles.StackedNPCProfile(
+				new Profiles.DefaultNPCProfile(Texture, NPCHeadLoader.GetHeadSlot(HeadTexture), Texture + "_Party"),
+				new Profiles.DefaultNPCProfile(Texture + "_Shimmer", ShimmerHeadIndex)
+			);
 		}
 
 		public override void SetDefaults() 
@@ -410,12 +275,17 @@ namespace XDContentMod.Content.NPCs
 			NPC.knockBackResist = 0.5f;
 			AIType = NPCID.TravellingMerchant;
 			AnimationType = NPCID.TravellingMerchant;
-			CreateNewShop();
+			TownNPCStayingHomeless = true;
 		}
 
-		public override void SetBestiary(Terraria.GameContent.Bestiary.BestiaryDatabase database, Terraria.GameContent.Bestiary.BestiaryEntry bestiaryEntry)
+		public override void OnSpawn(IEntitySource source) 
+		{
+			shopItems = Shop.GenerateNewInventoryList();
+		}
+
+		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
         {
-            bestiaryEntry.Info.AddRange(new Terraria.GameContent.Bestiary.IBestiaryInfoElement[] 
+            bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[] 
 			{
                 Terraria.GameContent.Bestiary.BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Surface,
                 new Terraria.GameContent.Bestiary.FlavorTextBestiaryInfoElement("There's very little info about the Star Merchant. Some say they got here from other space and for some reason they can't get back home. We're not even sure about their gender, but it's pretty clear that they love to sell some unique items in their shop!"),
@@ -432,14 +302,14 @@ namespace XDContentMod.Content.NPCs
 			shopItems = tag.Get<List<Item>>("shopItems");
 		}
 
-		public override bool CanTownNPCSpawn(int numTownNPCs, int money) 
+		public override bool CanTownNPCSpawn(int numTownNPCs)
 		{
-			return false; // This should always be false, because we spawn in the Traveling Merchant manually
+			return false;
 		}
 
 		public override ITownNPCProfile TownNPCProfile() 
 		{
-			return new ExampleTravelingMerchantProfile();
+			return NPCProfile;
 		}
 
 		public override List<string> SetNPCNameList() 
@@ -536,7 +406,16 @@ namespace XDContentMod.Content.NPCs
 			{
 				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantHat1"));
 			}
-			
+
+			if (Main.LocalPlayer.TalkNPC?.IsShimmerVariant == false)
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantNoShimmerDialogue1"));
+			}
+			else
+			{
+				chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantShimmerDialogue1"));
+			}
+
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue1"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue2"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue3"));
@@ -548,7 +427,6 @@ namespace XDContentMod.Content.NPCs
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue9"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue10"));
 			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue11"));
-			chat.Add(Language.GetTextValue("Mods.XDContentMod.Dialogue.StarMerchant.StarMerchantDialogue12"));
 
 			string dialogueLine = chat;
 			return dialogueLine;
@@ -560,29 +438,17 @@ namespace XDContentMod.Content.NPCs
 			Main.LocalPlayer.currentShoppingSettings.HappinessReport = "";
 		}
 
-		public override void OnChatButtonClicked(bool firstButton, ref bool shop) 
+		public override void OnChatButtonClicked(bool firstButton, ref string shop) 
 		{
-			if (firstButton) {
-				shop = true;
-			}
-		}
-
-		public override void SetupShop(Chest shop, ref int nextSlot) 
-		{
-			foreach (Item item in shopItems) 
+			if (firstButton) 
 			{
-				// We don't want "empty" items and unloaded items to appear
-				if (item == null || item.type == ItemID.None)
-					continue;
-
-				shop.item[nextSlot].SetDefaults(item.type);
-				nextSlot++;
+				shop = Shop.Name;
 			}
 		}
 
 		public override void AI() 
 		{
-			NPC.homeless = true; // Make sure it stays homeless
+			NPC.homeless = true;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) 
@@ -590,11 +456,33 @@ namespace XDContentMod.Content.NPCs
 			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<StarMerchantHat>()));
 		}
 
-		public override void HitEffect(int hitDirection, double damage)
+		public override void TownNPCAttackStrength(ref int damage, ref float knockback) {
+			damage = 20;
+			knockback = 4f;
+		}
+
+		public override void TownNPCAttackCooldown(ref int cooldown, ref int randExtraCooldown) {
+			cooldown = 15;
+			randExtraCooldown = 8;
+		}
+
+		public override void TownNPCAttackSwing(ref int itemWidth, ref int itemHeight) {
+			itemWidth = itemHeight = 40;
+		}
+
+		public override void DrawTownAttackSwing(ref Texture2D item, ref Rectangle itemFrame, ref int itemSize, ref float scale, ref Vector2 offset) {
+			Main.GetItemDrawFrame(ModContent.ItemType<TapTapBroadsword>(), out item, out itemFrame);
+			itemSize = 40;
+			if (NPC.ai[1] > NPCID.Sets.AttackTime[NPC.type] * 0.66f) {
+				offset.X = 8f;				
+				offset.Y = 7f;
+			}
+		}
+
+		public override void HitEffect(NPC.HitInfo hit)
    		{
 			if (Main.netMode == NetmodeID.Server) 
 			{
-				// We don't want Mod.Find<ModGore> to run on servers as it will crash because gores are not loaded on servers
 				return;
 			}
 
@@ -620,22 +508,91 @@ namespace XDContentMod.Content.NPCs
 		}
 	}
 
-	public class ExampleTravelingMerchantProfile : ITownNPCProfile
+	public class StarMerchantShop : AbstractNPCShop
 	{
-		public int RollVariation() => 0;
-		public string GetNameForVariant(NPC npc) => npc.getNewNPCName();
-
-		public Asset<Texture2D> GetTextureNPCShouldUse(NPC npc) 
+		public new record Entry(Item Item, List<Condition> Conditions) : AbstractNPCShop.Entry
 		{
-			if (npc.IsABestiaryIconDummy && !npc.ForcePartyHatOn)
-				return ModContent.Request<Texture2D>("XDContentMod/Content/NPCs/StarMerchantNPC");
+			IEnumerable<Condition> AbstractNPCShop.Entry.Conditions => Conditions;
 
-			if (npc.altTexture == 1)
-				return ModContent.Request<Texture2D>("XDContentMod/Content/NPCs/StarMerchantNPC_Alt");
+			public bool Disabled { get; private set; }
 
-			return ModContent.Request<Texture2D>("XDContentMod/Content/NPCs/StarMerchantNPC");
+			public Entry Disable() 
+			{
+				Disabled = true;
+				return this;
+			}
+
+			public bool ConditionsMet() => Conditions.All(c => c.IsMet());
 		}
 
-		public int GetHeadTextureIndex(NPC npc) => ModContent.GetModHeadSlot("XDContentMod/Content/NPCs/StarMerchantNPC_Head");
+		public record Pool(string Name, int Slots, List<Entry> Entries)
+		{
+			public Pool Add(Item item, params Condition[] conditions) 
+			{
+				Entries.Add(new Entry(item, conditions.ToList()));
+				return this;
+			}
+
+			public Pool Add<T>(params Condition[] conditions) where T : ModItem => Add(ModContent.ItemType<T>(), conditions);
+			public Pool Add(int item, params Condition[] conditions) => Add(ContentSamples.ItemsByType[item], conditions);
+
+			public IEnumerable<Item> PickItems() 
+			{
+				var list = Entries.Where(e => !e.Disabled && e.ConditionsMet()).ToList();
+				for (int i = 0; i < Slots; i++) {
+					if (list.Count == 0)
+						break;
+
+					int k = Main.rand.Next(list.Count);
+					yield return list[k].Item;
+
+					list.RemoveAt(k);
+				}
+			}
+		}
+
+		public List<Pool> Pools { get; } = new();
+
+		public StarMerchantShop(int npcType) : base(npcType) { }
+
+		public override IEnumerable<Entry> ActiveEntries => Pools.SelectMany(p => p.Entries).Where(e => !e.Disabled);
+
+		public Pool AddPool(string name, int slots) {
+			var pool = new Pool(name, slots, new List<Entry>());
+			Pools.Add(pool);
+			return pool;
+		}
+
+		public void Add(Item item, params Condition[] conditions) => AddPool(item.ModItem?.FullName ?? $"Terraria/{item.type}", slots: 1).Add(item, conditions);
+		public void Add<T>(params Condition[] conditions) where T : ModItem => Add(ModContent.ItemType<T>(), conditions);
+		public void Add(int item, params Condition[] conditions) => Add(ContentSamples.ItemsByType[item], conditions);
+
+		public List<Item> GenerateNewInventoryList() {
+			var items = new List<Item>();
+			foreach (var pool in Pools) {
+				items.AddRange(pool.PickItems());
+			}
+			return items;
+		}
+
+		public override void FillShop(ICollection<Item> items, NPC npc) {
+			foreach (var item in ((StarMerchantNPC)npc.ModNPC).shopItems) {
+				items.Add(item.Clone());
+			}
+		}
+
+		public override void FillShop(Item[] items, NPC npc, out bool overflow) {
+			overflow = false;
+			int i = 0;
+			foreach (var item in ((StarMerchantNPC)npc.ModNPC).shopItems) {
+
+				if (i == items.Length - 1) {
+					overflow = true;
+					return;
+				}
+
+				items[i++] = item.Clone();
+			}
+		}
 	}
 }
