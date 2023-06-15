@@ -55,13 +55,12 @@ The Star Merchant has a 12,5% chance of spawning each day, appearing at a random
 [/list]
 
 [h1]TV[/h1]
-[b]TV[b] is a vintage-looking furniture item found in the files of the Old chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
+[b]TV[/b] is a vintage-looking furniture item found in the files of the Old chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
 [list]
-[*][b]Any wood[b] (x12)
-[*][b]Glass[b] (x10)
-[*][b]Wire[b] (x10)
+[*][b]Any wood[/b] (x12)
+[*][b]Glass[/b] (x10)
+[*][b]Wire[/b] (x10)
 [/list]
-
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
@@ -73,9 +72,9 @@ Credits:
 [*][url=https://steamcommunity.com/id/unclebadass]Uncle Badass[/url] for providing some important missing sprites of Star Merchant NPC
 [*][url=https://steamcommunity.com/id/DSVaniaRomhacker]Oersted[/url] for bringing an awesome idea of the new accessory
 [/list]
-
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 🖥 [url=https://github.com/KondiU/Heartbeataria]Mod source on GitHub[/url]
 
 🧧 This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, [url=https://ko-fi.com/kondiu]you can buy me a small coffee here. I would gladly appreciate it![/url]
+[quote=tModLoader]Developed By KondiU[/quote]
