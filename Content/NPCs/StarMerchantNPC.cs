@@ -474,7 +474,8 @@ namespace XDContentMod.Content.NPCs
 			Main.GetItemDrawFrame(ModContent.ItemType<TapTapBroadsword>(), out item, out itemFrame);
 			itemSize = 40;
 			if (NPC.ai[1] > NPCID.Sets.AttackTime[NPC.type] * 0.66f) {
-				offset.Y = 12f;
+				offset.X = 8f;				
+				offset.Y = 7f;
 			}
 		}
 

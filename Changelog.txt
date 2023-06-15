@@ -1,13 +1,14 @@
 v1.2.0
 -Ported mod to 1.4.4
--Cleaned up the code
--Made paintings in Star Merchant Shop more randomised
--Fixed broken Star Merchant dialogue lines
 -Added old Star Merchant sprite as a Shimmer variant
 -Added Otherworld Core
 -Added 6 new materials, used to craft Otherworld Core
+-Made paintings in Star Merchant Shop more randomised
+-Started the Chinese localization
+-Cleaned up the code
+-Updated description
 -Changed the progression of getting Mythical Vanity Sets. Now you have to beat Skeletron in order to unlock Deep Cold Set, and beat Wall Of Flesh in order to unlock Imperial Guard set.
+-Fixed broken Star Merchant dialogue lines
 -Removed Tang Suit, Mythical Dog & Tang Yuan Vanity Sets. They are now part of Consolaria mod as I decided they better fit there as special rewards for Chinese New Year event instead of being Mythical Vanity sets.
 -Reduced iFlytek Disc damage from 12 to 10
 -Reduced Star Merchant spawning chance from 1/5 to 1/8
--Updated description

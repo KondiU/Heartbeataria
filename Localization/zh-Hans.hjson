@@ -1,0 +1,692 @@
+Mods: {
+	XDContentMod: {
+		Buffs: {
+			ChickenBuff: {
+				DisplayName: 小鸡仔
+				Description: 小鸡仔：白白嫩嫩，适合做炸鸡的鸡。
+			}
+
+			DiDiBikeBuff: {
+				DisplayName: DiDi Bike
+				Description: A great companion for traveling through the streets
+			}
+
+			DiDiCarBuff: {
+				DisplayName: DiDi Car
+				Description: A great companion for traveling through the streets
+			}
+
+			FlyingBasketballBuff: {
+				DisplayName: 飞翔的篮球
+				Description: 如果篮球不会飞，那将没有任何意义。
+			}
+
+			GreenFrogBuff: {
+				DisplayName: 咕呱
+				Description: 绿油油的小咕呱，不会旅行，只会跟着你
+			}
+
+			KFCDeliveryScooterBuff: {
+				DisplayName: 极速外卖
+				Description: 极速外卖：穿街走巷的好伴侣。
+			}
+
+			LuxuryConvertibleBuff: {
+				DisplayName: 豪华敞篷车
+				Description: 优雅永不过时，糟糕这是心动的感觉！
+			}
+
+			PururuBuff: {
+				DisplayName: 小噗噜噜
+				Description: 嗒啦啦还记得噗噜噜说的第一句话——BU BU！
+			}
+
+			RedEyedToadBuff: {
+				DisplayName: Red Eyed Toad
+				Description: Little green toad that can't get lost in the wild
+			}
+
+			TapTapMinivanBuff: {
+				DisplayName: 嗒噗小货车
+				Description: 么得感情的机器人噗噜噜使用的搬运小货车
+			}
+
+			WitchToadBuff: {
+				DisplayName: Witch Toad
+				Description: Little green toad that can't get lost in the wild
+			}
+
+			XiaoliuBuff: {
+				DisplayName: 小六
+				Description: 快星球记录团成员，喜爱音乐的乐器达人，看体型就知道是小吃货一枚
+			}
+
+			XiaokuaiBuff: {
+				DisplayName: 小快
+				Description: 快星球王牌科学家+智商担当，当你遇到麻烦时，他是你最好的小助手
+			}
+		}
+
+		Items: {
+			ConvertibleKeys: {
+				DisplayName: 敞篷车钥匙
+				Tooltip: 敞篷车钥匙 敞篷车钥匙：召唤 橙色豪华敞篷车。
+			}
+
+			DiDiBikeKeys: {
+				DisplayName: DiDi Bike Keys
+				Tooltip: Summons a rideable DiDi Bike mount
+			}
+
+			DiDiCarKeys: {
+				DisplayName: DiDi Car Keys
+				Tooltip: Summons a rideable DiDi Car mount
+			}
+
+			KFCDeliveryScooterKeys: {
+				DisplayName: 外卖车钥匙
+				Tooltip: 外卖车钥匙：召唤K记外卖车
+			}
+
+			TapTapMinivanKeys: {
+				DisplayName: 小货车钥匙
+				Tooltip: 搬运车钥匙：召唤么得感情的小货车
+			}
+
+			Basketball: {
+				DisplayName: 篮球
+				Tooltip: JRs说有篮球世界才完整，当然要是这个篮球会飞就更好了。
+			}
+
+			FriedChickenNugget: {
+				DisplayName: 炸鸡块
+				Tooltip: 炸鸡块 吮指原味鸡：鸡块可以召唤小鸡仔哦。
+			}
+
+			Leaf: {
+				DisplayName: 一片树叶
+				Tooltip: 掀开树叶，下面竟然是？
+			}
+
+			PururuCharger: {
+				DisplayName: 噗噜噜充电宝
+				Tooltip: 召唤一个噗噜噜，为手机充电
+			}
+
+			ToadQuack2R: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			ToadQuack2W: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			Xiaoliu: {
+				DisplayName: 小六遥控器
+				Tooltip: 可以召唤小六还是小快？有点分不清了！
+			}
+
+			Xiaokuai: {
+				DisplayName: 小快遥控器
+				Tooltip: 可以召唤小六还是小快？你猜猜看！
+			}
+
+			AcFunOilPainting: {
+				DisplayName: AC娘油画像
+				Tooltip: "（限定）AcFun站娘油画像"
+			}
+
+			BirthdayCake: {
+				DisplayName: 生日蛋糕相片
+				Tooltip: "TapTap六周年生日会的蛋糕似乎是草莓味"
+			}
+
+			ColorfulBalloonsStockPhoto: {
+				DisplayName: 彩色气球相片
+				Tooltip: "翻开TapTap六周年纪念册的第一页，就是彩色气球！"
+			}
+
+			GetThePartyStarted: {
+				DisplayName: 派对开始相片
+				Tooltip: "TapTap六周年！pong！派对开始！"
+			}
+
+			HeartbeatOilPainting: {
+				DisplayName: 心动油画
+				Tooltip: "如果凝视这张画三秒钟，你会发现心动的感觉。"
+			}
+
+			JinyiCinemasPopcornPoster: {
+				DisplayName: 金逸Popcorn电影海报
+				Tooltip: "可乐爆米花，美味绝配，影院大片的好搭档！"
+			}
+
+			KFCBar: {
+				DisplayName: KFC Bar
+				Tooltip: ""
+			}
+
+			KFCBurgerAd: {
+				DisplayName: 汉堡广告
+				Tooltip: 炸鸡汉堡好吃！
+			}
+
+			KFCChair: {
+				DisplayName: KFC Chair
+				Tooltip: ""
+			}
+
+			KFCChickenDrumstickAd: {
+				DisplayName: k记鸡腿
+				Tooltip: 生活好滋味！
+			}
+
+			KFCFamilyBucketAd: {
+				DisplayName: 全家桶广告
+				Tooltip: 也许还够一家人吃的，炸鸡桶！
+			}
+
+			KFCWorkBench: {
+				DisplayName: KFC Work Bench
+				Tooltip: ""
+			}
+
+			LargeDouYuOilPainting: {
+				DisplayName: 斗鱼娘的油画
+				Tooltip: "（限定）斗鱼联动油画像"
+			}
+
+			LargeHeartbeatTownscapeOilPainting: {
+				DisplayName: 心动镇风景画
+				Tooltip: "心动镇中心的建筑"
+			}
+
+			LargeHuyaOilPainting: {
+				DisplayName: 虎牙的油画
+				Tooltip: "（限定）虎牙联动油画像"
+			}
+
+			LightPotato: {
+				DisplayName: 薯光
+				Tooltip: "赞美阳光，让薯队长种的红薯大丰收"
+			}
+
+			MediumDouYuOilPainting: {
+				DisplayName: 斗鱼娘的中幅油画
+				Tooltip: "（限定）斗鱼联动油画像"
+			}
+
+			MediumHuyaOilPainting: {
+				DisplayName: 虎牙的中幅油画
+				Tooltip: "（限定）虎牙联动油画像"
+			}
+
+			Potataria: {
+				DisplayName: 泰拉瑞薯
+				Tooltip: "每次冒险，薯队长会从小红书召唤美食让你开心"
+			}
+
+			PururuPortrait: {
+				DisplayName: 噗噜噜小像
+				Tooltip: "BU BU DO DI DU DONG DA！"
+			}
+
+			RockPotato: {
+				DisplayName: 摇滚薯
+				Tooltip: "薯队长在组建小红书乐团时，欣赏音乐的照片"
+			}
+
+			SeiyuuchanSupportPoster: {
+				DisplayName: 声优酱应援海报
+				Tooltip: "LOOK直播看板娘\百变/\声优酱/\耶耶耶/"
+			}
+
+			SmallDouYuOilPainting: {
+				DisplayName: 斗鱼娘的小油画
+				Tooltip: "（限定）斗鱼联动油画像"
+			}
+
+			SmallHeartbeatTownscapeOilPainting: {
+				DisplayName: 心动镇小油画
+				Tooltip: "心动镇背靠雪山，却四季如春"
+			}
+
+			SmallHuyaOilPainting: {
+				DisplayName: 虎牙的小油画
+				Tooltip: "（限定）虎牙联动油画像"
+			}
+
+			TapTapGroupPortrait: {
+				DisplayName: 嗒噗合影
+				Tooltip: "噗噜噜的心愿，就是一直看见嗒啦啦的笑容"
+			}
+
+			TararaPortrait: {
+				DisplayName: 嗒啦啦写真
+				Tooltip: "嗒啦啦写真 没想到，Tap娘竟然是个名叫嗒啦啦的美少女"
+			}
+
+			TV: {
+				DisplayName: 电视机
+				Tooltip: ""
+			}
+
+			BCYCatEars: {
+				DisplayName: 次元变身头饰
+				Tooltip: "据说是知名写手才思泉涌的秘诀"
+			}
+
+			BCYCosplayDress: {
+				DisplayName: 半次元COS服
+				Tooltip: "据说是神秘的cos大佬穿过的装备"
+			}
+
+			BCYCosplayShoes: {
+				DisplayName: 半自动次元靴
+				Tooltip: "据说能驱使画笔自己画出画来"
+			}
+
+			ChengXinYouXuanHat: {
+				DisplayName: ChengXin YouXuan Hat
+				Tooltip: ""
+			}
+
+			ChengXinYouXuanPants: {
+				DisplayName: ChengXin YouXuan Pants
+				Tooltip: ""
+			}
+
+			ChengXinYouXuanShirt: {
+				DisplayName: ChengXin YouXuan Shirt
+				Tooltip: ""
+			}
+
+			ColonelsMask: {
+				DisplayName: 上校装饰
+				Tooltip: "带上眼镜和胡子，看上去会智慧很多。"
+			}
+
+			ColonelsTuxedoPants: {
+				DisplayName: 上校西裤
+				Tooltip: 帅气的白色西裤，上面好像还有油渍。
+			}
+
+			ColonelsTuxedoShirt: {
+				DisplayName: 上校西服
+				Tooltip: 帅气的白色西服，上面好像还有炸鸡味。
+			}
+
+			CuteBrownWig: {
+				DisplayName: 咖色长发
+				Tooltip: "二次元美少女都喜欢的发型，但刘海为什么可以保持这样一直是个谜。"
+			}
+
+			DeepColdBreastplate: {
+				DisplayName: Deep Cold Breastplate
+				Tooltip: ""
+			}
+
+			DeepColdHelmet: {
+				DisplayName: Deep Cold Helmet
+				Tooltip: ""
+			}
+
+			DeepColdLeggings: {
+				DisplayName: Deep Cold Leggings
+				Tooltip: ""
+			}
+
+			DogMask: {
+				DisplayName: 大狗头
+				Tooltip: "戴上你就是狗头本头了"
+			}
+
+			DogPants: {
+				DisplayName: 狗腿子
+				Tooltip: "穿上的人都可以拥有狗腿子"
+			}
+
+			DogShirt: {
+				DisplayName: 狗膀子
+				Tooltip: "肌肉金轮黑狗头版必备"
+			}
+
+			ExpeditionerHat: {
+				DisplayName: 启智之帽
+				Tooltip: "联名头条游戏的帽子，携带该帽子，即使博学到头秃也不会被发现"
+			}
+
+			ExpeditionerPants: {
+				DisplayName: 疾步之靴
+				Tooltip: "联名头条游戏的鞋子，健步如飞上下班绝不迟到"
+			}
+
+			ExpeditionerShirt: {
+				DisplayName: 远征之服
+				Tooltip: "联名头条游戏的衣服，轻便而结实，打怪再也不用担心"
+			}
+
+			HeartbeatOrangeDress: {
+				DisplayName: 心动橙连衣裙
+				Tooltip: "闭嘴，别说我像服务员"
+			}
+
+			HeartbeatOrangePonytail: {
+				DisplayName: 心动橙马尾
+				Tooltip: "永不过时！"
+			}
+
+			HeartbeatOrangeShoes: {
+				DisplayName: 心动橙靴
+				Tooltip: "时尚时尚最时尚"
+			}
+
+			HeartbeatOrangeTuxedoPants: {
+				DisplayName: 心动橙西裤
+				Tooltip: "虽然有些褶皱，但无伤大雅"
+			}
+
+			HeartbeatOrangeTuxedoShirt: {
+				DisplayName: 心动橙西装
+				Tooltip: "心动镇最流行的西装款式"
+			}
+
+			HeartbeatOrangeWig: {
+				DisplayName: 活力橙假发
+				Tooltip: "心动镇男性居民最爱的假发款式，用途据说是为了遮住秃头"
+			}
+
+			ImperialGuardBreastplate: {
+				DisplayName: Imperial Guard Breastplate
+				Tooltip: ""
+			}
+
+			ImperialGuardHelmet: {
+				DisplayName: Imperial Guard Helmet
+				Tooltip: ""
+			}
+
+			ImperialGuardLeggings: {
+				DisplayName: Imperial Guard Leggings
+				Tooltip: ""
+			}
+
+			ImperialMasterBreastplate: {
+				DisplayName: Imperial Master Breastplate
+				Tooltip: ""
+			}
+
+			ImperialMasterHelmet: {
+				DisplayName: Imperial Master Helmet
+				Tooltip: ""
+			}
+
+			ImperialMasterLeggings: {
+				DisplayName: Imperial Master Leggings
+				Tooltip: ""
+			}
+
+			iQIYIMechaHelmet: {
+				DisplayName: 随刻机甲头盔
+				Tooltip: "保证你的发型永远不乱！"
+			}
+
+			iQIYIMechaPants: {
+				DisplayName: 随刻机甲战靴
+				Tooltip: "穿上它保证你健步如飞"
+			}
+
+			iQIYIMechaTorso: {
+				DisplayName: 随刻机甲战衣
+				Tooltip: "穿上他，成为地图里最亮的仔！"
+			}
+
+			MountainGuardBreastplate: {
+				DisplayName: Mountain Guard Breastplate
+				Tooltip: ""
+			}
+
+			MountainGuardHelmet: {
+				DisplayName: Mountain Guard Helmet
+				Tooltip: ""
+			}
+
+			MountainGuardLeggings: {
+				DisplayName: Mountain Guard Leggings
+				Tooltip: ""
+			}
+
+			SeifukuShirt: {
+				DisplayName: 百变学生制服
+				Tooltip: "经典学生制服，是二次元主播同款！"
+			}
+
+			SeifukuShoes: {
+				DisplayName: 百变制服鞋
+				Tooltip: "虽然不用走路，但鞋子总要有吧。"
+			}
+
+			TararaDress: {
+				DisplayName: 嗒啦啦连衣裙
+				Tooltip: "嗒啦啦最爱的连衣裙，男女皆宜"
+			}
+
+			TararaPonytail: {
+				DisplayName: 嗒啦啦马尾辫
+				Tooltip: "元气少女必备的单马尾，上面的三角发卡是本体"
+			}
+
+			TararaShoes: {
+				DisplayName: 嗒啦啦鞋
+				Tooltip: "虽然是鞋子，但不只是鞋子"
+			}
+
+			TikTokNoteHat: {
+				DisplayName: 音符帽
+				Tooltip: "会发出神秘音乐的帽子，让你心情大好"
+			}
+
+			TikTokPants: {
+				DisplayName: 黑色暗影裤
+				Tooltip: "制材轻盈不沾水，穿起来很舒适"
+			}
+
+			TikTokTorso: {
+				DisplayName: 黑色暗影甲
+				Tooltip: "散发黑色金属光泽的铠甲，藏有神奇力量"
+			}
+
+			BaiduTiebaHuajiDisc: {
+				DisplayName: 百度贴吧滑稽飞盘
+				Tooltip: 来自百度贴吧文化的传承，似乎是被选召的玩家才能获得
+			}
+
+			HeartbeatBroadsword: {
+				DisplayName: 心动短剑
+				Tooltip: "当时那把剑离我只有0.01公分，但四秒钟后，光之女王彻底爱上了我。"
+			}
+
+			HupuDisc: {
+				DisplayName: 虎扑飞盘
+				Tooltip: JRs的专属武器，盘可以丢，但切忌不要接。
+			}
+
+			iFlytekDisc: {
+				DisplayName: 讯飞飞盘
+				Tooltip: 讯飞输入法联名出品，讯飞AI能力强大加成，一件神奇的飞盘武器。
+			}
+
+			KFCChickenDrumstick: {
+				DisplayName: K记鸡腿
+				Tooltip: 享誉全球的，招牌炸鸡。
+			}
+
+			LOOKDisc: {
+				DisplayName: LOOK飞盘
+				Tooltip: 看！是飞盘！不——是LOOK直播的LOOK1号！
+			}
+
+			PururuDisc: {
+				DisplayName: 噗噜噜飞盘
+				Tooltip: DONG DI BU？
+			}
+
+			TapTapBroadsword: {
+				DisplayName: 噗噜短剑
+				Tooltip: 为嗒啦啦而战——噗噜噜
+			}
+
+			StarMerchantHat: {
+				DisplayName: Star Merchant Hat
+				Tooltip: ""
+			}
+
+			FilthySap: {
+				DisplayName: Filthy Sap
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			DreadFangs: {
+				DisplayName: Dread Fangs
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			GreenScales: {
+				DisplayName: Green Scales
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			MagmaShell: {
+				DisplayName: Magma Shell
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			GelOfCthulhu: {
+				DisplayName: Gel of Cthulhu
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			OtherworldCore: {
+				DisplayName: Otherworld Core
+				Tooltip: 20% increased damage dealt to Old One's Army enemies
+			}
+
+			FusionModule: {
+				DisplayName: Fusion Module
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			Stargazer: {
+				Tooltip: ""
+				DisplayName: Stargazer
+			}
+		}
+
+		NPCs: {
+			StarMerchantNPC: {
+				DisplayName: Star Merchant
+
+				TownNPCMood: {
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LoveBiome: I love {BiomeName}.
+					LikeBiome: I like {BiomeName}.
+					DislikeBiome: I dislike {BiomeName}.
+					HateBiome: I hate {BiomeName}.
+					LoveNPC: I love {NPCName}.
+					LikeNPC: I like {NPCName}.
+					DislikeNPC: I dislike {NPCName}.
+					HateNPC: I hate {NPCName}.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+		}
+
+		Projectiles: {
+			BaiduTiebaHuajiDiscProjectile.DisplayName: 百度贴吧滑稽飞盘
+			HupuDiscProjectile.DisplayName: 虎扑飞盘
+			iFlytekDiscProjectile.DisplayName: 讯飞飞盘
+			LOOKDiscProjectile.DisplayName: LOOK飞盘
+			ChickenProjectile.DisplayName: 小鸡仔
+			FlyingBasketballProjectile.DisplayName: 飞翔的篮球
+			GreenFrogProjectile.DisplayName: 咕呱
+			PururuProjectile.DisplayName: 小噗噜噜
+			RedEyedToadProjectile.DisplayName: Red Eyed Toad Projectile
+			WitchToadProjectile.DisplayName: Witch Toad Projectile
+			XiaokuaiProjectile.DisplayName: 小快
+			XiaoliuProjectile.DisplayName: 小六
+			PururuDiscProjectile.DisplayName: 噗噜噜飞盘
+		}
+
+		Tiles: {
+			KFCWorkBenchTile.MapEntry: Work Bench
+			TVTile.MapEntry: 电视机
+			AcFunOilPaintingTile.MapEntry: 绘画
+			BirthdayCakeTile.MapEntry: 绘画
+			ColorfulBalloonsStockPhotoTile.MapEntry: 绘画
+			GetThePartyStartedTile.MapEntry: 绘画
+			HeartbeatOilPaintingTile.MapEntry: 绘画
+			JinyiCinemasPopcornPosterTile.MapEntry: 绘画
+			KFCBurgerAdTile.MapEntry: 图片
+			KFCChickenDrumstickAdTile.MapEntry: 绘画
+			KFCFamilyBucketAdTile.MapEntry: 绘画
+			LargeDouYuOilPaintingTile.MapEntry: 绘画
+			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: 绘画
+			LargeHuyaOilPaintingTile.MapEntry: 绘画
+			LightPotatoTile.MapEntry: 绘画
+			MediumDouYuOilPaintingTile.MapEntry: 绘画
+			MediumHuyaOilPaintingTile.MapEntry: 绘画
+			PotatariaTile.MapEntry: 绘画
+			PururuPortraitTile.MapEntry: 绘画
+			RockPotatoTile.MapEntry: 绘画
+			SeiyuuchanSupportPosterTile.MapEntry: 绘画
+			SmallDouYuOilPaintingTile.MapEntry: 图片
+			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: 图片
+			SmallHuyaOilPaintingTile.MapEntry: 图片
+			TapTapGroupPortraitTile.MapEntry: 绘画
+			TararaPortraitTile.MapEntry: 绘画
+		}
+
+		Dialogue: {
+			StarMerchant: {
+				StarMerchantDialogue1: You have no idea how much Mud Blocks sell for abroad.
+				StarMerchantDialogue2: The best trade I've ever done was when I exchanged coal for a diamond sword!
+				StarMerchantDialogue3: Ni hao! Wanna trade?
+				StarMerchantDialogue4: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
+				StarMerchantDialogue5: Microtransactions? Never heard of that!
+				StarMerchantDialogue6: Are you a huge frog lover? Try your luck in my Leaf Lottery!
+				StarMerchantDialogue7: Trust me, kryptonite won't make you stronger - I tested it.
+				StarMerchantDialogue8: Hello there! Wanna buy some stuff?
+				StarMerchantDialogue9: Huh, this place changed a lot since my last visit - just like my stock! Check it out!
+				StarMerchantDialogue10: I love this place, although I hope I'll get back to my home planet one day... Anyway, would you like to buy something?
+				StarMerchantDialogue11: It's always a good time for hongbao... And some trading, of course!
+				StarMerchantNoShimmerDialogue1: Hey, have you seen my blue armor? I think I lost it somewhere...
+				StarMerchantShimmerDialogue1: My comfiest suit! So happy I got it back!
+				StarMerchantDay1: Ahh, the sky looks so beautiful today!
+				StarMerchantNight1: I bet these guys burn up in no time!
+				StarMerchantNight2: If every night here looks like this I gotta get myself a rail gun!
+				StarMerchantNight3: Should we look at the stars tonight?
+				StarMerchantRain1: Huh, at least my robe is waterproof!
+				StarMerchantRain2: This rain is a drizzle compared to the ones on Neptune!
+				StarMerchantRain3: Rainworld, this the matrix!
+				StarMerchantWind1: I love cold winds 'cause it tells me where to go!
+				StarMerchantHat1: That hat seems weirdly familiar...
+				StarMerchantBloodMoon1: What's the panic? At least the skeletons here don't ride spiders... Do they?
+				StarMerchantMechanicDialogue1: I wonder if {0} have some Redstone to sell.
+				StarMerchantGuideDialogue1: I gotta visit {0}, he seems like a very knowledgable guy - maybe he would help me to get back home?
+				StarMerchantTravellingMerchantDialogue1: Huh? {0} is here too? Finally! A worthy opponent!
+				StarMerchantZoologistDialogue1: Never ask a woman her age, a man his salary, and {0} how some of my KFC items are made...
+				StarMerchantMerchantDialogue1: Turns out some folks here really enjoy my style - just look at the {0}'s wardrobe!
+				StarMerchantClothierDialogue1: Looks like {0} knows a lot about clothes, but I bet he never saw pieces I got for sale!
+				StarMerchantTruffleDialogue1: Ahh, {0}! They understand me like no one else... Looks like we have a lot of things in common!
+			}
+		}
+	}
+}
