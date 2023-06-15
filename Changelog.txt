@@ -4,7 +4,6 @@ v1.2.0
 -Added Otherworld Core
 -Added 6 new materials, used to craft Otherworld Core
 -Made paintings in Star Merchant Shop more randomised
--Started the Chinese localization
 -Cleaned up the code
 -Updated description
 -Changed the progression of getting Mythical Vanity Sets. Now you have to beat Skeletron in order to unlock Deep Cold Set, and beat Wall Of Flesh in order to unlock Imperial Guard set.
