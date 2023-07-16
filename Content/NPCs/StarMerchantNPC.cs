@@ -479,15 +479,15 @@ namespace XDContentMod.Content.NPCs
 			}
 		}
 
-		public override void HitEffect(NPC.HitInfo hit)
+/*		public override void HitEffect(NPC.HitInfo hit)
    		{
 			if (Main.netMode == NetmodeID.Server) 
 			{
 				return;
 			}
 
-        	if (NPC.life <= 0) 
-			{
+       		if (NPC.life <= 0) 
+ 			{
 				int GoreHead = Mod.Find<ModGore>("StarMerchantNPC_GoreHead").Type;
 				int GoreHand = Mod.Find<ModGore>("StarMerchantNPC_GoreHand").Type;
 				int GoreLeg = Mod.Find<ModGore>("StarMerchantNPC_GoreLeg").Type;
@@ -503,10 +503,47 @@ namespace XDContentMod.Content.NPCs
 					Gore.NewGore(entitySource, NPC.position, new Vector2(Main.rand.Next(-3, 4), Main.rand.Next(-3, 4)), GoreLeg);
 				}
 
+
 				SoundEngine.PlaySound(SoundID.NPCDeath1, NPC.Center);
-    		}
+   			}
 		}
-	}
+*/ 	
+		public override void HitEffect(NPC.HitInfo hit) 
+		{
+    	    OnHitDusts();
+    	    SpawnGoresOnDeath();
+   		}
+
+    	private void OnHitDusts() {
+    	    int dustAmount = NPC.life > 0 ? 1 : 5;
+    	    for (int k = 0; k < dustAmount; k++) 
+			{
+    	        Dust.NewDust(NPC.position, NPC.width, NPC.height, DustID.Blood);
+    	    }
+    	}
+
+    	private void SpawnGoresOnDeath() {
+        	if (Main.netMode != NetmodeID.Server && NPC.life <= 0) 
+			{
+        	    string variant = "";
+            if (NPC.IsShimmerVariant) 
+			{
+                variant += "_Shimmer";
+            }
+            int headGore = Mod.Find<ModGore>($"StarMerchantNPC_GoreHead{variant}").Type;
+            int armGore = Mod.Find<ModGore>($"StarMerchantNPC_GoreHand{variant}").Type;
+            int legGore = Mod.Find<ModGore>($"StarMerchantNPC_GoreLeg{variant}").Type;
+            Gore.NewGore(NPC.GetSource_Death(), NPC.position, NPC.velocity, headGore, 1f);
+            Gore.NewGore(NPC.GetSource_Death(), NPC.position + new Vector2(0, 20), NPC.velocity, armGore);
+            Gore.NewGore(NPC.GetSource_Death(), NPC.position + new Vector2(0, 20), NPC.velocity, armGore);
+            Gore.NewGore(NPC.GetSource_Death(), NPC.position + new Vector2(0, 34), NPC.velocity, legGore);
+            Gore.NewGore(NPC.GetSource_Death(), NPC.position + new Vector2(0, 34), NPC.velocity, legGore);
+        }
+    }
+
+
+
+}
 
 	public class StarMerchantShop : AbstractNPCShop
 	{
