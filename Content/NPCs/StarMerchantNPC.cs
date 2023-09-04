@@ -262,6 +262,7 @@ namespace XDContentMod.Content.NPCs
 
 		public override void SetDefaults() 
 		{
+			NPC.active = false;
 			NPC.townNPC = true;
 			NPC.friendly = true;
 			NPC.width = 18;

@@ -1,0 +1,3 @@
+v{ModVersion}
+-Fixed Star Merchant not dissappearing after world restart
+-Switched to new changelog model
