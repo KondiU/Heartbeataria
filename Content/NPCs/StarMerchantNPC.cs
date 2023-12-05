@@ -5,6 +5,7 @@ using XDContentMod.Content.Items.Vanity;
 using XDContentMod.Content.Items.Weapons;
 using XDContentMod.Content.Items.Weapons.Melee;
 using XDContentMod.Content.Items.Materials;
+using XDContentMod.Content.EmoteBubbles;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -30,10 +31,8 @@ namespace XDContentMod.Content.NPCs
 	{
 		public const double despawnTime = 48600.0;
 		public static double spawnTime = 13500;
+		public readonly static List<Item> shopItems = new();
 		public static StarMerchantShop Shop;
-
-		public List<Item> shopItems;
-
 		private static int ShimmerHeadIndex;
 		private static Profiles.StackedNPCProfile NPCProfile;
 
@@ -109,7 +108,8 @@ namespace XDContentMod.Content.NPCs
 				.Add<Potataria>()
 				.Add<AcFunOilPainting>()
 				.Add<JinyiCinemasPopcornPoster>()
-				.Add<SeiyuuchanSupportPoster>();
+				.Add<SeiyuuchanSupportPoster>()
+				.Add<DaiDaiSelfie>();
 
 			Shop.Add<KFCChair>();
 			Shop.Add<KFCWorkBench>();
@@ -191,7 +191,7 @@ namespace XDContentMod.Content.NPCs
 
 			if (!travelerIsThere && CanSpawnNow()) 
 			{
-				int newTraveler = NPC.NewNPC(Terraria.Entity.GetSource_TownSpawn(), Main.spawnTileX * 16, Main.spawnTileY * 16, ModContent.NPCType<StarMerchantNPC>(), 1); // Spawning at the world spawn
+				int newTraveler = NPC.NewNPC(Terraria.Entity.GetSource_TownSpawn(), Main.spawnTileX * 16, Main.spawnTileY * 16, ModContent.NPCType<StarMerchantNPC>(), 1);
 				NPC traveler = Main.npc[newTraveler];
 				traveler.homeless = true;
 				traveler.direction = Main.spawnTileX >= WorldGen.bestX ? -1 : 1;
@@ -219,7 +219,10 @@ namespace XDContentMod.Content.NPCs
 			Rectangle npcScreenRect = new Rectangle((int)center.X - w / 2, (int)center.Y - h / 2, w, h);
 			foreach (Player player in Main.player) 
 			{
-				if (player.active && player.getRect().Intersects(npcScreenRect)) return true;
+				if (player.active && player.getRect().Intersects(npcScreenRect)) 
+				{
+					return true;
+				}
 			}
 			return false;
 		}
@@ -246,7 +249,7 @@ namespace XDContentMod.Content.NPCs
 			NPCID.Sets.ShimmerTownTransform[Type] = true;
 			NPCID.Sets.NoTownNPCHappiness[Type] = true;
 
-			NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers(0) 
+			NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers() 
 			{
 				Velocity = 1f,
 				Direction = -1
@@ -258,6 +261,8 @@ namespace XDContentMod.Content.NPCs
 				new Profiles.DefaultNPCProfile(Texture, NPCHeadLoader.GetHeadSlot(HeadTexture), Texture + "_Party"),
 				new Profiles.DefaultNPCProfile(Texture + "_Shimmer", ShimmerHeadIndex)
 			);
+
+			NPCID.Sets.FaceEmote[Type] = ModContent.EmoteBubbleType<StarMerchantEmote>();
 		}
 
 		public override void SetDefaults() 
@@ -281,7 +286,12 @@ namespace XDContentMod.Content.NPCs
 
 		public override void OnSpawn(IEntitySource source) 
 		{
-			shopItems = Shop.GenerateNewInventoryList();
+			shopItems.Clear();
+   			shopItems.AddRange(Shop.GenerateNewInventoryList());
+
+			if (Main.netMode == NetmodeID.Server) {
+				NetMessage.SendData(MessageID.WorldData);
+   			}
 		}
 
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
@@ -292,16 +302,6 @@ namespace XDContentMod.Content.NPCs
                 new Terraria.GameContent.Bestiary.FlavorTextBestiaryInfoElement("There's very little info about the Star Merchant. Some say they got here from other space and for some reason they can't get back home. We're not even sure about their gender, but it's pretty clear that they love to sell some unique items in their shop!"),
             });
         }
-
-		public override void SaveData(TagCompound tag) 
-		{
-			tag["itemIds"] = shopItems;
-		}
-
-		public override void LoadData(TagCompound tag) 
-		{
-			shopItems = tag.Get<List<Item>>("shopItems");
-		}
 
 		public override bool CanTownNPCSpawn(int numTownNPCs)
 		{
@@ -614,7 +614,7 @@ namespace XDContentMod.Content.NPCs
 		}
 
 		public override void FillShop(ICollection<Item> items, NPC npc) {
-			foreach (var item in ((StarMerchantNPC)npc.ModNPC).shopItems) {
+			foreach (var item in StarMerchantNPC.shopItems) {
 				items.Add(item.Clone());
 			}
 		}
@@ -622,7 +622,7 @@ namespace XDContentMod.Content.NPCs
 		public override void FillShop(Item[] items, NPC npc, out bool overflow) {
 			overflow = false;
 			int i = 0;
-			foreach (var item in ((StarMerchantNPC)npc.ModNPC).shopItems) {
+			foreach (var item in StarMerchantNPC.shopItems) {
 
 				if (i == items.Length - 1) {
 					overflow = true;

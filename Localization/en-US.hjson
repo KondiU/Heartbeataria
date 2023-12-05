@@ -582,6 +582,56 @@ Mods: {
 				Tooltip: ""
 				DisplayName: Stargazer
 			}
+
+			DaiDaiSelfie: {
+				Tooltip: "'DaiDai'"
+				DisplayName: DaiDai Selfie
+			}
+
+			GuaPiMao: {
+				DisplayName: Gua Pi Mao
+				Tooltip: ""
+			}
+
+			MythicalDogMask: {
+				DisplayName: Mythical Dog Mask
+				Tooltip: ""
+			}
+
+			MythicalDogPants: {
+				DisplayName: Mythical Dog Pants
+				Tooltip: ""
+			}
+
+			MythicalDogShirt: {
+				DisplayName: Mythical Dog Shirt
+				Tooltip: ""
+			}
+
+			TangSuitPants: {
+				DisplayName: Tang Suit Pants
+				Tooltip: ""
+			}
+
+			TangSuitShirt: {
+				DisplayName: Tang Suit Shirt
+				Tooltip: ""
+			}
+
+			TangYuanHat: {
+				DisplayName: Tang Yuan Hat
+				Tooltip: ""
+			}
+
+			TangYuanPants: {
+				DisplayName: Tang Yuan Pants
+				Tooltip: ""
+			}
+
+			TangYuanShirt: {
+				DisplayName: Tang Yuan Shirt
+				Tooltip: ""
+			}
 		}
 
 		NPCs: {
@@ -652,6 +702,7 @@ Mods: {
 			SmallHuyaOilPaintingTile.MapEntry: Picture
 			TapTapGroupPortraitTile.MapEntry: Painting
 			TararaPortraitTile.MapEntry: Painting
+			DaiDaiSelfieTile.MapEntry: Dai Dai Selfie Tile
 		}
 
 		Dialogue: {
@@ -688,5 +739,7 @@ Mods: {
 				StarMerchantTruffleDialogue1: Ahh, {0}! They understand me like no one else... Looks like we have a lot of things in common!
 			}
 		}
+
+		Emotes.StarMerchantEmote.Command: starmerchant
 	}
 }

@@ -1,16 +1,16 @@
 # Heartbeataria
 
-## **Heartbeataria** is a mod that aims to bring unique content from both old & new chinese Regional versions of Terraria back to global version of the game.
+## **Heartbeataria** is a mod that aims to bring unique content from both old & new chinese regional versions of Terraria back to global version of the game.
 
 **This includes:**
 - **Star Merchant** - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 - Chinese-exclusive **Terraria x KFC** items
-- **15 new vanity sets**
+- **18 new vanity sets**
 - **8 new pets**
 - **5 new mounts**
 - **8 new early-game weapons**
 - **1 new accessory**
-- **24 new paintings**
+- **25 new paintings**
 - **4 new furniture items**
 
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as [Thorium](https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416) or [Calamity](https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072) without any problems.
@@ -33,8 +33,8 @@ They does not require their own house in order to spawn, and will instead spawn 
 
 The Star Merchant has a 12,5% chance of spawning each day, appearing at a random time between 4:30 AM and 12:00 PM. The chances of them spawning are always the same regardless if the player is sleeping. They leave the same day at 6:00 PM, but can only do so once they are off-screen. They despawn if the world is vacated any time after they spawns.
 
-## Mythical Vanity Sets 
-**Mythical Vanity Sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these four sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss.
+## Mythical vanity sets 
+**Mythical vanity sets** are new type of vanity sets inspired by implementation of **Horned God Set** from [Consolaria mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929). Each of these four sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss.
 - **Mountain Guard Set**, available after defeating Eye of Cthulhu
 - **Deep Cold Set**, available after defeating Skeletron
 - **Imperial Guard Set**, available after defeating Wall of Flesh
@@ -43,16 +43,23 @@ The Star Merchant has a 12,5% chance of spawning each day, appearing at a random
 ## Otherworld Core
 **Otherworld Core** is a new early Hardmode accessory that grants 20% increased damage to all weapons against Old One's Army enemies. It can be crafted at a Hellforge using 5 new materials:
 - **Green Scales**, has 33% chance to be dropped from Eye of Cthulhu
-- **Dread Fangs**, has 33% chance to be dropped from Eater of Worlds/**Gel of Cthulhu**, has 33% chance to be dropped from Brain of Cthulhu
+- **Dread Fangs**, has 33% chance to be dropped from Eater of Worlds (for Corruption worlds)
+- **Gel of Cthulhu**, has 33% chance to be dropped from Brain of Cthulhu (for Crimson worlds)
 - **Filthy Sap**, has 33% chance to be dropped from Skeletron
 - **Magma Shell**, has 33% chance to be dropped from Wall of Flesh
 - **Fusion Module**, purchased from Star Merchant
 
 ## TV
-**TV** is a vintage-looking furniture item found in the files of the Old chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
+**TV** is a vintage-looking furniture item found in the files of the old chinese mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
 - **Any wood** (x12)
 - **Glass** (x10)
 - **Wire** (x10)
+
+## Consolaria cross-mod Chinese New Year content
+If you have both **Heartbeataria** and [Consolaria](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929) installed, Heartbeataria will add 3 new chinese-exclusive vanity sets to the drop pool of **Red Envelope**. This option can be disabled in [Consolaria](https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929) config.
+- **Tang Suit Set**
+- **Mythical Dog Set**
+- **Tang Yuan Set**
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 

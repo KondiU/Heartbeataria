@@ -1,2 +1,5 @@
--Fixed Star Merchant not dissappearing after world restart
--Switched to new changelog model
+-Added Star Merchant Emote
+-Added Dai Dai Selfie Painting
+-Added 3 previosuly removed Vanity sets - Tang Suit Set, Mythical Dog Set and Tang Yuan Set, as a cross-mod items obtained from Red Envelope from Consolaria
+
+Unfortunately, I have no clue how to fix the problem with Star Merchant being unable to spawn in multiplayer, even after seeking help on tModLoader's Discord. If anyone has any idea what's wrong with it's code, please submit pull requests on Heartbeataria's GitHub page.

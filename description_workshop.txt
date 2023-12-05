@@ -1,15 +1,15 @@
-[b]Heartbeataria[/b] is a mod that aims to bring unique content from both old & new chinese Regional versions of Terraria back to global version of the game.
+[b]Heartbeataria[/b] is a mod that aims to bring unique content from both old & new chinese regional versions of Terraria back to global version of the game.
 
 [b]This includes:[/b]
 [list]
 [*][b]Star Merchant[/b] - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 [*]Chinese-exclusive [b]Terraria x KFC[/b] items
-[*][b]15 new vanity sets[/b]
+[*][b]18 new vanity sets[/b]
 [*][b]8 new pets[/b]
 [*][b]5 new mounts[/b]
 [*][b]8 new early-game weapons[/b]
 [*][b]1 new accessory[/b]
-[*][b]24 new paintings[/b]
+[*][b]25 new paintings[/b]
 [*][b]4 new furniture items[/b]
 [/list]
 
@@ -35,8 +35,8 @@ They does not require their own house in order to spawn, and will instead spawn 
 
 The Star Merchant has a 12,5% chance of spawning each day, appearing at a random time between 4:30 AM and 12:00 PM. The chances of them spawning are always the same regardless if the player is sleeping. They leave the same day at 6:00 PM, but can only do so once they are off-screen. They despawn if the world is vacated any time after they spawns.
 
-[h1]Mythical Vanity Sets[/h1]
-[b]Mythical Vanity Sets[/b] are new type of vanity sets inspired by implementation of [b]Horned God Set[/b] from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929]Consolaria mod[/url]. Each of these four sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss.
+[h1]Mythical vanity sets[/h1]
+[b]Mythical vanity sets[/b] are new type of vanity sets inspired by implementation of [b]Horned God Set[/b] from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929]Consolaria mod[/url]. Each of these four sets can be purchased from Travelling Merchant NPC at random times, after the player defeats a specific boss.
 [list]
 [*][b]Mountain Guard Set[/b], available after defeating Eye of Cthulhu
 [*][b]Deep Cold Set[/b], available after defeating Skeletron
@@ -48,18 +48,27 @@ The Star Merchant has a 12,5% chance of spawning each day, appearing at a random
 [b]Otherworld Core[/b] is a new early Hardmode accessory that grants 20% increased damage to all weapons against Old One's Army enemies. It can be crafted at a Hellforge using 5 new materials:
 [list]
 [*][b]Green Scales[/b], has 33% chance to be dropped from Eye of Cthulhu
-[*][b]Dread Fangs[/b], has 33% chance to be dropped from Eater of Worlds/[b]Gel of Cthulhu[b], has 33% chance to be dropped from Brain of Cthulhu
+[*][b]Dread Fangs[/b], has 33% chance to be dropped from Eater of Worlds (for Corruption worlds)
+[*][b]Gel of Cthulhu[b], has 33% chance to be dropped from Brain of Cthulhu (for Crimson worlds)
 [*][b]Filthy Sap[/b], has 33% chance to be dropped from Skeletron
 [*][b]Magma Shell[/b], has 33% chance to be dropped from Wall of Flesh
 [*][b]Fusion Module[/b], purchased from Star Merchant
 [/list]
 
 [h1]TV[/h1]
-[b]TV[/b] is a vintage-looking furniture item found in the files of the Old chinese Mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
+[b]TV[/b] is a vintage-looking furniture item found in the files of the old chinese mobile version of Terraria. It can be crafted at a sawmil using the following ingredients:
 [list]
 [*][b]Any wood[/b] (x12)
 [*][b]Glass[/b] (x10)
 [*][b]Wire[/b] (x10)
+[/list]
+
+[h1]Consolaria cross-mod Chinese New Year content[/h1]
+If you have both [b]Heartbeataria[/b] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929]Consolaria[/url] installed, Heartbeataria will add 3 new chinese-exclusive vanity sets to the drop pool of [b]Red Envelope[/b]. This option can be disabled in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929]Consolaria[/url] config.
+[list]
+[*][b]Tang Suit Set[/b]
+[*][b]Mythical Dog Set[/b]
+[*][b]Tang Yuan Set[/b]
 [/list]
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
