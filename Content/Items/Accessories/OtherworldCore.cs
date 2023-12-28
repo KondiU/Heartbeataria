@@ -7,6 +7,7 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Accessories
 {
+	[AutoloadEquip(EquipType.Neck)]
 	public class OtherworldCore : ModItem
 	{
 		public override void SetStaticDefaults()
