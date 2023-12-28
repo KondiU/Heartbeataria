@@ -3,3 +3,8 @@
 -Added 3 previosuly removed Vanity sets - Tang Suit Set, Mythical Dog Set and Tang Yuan Set, as a cross-mod items obtained from Red Envelope from Consolaria
 
 Unfortunately, I have no clue how to fix the problem with Star Merchant being unable to spawn in multiplayer, even after seeking help on tModLoader's Discord. If anyone has any idea what's wrong with it's code, please submit pull requests on Heartbeataria's GitHub page.
+
+Provided Chinese "localization" (it is not actually locallization, it is the original language) by using the origin texts from XD Terraria (most of the texts). Some texts are translated from English to Chinese, by me (Abslb), since I haven't found their sources.
+Fixed the problem that "mini van without emotions" is misinterpreted into "full of feelings" ("么得感情" is a cute variant of "莫得感情", with "莫得" actually meaning "without" or "don't have")
+Added support for ShopLookup portable shop for Star Merchant.
+(I suspect that the "Trust me, kryptonite won't make you stronger - I tested it." quote is strange, since there is Chinese web common sense that "氪金会/不会使你变强", which means "pay to/not to win". The word "氪金" means paying real money to a game via in-app purchase, and this word may look similar to Kryptonite, "氪石", but they have hardly any meaning similar. Thus I use "氪金" for this in Chinese texts, but Idk what's the sources and original texts so I haven't mess up with English texts.)

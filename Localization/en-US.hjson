@@ -90,7 +90,7 @@ Mods: {
 
 			TapTapMinivanKeys: {
 				DisplayName: TapTap Minivan Keys
-				Tooltip: Summons a rideable Minivan full of feelings!
+				Tooltip: Summons a rideable Minivan without emotions!
 			}
 
 			Basketball: {
