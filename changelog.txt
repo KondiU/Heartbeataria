@@ -1,6 +1,2 @@
--Added on-body sprite for Otherworld Core
--Added Chinese localization
--Added support for ShopLookup portable shop for Star Merchant
--Fixed a translation error in TapTap Minivan tooltip
-
-Special thanks to abslb36 for providing the chinese localization!
+-Added credits to mod's descriptions
+-Fixed mod's artwork
