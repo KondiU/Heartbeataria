@@ -23,6 +23,7 @@ Credits:
 - HenryChe for providing most of the chinese sprites
 - Uncle Badass for providing some important missing sprites of Star Merchant NPC
 - Oersted for bringing an awesome idea of the new accessory
+- abslb36 for translating mod to Chinese
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Mod source on GitHub: https://github.com/KondiU/Heartbeataria

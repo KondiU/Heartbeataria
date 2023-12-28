@@ -70,6 +70,7 @@ Credits:
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the chinese sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
 - [Oersted](https://steamcommunity.com/id/DSVaniaRomhacker/) for bringing an awesome idea of the new accessory
+- [abslb36](https://steamcommunity.com/profiles/76561199205407047) for translating mod to Chinese
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
