@@ -1,4 +1,4 @@
-[b]Heartbeataria[/b] is a mod that aims to bring unique content from both old & new chinese regional versions of Terraria back to global version of the game.
+[b]Heartbeataria[/b] is a mod that aims to bring unique content from both old and new chinese regional versions of Terraria back to global version of the game.
 
 [b]This includes:[/b]
 [list]
@@ -74,8 +74,8 @@ If you have both [b]Heartbeataria[/b] and [url=https://steamcommunity.com/shared
 
 Credits:
 [list]
-[*][url=https://steamcommunity.com/id/has2r_]Has2r[/url] for testing the mod & helping with coding
-[*][url=https://steamcommunity.com/id/Sparcdoctor]Sparcdoctor[/url] for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
+[*][url=https://steamcommunity.com/id/has2r_]Has2r[/url] for testing the mod and helping with coding
+[*][url=https://steamcommunity.com/id/Sparcdoctor]Sparcdoctor[/url] for testing the mod and bringing some awesome ideas about the implementation of Star Merchant
 [*][url=https://steamcommunity.com/id/m_pigeon]Peege•on[/url] for drawing the mod's artwork
 [*][url=https://steamcommunity.com/profiles/76561199058845384]HenryChe[/url] for providing most of the chinese sprites
 [*][url=https://steamcommunity.com/id/unclebadass]Uncle Badass[/url] for providing some important missing sprites of Star Merchant NPC
@@ -86,5 +86,4 @@ Credits:
 
 🖥 [url=https://github.com/KondiU/Heartbeataria]Mod source on GitHub[/url]
 
-🧧 This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, [url=https://ko-fi.com/kondiu]you can buy me a small coffee here. I would gladly appreciate it![/url]
-[quote=tModLoader]Developed By KondiU[/quote]
+🧧 This project is fully maintained by a single person. If you really enjoy it and would want to support the future of it, [url=https://ko-fi.com/kondiu]you can buy me a small coffee here. I would gladly appreciate it![/url]

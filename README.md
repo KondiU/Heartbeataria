@@ -1,6 +1,6 @@
 # Heartbeataria
 
-## **Heartbeataria** is a mod that aims to bring unique content from both old & new chinese regional versions of Terraria back to global version of the game.
+## **Heartbeataria** is a mod that aims to bring unique content from both old and new chinese regional versions of Terraria back to global version of the game.
 
 **This includes:**
 - **Star Merchant** - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
@@ -64,8 +64,8 @@ If you have both **Heartbeataria** and [Consolaria](https://steamcommunity.com/s
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod & helping with coding
-- [Sparcdoctor](https://steamcommunity.com/id/Sparcdoctor/) for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
+- [Has2r](https://steamcommunity.com/id/has2r_) for testing the mod and helping with coding
+- [Sparcdoctor](https://steamcommunity.com/id/Sparcdoctor/) for testing the mod and bringing some awesome ideas about the implementation of Star Merchant
 - [Peege•on](https://steamcommunity.com/id/m_pigeon) for drawing the mod's artwork
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the chinese sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
@@ -76,4 +76,4 @@ Credits:
 
 🖥 [Mod on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2958674071)
 
-🧧 This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, [you can buy me a small coffee here. I would gladly appreciate it!](https://ko-fi.com/kondiu)
+🧧 This project is fully maintained by a single person. If you really enjoy it and would want to support the future of it, [you can buy me a small coffee here. I would gladly appreciate it!](https://ko-fi.com/kondiu)

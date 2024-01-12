@@ -1,2 +1,2 @@
--Added credits to mod's descriptions
--Fixed mod's artwork
+- Updated mod's description
+- Cleaned up the code

@@ -1,4 +1,4 @@
-Heartbeataria is a mod that aims to bring unique content from both old & new chinese regional versions of Terraria back to global version of the game.
+Heartbeataria is a mod that aims to bring unique content from both old and new chinese regional versions of Terraria back to global version of the game.
 
 This includes:
 - Star Merchant - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
@@ -17,8 +17,8 @@ It is highly recommended to play this mod alongside Consolaria, since both mods 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
-- Has2r for testing the mod & helping with coding
-- Sparcdoctor for testing the mod & bringing some awesome ideas about the implementation of Star Merchant
+- Has2r for testing the mod and helping with coding
+- Sparcdoctor for testing the mod and bringing some awesome ideas about the implementation of Star Merchant
 - Peege•on for drawing the mod's artwork
 - HenryChe for providing most of the chinese sprites
 - Uncle Badass for providing some important missing sprites of Star Merchant NPC
@@ -28,4 +28,4 @@ Credits:
 
 Mod source on GitHub: https://github.com/KondiU/Heartbeataria
 
-This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, you can buy me a small coffee here. I would gladly appreciate it!: https://ko-fi.com/kondiu
+This project is fully maintained by a single person. If you really enjoy it and would want to support the future of it, you can buy me a small coffee here. I would gladly appreciate it!: https://ko-fi.com/kondiu
