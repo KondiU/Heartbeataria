@@ -4,8 +4,8 @@
 [list]
 [*][b]Star Merchant[/b] - a fan-favourite cut NPC from old chinese Terraria, re-imagined as completely new vendor
 [*]Chinese-exclusive [b]Terraria x KFC[/b] items
-[*][b]18 new vanity sets[/b]
-[*][b]8 new pets[/b]
+[*][b]19 new vanity sets[/b]
+[*][b]10 new pets[/b]
 [*][b]5 new mounts[/b]
 [*][b]8 new early-game weapons[/b]
 [*][b]1 new accessory[/b]

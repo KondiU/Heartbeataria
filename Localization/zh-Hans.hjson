@@ -787,35 +787,7 @@ Mods: {
 			// StarFlameProjectile.DisplayName: Star Flame
 		}
 
-		Tiles: {
-			TVTile.MapEntry: TV
-			AcFunOilPaintingTile.MapEntry: 画
-			BirthdayCakeTile.MapEntry: 画
-			ColorfulBalloonsStockPhotoTile.MapEntry: 画
-			GetThePartyStartedTile.MapEntry: 画
-			HeartbeatOilPaintingTile.MapEntry: 画
-			JinyiCinemasPopcornPosterTile.MapEntry: 画
-			KFCBurgerAdTile.MapEntry: 图片
-			KFCChickenDrumstickAdTile.MapEntry: 画
-			KFCFamilyBucketAdTile.MapEntry: 画
-			LargeDouYuOilPaintingTile.MapEntry: 画
-			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: 画
-			LargeHuyaOilPaintingTile.MapEntry: 画
-			LightPotatoTile.MapEntry: 画
-			MediumDouYuOilPaintingTile.MapEntry: 画
-			MediumHuyaOilPaintingTile.MapEntry: 画
-			PotatariaTile.MapEntry: 画
-			PururuPortraitTile.MapEntry: 画
-			RockPotatoTile.MapEntry: 画
-			SeiyuuchanSupportPosterTile.MapEntry: 画
-			SmallDouYuOilPaintingTile.MapEntry: 画
-			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: 画
-			SmallHuyaOilPaintingTile.MapEntry: 图片
-			TapTapGroupPortraitTile.MapEntry: 画
-			TararaPortraitTile.MapEntry: 画
-			DaiDaiSelfieTile.MapEntry: 带带的自拍
-			// GreatMasterPortrait.MapEntry: Painting
-		}
+		Tiles.TVTile.MapEntry: TV
 
 		Dialogue: {
 			StarMerchant: {

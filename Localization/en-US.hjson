@@ -679,7 +679,7 @@ Mods: {
 			}
 
 			WizardOfLegendMusicBox: {
-				DisplayName: Music Box (Wizard Of Legend)
+				DisplayName: Music Box (Wizard of Legend)
 				Tooltip: ""
 			}
 		}
@@ -687,25 +687,6 @@ Mods: {
 		NPCs: {
 			StarMerchantNPC: {
 				DisplayName: Star Merchant
-
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LoveBiome: I love {BiomeName}.
-					LikeBiome: I like {BiomeName}.
-					DislikeBiome: I dislike {BiomeName}.
-					HateBiome: I hate {BiomeName}.
-					LoveNPC: I love {NPCName}.
-					LikeNPC: I like {NPCName}.
-					DislikeNPC: I dislike {NPCName}.
-					HateNPC: I hate {NPCName}.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
 			}
 		}
 
@@ -727,35 +708,7 @@ Mods: {
 			StarFlameProjectile.DisplayName: Star Flame
 		}
 
-		Tiles: {
-			TVTile.MapEntry: TV
-			AcFunOilPaintingTile.MapEntry: Painting
-			BirthdayCakeTile.MapEntry: Painting
-			ColorfulBalloonsStockPhotoTile.MapEntry: Painting
-			GetThePartyStartedTile.MapEntry: Painting
-			HeartbeatOilPaintingTile.MapEntry: Painting
-			JinyiCinemasPopcornPosterTile.MapEntry: Painting
-			KFCBurgerAdTile.MapEntry: Picture
-			KFCChickenDrumstickAdTile.MapEntry: Painting
-			KFCFamilyBucketAdTile.MapEntry: Painting
-			LargeDouYuOilPaintingTile.MapEntry: Painting
-			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: Painting
-			LargeHuyaOilPaintingTile.MapEntry: Painting
-			LightPotatoTile.MapEntry: Painting
-			MediumDouYuOilPaintingTile.MapEntry: Painting
-			MediumHuyaOilPaintingTile.MapEntry: Painting
-			PotatariaTile.MapEntry: Painting
-			PururuPortraitTile.MapEntry: Painting
-			RockPotatoTile.MapEntry: Painting
-			SeiyuuchanSupportPosterTile.MapEntry: Painting
-			SmallDouYuOilPaintingTile.MapEntry: Picture
-			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: Picture
-			SmallHuyaOilPaintingTile.MapEntry: Picture
-			TapTapGroupPortraitTile.MapEntry: Painting
-			TararaPortraitTile.MapEntry: Painting
-			DaiDaiSelfieTile.MapEntry: Painting
-			GreatMasterPortrait.MapEntry: Painting
-		}
+		Tiles.TVTile.MapEntry: TV
 
 		Dialogue: {
 			StarMerchant: {
