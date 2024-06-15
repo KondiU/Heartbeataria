@@ -135,7 +135,7 @@ Mods: {
 
 			Xiaokuai: {
 				DisplayName: Xiaokuai
-				Tooltip: Summons Xiaokuai
+				Tooltip: Will this summon Xiaokuai or Xiaoliu? Take a guess!
 			}
 
 			Xiaoliu: {
@@ -677,11 +677,6 @@ Mods: {
 				DisplayName: Star Ignitor
 				Tooltip: Summons a small magical flame from another dimension
 			}
-
-			WizardOfLegendMusicBox: {
-				DisplayName: Music Box (Wizard Of Legend)
-				Tooltip: ""
-			}
 		}
 
 		NPCs: {
@@ -728,6 +723,7 @@ Mods: {
 		}
 
 		Tiles: {
+			KFCWorkBenchTile.MapEntry: Work Bench
 			TVTile.MapEntry: TV
 			AcFunOilPaintingTile.MapEntry: Painting
 			BirthdayCakeTile.MapEntry: Painting

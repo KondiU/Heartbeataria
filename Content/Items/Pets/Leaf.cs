@@ -19,7 +19,7 @@ namespace XDContentMod.Content.Items.Pets
 			Item.Size = new Vector2(width, height);
 
 			Item.rare = ItemRarityID.Orange;
-			Item.value = Item.buyPrice(gold: 15);
+			Item.value = Item.buyPrice(gold: 50);
 		}
 	}
 }

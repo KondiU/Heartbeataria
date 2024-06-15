@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Pets 
 {
-	public class ToadQuack2R : PetItem 
+	public class StarIgnitor : PetItem 
 	{
 		public override void SetStaticDefaults () 
 		{
@@ -13,7 +13,7 @@ namespace XDContentMod.Content.Items.Pets
 		}
 
 		public override void SetDefaults () {
-			Item.DefaultToVanitypet(ModContent.ProjectileType<Content.Projectiles.Friendly.Pets.RedEyedToadProjectile>(), ModContent.BuffType<Content.Buffs.RedEyedToadBuff>());
+			Item.DefaultToVanitypet(ModContent.ProjectileType<Content.Projectiles.Friendly.Pets.StarFlameProjectile>(), ModContent.BuffType<Content.Buffs.StarFlameBuff>());
 
 			int width = 24; int height = 26;
 			Item.Size = new Vector2(width, height);

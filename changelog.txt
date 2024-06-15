@@ -1,2 +1,6 @@
-- Updated mod's description
-- Cleaned up the code
+-Added cross-mod support with Wikithis Mod
+-Changed Dai Dai Selfie sprite
+-Increased all pet items price to 50 gold coins per item
+-Added Tarara 6th Anniversary Vanity set
+-Added DaiDai Doll Pet
+-Added Star Flame Pet

@@ -7,16 +7,11 @@ namespace XDContentMod.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Legs)]
 
-	public class TikTokPants : ModItem
+	public class TararaColorblockedKneeSocks : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
 			Item.ResearchUnlockCount = 1;
-
-			int equipSlotLegs = EquipLoader.GetEquipSlot(Mod, Name, EquipType.Body);
-			int equipSlotLegsAlt = EquipLoader.GetEquipSlot(Mod, "TikTokPants", EquipType.Legs);
-
-			ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegsAlt] = true;
 		}
 
 		public override void SetDefaults() 

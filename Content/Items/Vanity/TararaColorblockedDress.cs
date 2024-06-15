@@ -5,18 +5,13 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Items.Vanity
 {
-	[AutoloadEquip(EquipType.Legs)]
+	[AutoloadEquip(EquipType.Body)]
 
-	public class TikTokPants : ModItem
+	public class TararaColorblockedDress : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
 			Item.ResearchUnlockCount = 1;
-
-			int equipSlotLegs = EquipLoader.GetEquipSlot(Mod, Name, EquipType.Body);
-			int equipSlotLegsAlt = EquipLoader.GetEquipSlot(Mod, "TikTokPants", EquipType.Legs);
-
-			ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegsAlt] = true;
 		}
 
 		public override void SetDefaults() 

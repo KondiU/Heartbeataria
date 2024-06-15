@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace XDContentMod.Content.Projectiles.Friendly.Pets 
 {
-    public class XiaoliuProjectile : ConsolariaPet
+    public class DaiDaiDollProjectile : ConsolariaPet
 	{
         public override int maxFrames => 15;
 
@@ -17,18 +17,19 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
 
             ProjectileID.Sets.CharacterPreviewAnimations[Projectile.type] = ProjectileID.Sets.SimpleLoop(1, 10)
                 .WhenNotSelected(0, 0)
-				.WithOffset(-8, 0)
+				.WithOffset(-6, 0)
 				.WithSpriteDirection(-1);
 
             base.SetStaticDefaults();
         }
 
         public override void SetDefaults () 
-		{
-            int width = 32; int height = 44;
+		{ 
+            int width = 32; int height = 32;
             Projectile.Size = new Vector2(width, height);
 
-            DrawOffsetX -= 8;
+            DrawOffsetX -= 10;
+            DrawOriginOffsetY = -11;
 
             base.SetDefaults();
         }
@@ -36,14 +37,14 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
         public override void AI () 
 		{
             Player player = Main.player [Projectile.owner];
-            if (!player.dead && player.HasBuff(ModContent.BuffType<Content.Buffs.XiaoliuBuff>()))
+            if (!player.dead && player.HasBuff(ModContent.BuffType<Content.Buffs.DaiDaiDollBuff>()))
                 Projectile.timeLeft = 2;
 
             WalkerAI();
-            PassiveAnimation(idleFrame: 0, jumpFrame: 3);
-            int finalFrame = maxFrames - 5;
-            WalkingAnimation(walkingAnimationSpeed: 3, walkingFirstFrame: 1, finalFrame);
-            FlyingAnimation(flyingAnimationSpeed: 3, flyingFirstFrame: 11, flyingLastFrame: 14);
+            PassiveAnimation(idleFrame: 0, jumpFrame: 1);
+            int finalFrame = maxFrames - 6;
+            WalkingAnimation(walkingAnimationSpeed: 1, walkingFirstFrame: 3, finalFrame);
+            FlyingAnimation(flyingAnimationSpeed: 1, flyingFirstFrame: 11, flyingLastFrame: 14);
 
             if (isFlying) 
 			{

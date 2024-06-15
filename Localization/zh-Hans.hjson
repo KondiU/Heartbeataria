@@ -65,6 +65,16 @@ Mods: {
 				DisplayName: 小六
 				Description: 快星球记录团成员，喜爱音乐的乐器达人，看体型就知道是小吃货一枚
 			}
+
+			DaiDaiDollBuff: {
+				// Description: DaiDai Doll is following you
+				// DisplayName: DaiDai Doll
+			}
+
+			StarFlameBuff: {
+				// DisplayName: Star Flame
+				// Description: Small magical flame from another dimension
+			}
 		}
 
 		Items: {
@@ -692,6 +702,46 @@ Mods: {
 				DisplayName: 汤圆衫
 				Tooltip: ""
 			}
+
+			TararaColorblockedDress: {
+				// DisplayName: Tarara Colorblocked Dress
+				// Tooltip: ""
+			}
+
+			TararaColorblockedKneeSocks: {
+				// DisplayName: Tarara Colorblocked Knee Socks
+				// Tooltip: ""
+			}
+
+			TararaLatestHairstyle: {
+				// DisplayName: Tarara Latest Hairstyle
+				// Tooltip: ""
+			}
+
+			MasterSuraHood: {
+				// Tooltip: ""
+				// DisplayName: Master Sura Hood
+			}
+
+			DaiDaiDoll: {
+				// Tooltip: Summons a DaiDai Doll
+				// DisplayName: DaiDai Doll
+			}
+
+			MasterSuraCloak: {
+				// Tooltip: ""
+				// DisplayName: Master Sura Cloak
+			}
+
+			StarIgnitor: {
+				// DisplayName: Star Ignitor
+				// Tooltip: Summons a small magical flame from another dimension
+			}
+
+			WizardOfLegendMusicBox: {
+				// DisplayName: Music Box (Wizard Of Legend)
+				// Tooltip: ""
+			}
 		}
 
 		NPCs: {
@@ -733,10 +783,11 @@ Mods: {
 			XiaokuaiProjectile.DisplayName: 小快
 			XiaoliuProjectile.DisplayName: 小六
 			PururuDiscProjectile.DisplayName: 噗噜噜飞盘
+			// DaiDaiDollProjectile.DisplayName: DaiDai Doll
+			// StarFlameProjectile.DisplayName: Star Flame
 		}
 
 		Tiles: {
-			KFCWorkBenchTile.MapEntry: 工作台
 			TVTile.MapEntry: TV
 			AcFunOilPaintingTile.MapEntry: 画
 			BirthdayCakeTile.MapEntry: 画
@@ -763,6 +814,7 @@ Mods: {
 			TapTapGroupPortraitTile.MapEntry: 画
 			TararaPortraitTile.MapEntry: 画
 			DaiDaiSelfieTile.MapEntry: 带带的自拍
+			// GreatMasterPortrait.MapEntry: Painting
 		}
 
 		Dialogue: {
