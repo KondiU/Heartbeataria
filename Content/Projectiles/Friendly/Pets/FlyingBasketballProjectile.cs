@@ -8,7 +8,7 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
 {
     public class FlyingBasketballProjectile : ConsolariaPet
 	{
-        public override int maxFrames => 12;
+        public override int maxFrames => 15;
 
         public override void SetStaticDefaults () 
 		{
@@ -29,7 +29,7 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
             Projectile.Size = new Vector2(width, height);
 
             DrawOffsetX -= 4;
-            DrawOriginOffsetY = -8;
+            DrawOriginOffsetY = -12;
 
             base.SetDefaults();
         }
@@ -41,10 +41,10 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
                 Projectile.timeLeft = 2;
 
             WalkerAI();
-            PassiveAnimation(idleFrame: 0, jumpFrame: 2);
-            int finalFrame = maxFrames - 4;
+            PassiveAnimation(idleFrame: 0, jumpFrame: 1);
+            int finalFrame = maxFrames - 6;
             WalkingAnimation(walkingAnimationSpeed: 3, walkingFirstFrame: 1, finalFrame);
-            FlyingAnimation(flyingAnimationSpeed: 3, flyingFirstFrame: 8, flyingLastFrame: 11);
+            FlyingAnimation(flyingAnimationSpeed: 3, flyingFirstFrame: 9, flyingLastFrame: 14);
 
             if (isFlying) 
 			{

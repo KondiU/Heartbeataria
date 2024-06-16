@@ -6,4 +6,6 @@
 -Added Star Flame Pet
 -Fixed Xiaokuai hitbox
 -Fixed Xiaoliu hitbox
+-Fixed Flying Basketball sprite
+-Fixed Tarara Ponytail Head sprite
 -Fixed map names of Heartbeataria tiles

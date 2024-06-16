@@ -15,9 +15,9 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
             ProjectileID.Sets.TrailCacheLength [Projectile.type] = 12;
             ProjectileID.Sets.TrailingMode [Projectile.type] = 0;
 
-            ProjectileID.Sets.CharacterPreviewAnimations[Projectile.type] = ProjectileID.Sets.SimpleLoop(1, 10)
+            ProjectileID.Sets.CharacterPreviewAnimations[Projectile.type] = ProjectileID.Sets.SimpleLoop(2, 8)
                 .WhenNotSelected(0, 0)
-				.WithOffset(-6, 0)
+				.WithOffset(-14, 0)
 				.WithSpriteDirection(-1);
 
             base.SetStaticDefaults();
@@ -28,7 +28,7 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
             int width = 32; int height = 32;
             Projectile.Size = new Vector2(width, height);
 
-            DrawOffsetX -= 10;
+            DrawOffsetX -= 6;
             DrawOriginOffsetY = -11;
 
             base.SetDefaults();
@@ -44,7 +44,7 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
             PassiveAnimation(idleFrame: 0, jumpFrame: 1);
             int finalFrame = maxFrames - 6;
             WalkingAnimation(walkingAnimationSpeed: 1, walkingFirstFrame: 3, finalFrame);
-            FlyingAnimation(flyingAnimationSpeed: 1, flyingFirstFrame: 11, flyingLastFrame: 14);
+            FlyingAnimation(flyingAnimationSpeed: 1, flyingFirstFrame: 11, flyingLastFrame: 15);
 
             if (isFlying) 
 			{

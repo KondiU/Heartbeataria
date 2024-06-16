@@ -12,6 +12,16 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
 		public override int PreviewSpriteDirection => -1;
         public override bool isLightPet => false;
 
+/*        public override void SetStaticDefaults () 
+		{
+            ProjectileID.Sets.CharacterPreviewAnimations[Projectile.type] = ProjectileID.Sets.SimpleLoop(0, 15)
+                .WhenNotSelected(0, 0)
+				.WithOffset(0, -10)
+				.WithSpriteDirection(-1);
+
+            base.SetStaticDefaults();
+        }
+*/
         public override void SetDefaults () 
         {
             int width = 48; int height = 48;

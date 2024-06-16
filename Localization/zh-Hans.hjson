@@ -739,35 +739,12 @@ Mods: {
 			}
 
 			WizardOfLegendMusicBox: {
-				// DisplayName: Music Box (Wizard Of Legend)
+				// DisplayName: Music Box (Wizard of Legend)
 				// Tooltip: ""
 			}
 		}
 
-		NPCs: {
-			StarMerchantNPC: {
-				DisplayName: 星际商人
-
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LoveBiome: I love {BiomeName}.
-					LikeBiome: I like {BiomeName}.
-					DislikeBiome: I dislike {BiomeName}.
-					HateBiome: I hate {BiomeName}.
-					LoveNPC: I love {NPCName}.
-					LikeNPC: I like {NPCName}.
-					DislikeNPC: I dislike {NPCName}.
-					HateNPC: I hate {NPCName}.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
-			}
-		}
+		NPCs.StarMerchantNPC.DisplayName: 星际商人
 
 		Projectiles: {
 			BaiduTiebaHuajiDiscProjectile.DisplayName: 百度贴吧滑稽飞盘

@@ -684,11 +684,7 @@ Mods: {
 			}
 		}
 
-		NPCs: {
-			StarMerchantNPC: {
-				DisplayName: Star Merchant
-			}
-		}
+		NPCs.StarMerchantNPC.DisplayName: Star Merchant
 
 		Projectiles: {
 			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
