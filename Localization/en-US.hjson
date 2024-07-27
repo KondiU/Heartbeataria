@@ -659,7 +659,7 @@ Mods: {
 			}
 
 			MasterSuraHood: {
-				Tooltip: ""
+				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 				DisplayName: Master Sura Hood
 			}
 
@@ -669,7 +669,7 @@ Mods: {
 			}
 
 			MasterSuraCloak: {
-				Tooltip: ""
+				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 				DisplayName: Master Sura Cloak
 			}
 
@@ -680,7 +680,7 @@ Mods: {
 
 			WizardOfLegendMusicBox: {
 				DisplayName: Music Box (Wizard of Legend)
-				Tooltip: ""
+				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 			}
 		}
 

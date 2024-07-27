@@ -9,7 +9,7 @@ using Terraria.ObjectData;
 
 namespace XDContentMod.Content.Tiles.Paintings
 {
-	public class GreatMasterPortrait : ModTile
+	public class GreatMasterPortraitTile : ModTile
 	{
 		public override void SetStaticDefaults()
 		{
