@@ -1,2 +1,11 @@
-- Updated mod's description
-- Cleaned up the code
+-Added cross-mod support with Wikithis Mod
+-Changed DaiDai Selfie sprite
+-Increased all pet items price to 50 gold coins per item
+-Added Tarara 6th Anniversary Vanity set
+-Added DaiDai Doll Pet
+-Added Star Flame Pet
+-Fixed Xiaokuai hitbox
+-Fixed Xiaoliu hitbox
+-Fixed Flying Basketball sprite
+-Fixed Tarara Ponytail Head sprite
+-Fixed map names of Heartbeataria tiles

@@ -22,8 +22,7 @@ namespace XDContentMod.Content.Tiles.Furniture
 			TileObjectData.addTile(Type);
 
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
-			LocalizedText name = CreateMapEntryName();
-            AddMapEntry(new Color(191, 142, 111), name);
+			AddMapEntry(new Color(191, 142, 111), Language.GetText("ItemName.WorkBench"));
 
 			AdjTiles = new int[] { TileID.WorkBenches };
 		}

@@ -65,6 +65,16 @@ Mods: {
 				DisplayName: Xiaoliu
 				Description: Small scientist with high IQ
 			}
+
+			DaiDaiDollBuff: {
+				Description: DaiDai Doll is following you
+				DisplayName: DaiDai Doll
+			}
+
+			StarFlameBuff: {
+				DisplayName: Star Flame
+				Description: Small magical flame from another dimension
+			}
 		}
 
 		Items: {
@@ -632,78 +642,69 @@ Mods: {
 				DisplayName: Tang Yuan Shirt
 				Tooltip: ""
 			}
-		}
 
-		NPCs: {
-			StarMerchantNPC: {
-				DisplayName: Star Merchant
+			TararaColorblockedDress: {
+				DisplayName: Tarara Colorblocked Dress
+				Tooltip: ""
+			}
 
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LoveBiome: I love {BiomeName}.
-					LikeBiome: I like {BiomeName}.
-					DislikeBiome: I dislike {BiomeName}.
-					HateBiome: I hate {BiomeName}.
-					LoveNPC: I love {NPCName}.
-					LikeNPC: I like {NPCName}.
-					DislikeNPC: I dislike {NPCName}.
-					HateNPC: I hate {NPCName}.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
+			TararaColorblockedKneeSocks: {
+				DisplayName: Tarara Colorblocked Knee Socks
+				Tooltip: ""
+			}
+
+			TararaLatestHairstyle: {
+				DisplayName: Tarara Latest Hairstyle
+				Tooltip: ""
+			}
+
+			MasterSuraHood: {
+				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				DisplayName: Master Sura Hood
+			}
+
+			DaiDaiDoll: {
+				Tooltip: Summons a DaiDai Doll
+				DisplayName: DaiDai Doll
+			}
+
+			MasterSuraCloak: {
+				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				DisplayName: Master Sura Cloak
+			}
+
+			StarIgnitor: {
+				DisplayName: Star Ignitor
+				Tooltip: Summons a small magical flame from another dimension
+			}
+
+			WizardOfLegendMusicBox: {
+				DisplayName: Music Box (Wizard of Legend)
+				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 			}
 		}
+
+		NPCs.StarMerchantNPC.DisplayName: Star Merchant
 
 		Projectiles: {
 			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
 			HupuDiscProjectile.DisplayName: Hupu Disc
 			iFlytekDiscProjectile.DisplayName: iFlytek Disc
 			LOOKDiscProjectile.DisplayName: LOOK Disc
-			ChickenProjectile.DisplayName: Chicken Projectile
-			FlyingBasketballProjectile.DisplayName: Flying Basketball Projectile
-			GreenFrogProjectile.DisplayName: Green Frog Projectile
-			PururuProjectile.DisplayName: Pururu Projectile
-			RedEyedToadProjectile.DisplayName: Red Eyed Toad Projectile
-			WitchToadProjectile.DisplayName: Witch Toad Projectile
-			XiaokuaiProjectile.DisplayName: Xiaokuai Projectile
-			XiaoliuProjectile.DisplayName: Xiaoliu Projectile
+			ChickenProjectile.DisplayName: Chicken
+			FlyingBasketballProjectile.DisplayName: Flying Basketball
+			GreenFrogProjectile.DisplayName: Green Frog
+			PururuProjectile.DisplayName: Pururu
+			RedEyedToadProjectile.DisplayName: Red Eyed Toad
+			WitchToadProjectile.DisplayName: Witch Toad
+			XiaokuaiProjectile.DisplayName: Xiaokuai
+			XiaoliuProjectile.DisplayName: Xiaoliu
 			PururuDiscProjectile.DisplayName: Pururu Disc
+			DaiDaiDollProjectile.DisplayName: DaiDai Doll
+			StarFlameProjectile.DisplayName: Star Flame
 		}
 
-		Tiles: {
-			KFCWorkBenchTile.MapEntry: Work Bench
-			TVTile.MapEntry: TV
-			AcFunOilPaintingTile.MapEntry: Painting
-			BirthdayCakeTile.MapEntry: Painting
-			ColorfulBalloonsStockPhotoTile.MapEntry: Painting
-			GetThePartyStartedTile.MapEntry: Painting
-			HeartbeatOilPaintingTile.MapEntry: Painting
-			JinyiCinemasPopcornPosterTile.MapEntry: Painting
-			KFCBurgerAdTile.MapEntry: Picture
-			KFCChickenDrumstickAdTile.MapEntry: Painting
-			KFCFamilyBucketAdTile.MapEntry: Painting
-			LargeDouYuOilPaintingTile.MapEntry: Painting
-			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: Painting
-			LargeHuyaOilPaintingTile.MapEntry: Painting
-			LightPotatoTile.MapEntry: Painting
-			MediumDouYuOilPaintingTile.MapEntry: Painting
-			MediumHuyaOilPaintingTile.MapEntry: Painting
-			PotatariaTile.MapEntry: Painting
-			PururuPortraitTile.MapEntry: Painting
-			RockPotatoTile.MapEntry: Painting
-			SeiyuuchanSupportPosterTile.MapEntry: Painting
-			SmallDouYuOilPaintingTile.MapEntry: Picture
-			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: Picture
-			SmallHuyaOilPaintingTile.MapEntry: Picture
-			TapTapGroupPortraitTile.MapEntry: Painting
-			TararaPortraitTile.MapEntry: Painting
-			DaiDaiSelfieTile.MapEntry: Dai Dai Selfie Tile
-		}
+		Tiles.TVTile.MapEntry: TV
 
 		Dialogue: {
 			StarMerchant: {

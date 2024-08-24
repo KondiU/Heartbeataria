@@ -65,6 +65,16 @@ Mods: {
 				DisplayName: 小六
 				Description: 快星球记录团成员，喜爱音乐的乐器达人，看体型就知道是小吃货一枚
 			}
+
+			DaiDaiDollBuff: {
+				// Description: DaiDai Doll is following you
+				// DisplayName: DaiDai Doll
+			}
+
+			StarFlameBuff: {
+				// DisplayName: Star Flame
+				// Description: Small magical flame from another dimension
+			}
 		}
 
 		Items: {
@@ -692,32 +702,49 @@ Mods: {
 				DisplayName: 汤圆衫
 				Tooltip: ""
 			}
-		}
 
-		NPCs: {
-			StarMerchantNPC: {
-				DisplayName: 星际商人
+			TararaColorblockedDress: {
+				// DisplayName: Tarara Colorblocked Dress
+				// Tooltip: ""
+			}
 
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LoveBiome: I love {BiomeName}.
-					LikeBiome: I like {BiomeName}.
-					DislikeBiome: I dislike {BiomeName}.
-					HateBiome: I hate {BiomeName}.
-					LoveNPC: I love {NPCName}.
-					LikeNPC: I like {NPCName}.
-					DislikeNPC: I dislike {NPCName}.
-					HateNPC: I hate {NPCName}.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
+			TararaColorblockedKneeSocks: {
+				// DisplayName: Tarara Colorblocked Knee Socks
+				// Tooltip: ""
+			}
+
+			TararaLatestHairstyle: {
+				// DisplayName: Tarara Latest Hairstyle
+				// Tooltip: ""
+			}
+
+			MasterSuraHood: {
+				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				// DisplayName: Master Sura Hood
+			}
+
+			DaiDaiDoll: {
+				// Tooltip: Summons a DaiDai Doll
+				// DisplayName: DaiDai Doll
+			}
+
+			MasterSuraCloak: {
+				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				// DisplayName: Master Sura Cloak
+			}
+
+			StarIgnitor: {
+				// DisplayName: Star Ignitor
+				// Tooltip: Summons a small magical flame from another dimension
+			}
+
+			WizardOfLegendMusicBox: {
+				// DisplayName: Music Box (Wizard of Legend)
+				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 			}
 		}
+
+		NPCs.StarMerchantNPC.DisplayName: 星际商人
 
 		Projectiles: {
 			BaiduTiebaHuajiDiscProjectile.DisplayName: 百度贴吧滑稽飞盘
@@ -733,37 +760,11 @@ Mods: {
 			XiaokuaiProjectile.DisplayName: 小快
 			XiaoliuProjectile.DisplayName: 小六
 			PururuDiscProjectile.DisplayName: 噗噜噜飞盘
+			// DaiDaiDollProjectile.DisplayName: DaiDai Doll
+			// StarFlameProjectile.DisplayName: Star Flame
 		}
 
-		Tiles: {
-			KFCWorkBenchTile.MapEntry: 工作台
-			TVTile.MapEntry: TV
-			AcFunOilPaintingTile.MapEntry: 画
-			BirthdayCakeTile.MapEntry: 画
-			ColorfulBalloonsStockPhotoTile.MapEntry: 画
-			GetThePartyStartedTile.MapEntry: 画
-			HeartbeatOilPaintingTile.MapEntry: 画
-			JinyiCinemasPopcornPosterTile.MapEntry: 画
-			KFCBurgerAdTile.MapEntry: 图片
-			KFCChickenDrumstickAdTile.MapEntry: 画
-			KFCFamilyBucketAdTile.MapEntry: 画
-			LargeDouYuOilPaintingTile.MapEntry: 画
-			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: 画
-			LargeHuyaOilPaintingTile.MapEntry: 画
-			LightPotatoTile.MapEntry: 画
-			MediumDouYuOilPaintingTile.MapEntry: 画
-			MediumHuyaOilPaintingTile.MapEntry: 画
-			PotatariaTile.MapEntry: 画
-			PururuPortraitTile.MapEntry: 画
-			RockPotatoTile.MapEntry: 画
-			SeiyuuchanSupportPosterTile.MapEntry: 画
-			SmallDouYuOilPaintingTile.MapEntry: 画
-			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: 画
-			SmallHuyaOilPaintingTile.MapEntry: 图片
-			TapTapGroupPortraitTile.MapEntry: 画
-			TararaPortraitTile.MapEntry: 画
-			DaiDaiSelfieTile.MapEntry: 带带的自拍
-		}
+		Tiles.TVTile.MapEntry: TV
 
 		Dialogue: {
 			StarMerchant: {

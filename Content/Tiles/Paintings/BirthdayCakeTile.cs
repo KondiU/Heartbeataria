@@ -25,8 +25,7 @@ namespace XDContentMod.Content.Tiles.Paintings
             DustType = -1;
 
             TileObjectData.addTile(Type);
-            LocalizedText name = CreateMapEntryName();
-            AddMapEntry(new Color(99, 50, 30), name);
+            AddMapEntry(new Color(99, 50, 30), Language.GetText("MapObject.Painting"));
         }
 
   		public override void NumDust(int i, int j, bool fail, ref int num) 

@@ -25,10 +25,10 @@ namespace XDContentMod.Content.Projectiles.Friendly.Pets
 
         public override void SetDefaults () 
 		{
-            int width = 34; int height = 40;
+            int width = 28; int height = 40;
             Projectile.Size = new Vector2(width, height);
 
-            DrawOffsetX -= 8;
+            DrawOffsetX -= 10;
             DrawOriginOffsetY = -4;
 
             base.SetDefaults();

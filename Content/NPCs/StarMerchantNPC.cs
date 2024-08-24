@@ -70,7 +70,9 @@ namespace XDContentMod.Content.NPCs
 				.Add<FriedChickenNugget>()
 				.Add<PururuCharger>()
 				.Add<Xiaokuai>()
-				.Add<Xiaoliu>();
+				.Add<Xiaoliu>()
+				.Add<DaiDaiDoll>()
+				.Add<StarIgnitor>();
 
 			Shop.AddPool("Leaf Pets", slots: 1)
 				.Add<Leaf>()
@@ -171,6 +173,11 @@ namespace XDContentMod.Content.NPCs
 				.Add<ChengXinYouXuanHat>(Condition.MoonPhaseWaxingGibbous)
 				.Add<ChengXinYouXuanShirt>(Condition.MoonPhaseWaxingGibbous)
 				.Add<ChengXinYouXuanPants>(Condition.MoonPhaseWaxingGibbous);
+
+			Shop.AddPool("Tarara 6th Anniversary Set", slots: 3)
+				.Add<TararaLatestHairstyle>(Condition.MoonPhaseFull)
+				.Add<TararaColorblockedDress>(Condition.MoonPhaseFull)
+				.Add<TararaColorblockedKneeSocks>(Condition.MoonPhaseFull);
 
 			Shop.Register();
 		}

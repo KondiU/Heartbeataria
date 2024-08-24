@@ -1,0 +1,793 @@
+Mods: {
+	XDContentMod: {
+		Buffs: {
+			ChickenBuff: {
+				DisplayName: Chicken
+				Description: White and tender, perfect for frying
+			}
+
+			DiDiBikeBuff: {
+				DisplayName: DiDi Bike
+				Description: A great companion for traveling through the streets
+			}
+
+			DiDiCarBuff: {
+				DisplayName: DiDi Car
+				Description: A great companion for traveling through the streets
+			}
+
+			FlyingBasketballBuff: {
+				DisplayName: Flying Basketball
+				Description: If the basketball can't fly, it's worthless
+			}
+
+			GreenFrogBuff: {
+				DisplayName: Green Frog
+				Description: Little green frog that can't get lost in the wild
+			}
+
+			KFCDeliveryScooterBuff: {
+				DisplayName: KFC Delivery Scooter
+				Description: A great companion for traveling through the streets
+			}
+
+			LuxuryConvertibleBuff: {
+				DisplayName: Luxury Convertible
+				Description: Elegance never goes out of style!
+			}
+
+			PururuBuff: {
+				DisplayName: Pururu
+				Description: Pururu is following you
+			}
+
+			RedEyedToadBuff: {
+				DisplayName: Red Eyed Toad
+				Description: Little green toad that can't get lost in the wild
+			}
+
+			TapTapMinivanBuff: {
+				DisplayName: TapTap Minivan
+				Description: Pururu-powered Minivan!
+			}
+
+			WitchToadBuff: {
+				DisplayName: Witch Toad
+				Description: Little green toad that can't get lost in the wild
+			}
+
+			XiaokuaiBuff: {
+				DisplayName: Xiaokuai
+				Description: Small music-loving instrumentalist
+			}
+
+			XiaoliuBuff: {
+				DisplayName: Xiaoliu
+				Description: Small scientist with high IQ
+			}
+
+			DaiDaiDollBuff: {
+				Description: DaiDai Doll is following you
+				DisplayName: DaiDai Doll
+			}
+
+			StarFlameBuff: {
+				DisplayName: Star Flame
+				Description: Small magical flame from another dimension
+			}
+		}
+
+		Items: {
+			ConvertibleKeys: {
+				DisplayName: Convertible Keys
+				Tooltip: Summons a rideable orange Luxury Convertible mount
+			}
+
+			DiDiBikeKeys: {
+				DisplayName: DiDi Bike Keys
+				Tooltip: Summons a rideable DiDi Bike mount
+			}
+
+			DiDiCarKeys: {
+				DisplayName: DiDi Car Keys
+				Tooltip: Summons a rideable DiDi Car mount
+			}
+
+			KFCDeliveryScooterKeys: {
+				DisplayName: KFC Delivery Scooter Keys
+				Tooltip: Summons a rideable KFC Delivery Scooter mount
+			}
+
+			TapTapMinivanKeys: {
+				DisplayName: TapTap Minivan Keys
+				Tooltip: Summons a rideable Minivan without emotions!
+			}
+
+			Basketball: {
+				DisplayName: Basketball
+				Tooltip: Summons a Flying Basketball
+			}
+
+			FriedChickenNugget: {
+				DisplayName: Fried Chicken Nugget
+				Tooltip: Summons a chicken
+			}
+
+			Leaf: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			PururuCharger: {
+				DisplayName: Pururu Charger
+				Tooltip: Summons Pururu
+			}
+
+			ToadQuack2R: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			ToadQuack2W: {
+				DisplayName: Leaf
+				Tooltip: What's underneath it?
+			}
+
+			Xiaokuai: {
+				DisplayName: Xiaokuai
+				Tooltip: Will this summon Xiaokuai or Xiaoliu? Take a guess!
+			}
+
+			Xiaoliu: {
+				DisplayName: Xiaoliu
+				Tooltip: Summons Xiaoliu
+			}
+
+			AcFunOilPainting: {
+				DisplayName: AcFun Oil Painting
+				Tooltip: "'AcFun'"
+			}
+
+			BirthdayCake: {
+				DisplayName: Birthday Cake
+				Tooltip: "'TapTap'"
+			}
+
+			ColorfulBalloonsStockPhoto: {
+				DisplayName: Colorful Balloons Stock Photo
+				Tooltip: "'TapTap'"
+			}
+
+			GetThePartyStarted: {
+				DisplayName: Get The Party Started
+				Tooltip: "'TapTap'"
+			}
+
+			HeartbeatOilPainting: {
+				DisplayName: Heartbeat Oil Painting
+				Tooltip: "'XD Inc.'"
+			}
+
+			JinyiCinemasPopcornPoster: {
+				DisplayName: Jinyi Cinemas Popcorn Poster
+				Tooltip: "'Jinyi Cinemas'"
+			}
+
+			KFCBar: {
+				DisplayName: KFC Bar
+				Tooltip: ""
+			}
+
+			KFCBurgerAd: {
+				DisplayName: KFC Burger Ad
+				Tooltip: Anything But Ordinary!
+			}
+
+			KFCChair: {
+				DisplayName: KFC Chair
+				Tooltip: ""
+			}
+
+			KFCChickenDrumstickAd: {
+				DisplayName: KFC Chicken Drumstick Ad
+				Tooltip: It's Finger Lickin' Good!
+			}
+
+			KFCFamilyBucketAd: {
+				DisplayName: KFC Family Bucket Ad
+				Tooltip: It's for the entire family to crunch!
+			}
+
+			KFCWorkBench: {
+				DisplayName: KFC Work Bench
+				Tooltip: ""
+			}
+
+			LargeDouYuOilPainting: {
+				DisplayName: Large DouYu Oil Painting
+				Tooltip: "'DouYu Ltd.'"
+			}
+
+			LargeHeartbeatTownscapeOilPainting: {
+				DisplayName: Large Heartbeat Townscape Oil Painting
+				Tooltip: "'XD Inc.'"
+			}
+
+			LargeHuyaOilPainting: {
+				DisplayName: Large Huya Oil Painting
+				Tooltip: "'Huya Inc.'"
+			}
+
+			LightPotato: {
+				DisplayName: Light Potato
+				Tooltip: "'Xiaohongshu'"
+			}
+
+			MediumDouYuOilPainting: {
+				DisplayName: Medium DouYu Oil Painting
+				Tooltip: "'DouYu Ltd.'"
+			}
+
+			MediumHuyaOilPainting: {
+				DisplayName: Medium Huya Oil Painting
+				Tooltip: "'Huya Inc.'"
+			}
+
+			Potataria: {
+				DisplayName: Potataria
+				Tooltip: "'Xiaohongshu'"
+			}
+
+			PururuPortrait: {
+				DisplayName: Pururu Portrait
+				Tooltip: "'TapTap'"
+			}
+
+			RockPotato: {
+				DisplayName: Rock Potato
+				Tooltip: "'Xiaohongshu'"
+			}
+
+			SeiyuuchanSupportPoster: {
+				DisplayName: Seiyuu-chan Support Poster
+				Tooltip: "'NetEase, Inc.'"
+			}
+
+			SmallDouYuOilPainting: {
+				DisplayName: Small DouYu Oil Painting
+				Tooltip: "'DouYu Ltd.'"
+			}
+
+			SmallHeartbeatTownscapeOilPainting: {
+				DisplayName: Small Heartbeat Townscape Oil Painting
+				Tooltip: "'XD Inc.'"
+			}
+
+			SmallHuyaOilPainting: {
+				DisplayName: Small Huya Oil Painting
+				Tooltip: "'Huya Inc.'"
+			}
+
+			TapTapGroupPortrait: {
+				DisplayName: TapTap Group Portrait
+				Tooltip: "'TapTap'"
+			}
+
+			TararaPortrait: {
+				DisplayName: Tarara Portrait
+				Tooltip: "'TapTap'"
+			}
+
+			TV: {
+				DisplayName: TV
+				Tooltip: ""
+			}
+
+			BCYCatEars: {
+				DisplayName: BCY Cat Ears
+				Tooltip: ""
+			}
+
+			BCYCosplayDress: {
+				DisplayName: BCY Cosplay Dress
+				Tooltip: ""
+			}
+
+			BCYCosplayShoes: {
+				DisplayName: BCY Cosplay Shoes
+				Tooltip: ""
+			}
+
+			ChengXinYouXuanHat: {
+				DisplayName: ChengXin YouXuan Hat
+				Tooltip: ""
+			}
+
+			ChengXinYouXuanPants: {
+				DisplayName: ChengXin YouXuan Pants
+				Tooltip: ""
+			}
+
+			ChengXinYouXuanShirt: {
+				DisplayName: ChengXin YouXuan Shirt
+				Tooltip: ""
+			}
+
+			ColonelsMask: {
+				DisplayName: Colonel's Mask
+				Tooltip: ""
+			}
+
+			ColonelsTuxedoPants: {
+				DisplayName: Colonel's Tuxedo Pants
+				Tooltip: They have some oil stains on them
+			}
+
+			ColonelsTuxedoShirt: {
+				DisplayName: Colonel's Tuxedo Shirt
+				Tooltip: Smells like Hot Wings
+			}
+
+			CuteBrownWig: {
+				DisplayName: Cute Brown Wig
+				Tooltip: ""
+			}
+
+			DeepColdBreastplate: {
+				DisplayName: Deep Cold Breastplate
+				Tooltip: ""
+			}
+
+			DeepColdHelmet: {
+				DisplayName: Deep Cold Helmet
+				Tooltip: ""
+			}
+
+			DeepColdLeggings: {
+				DisplayName: Deep Cold Leggings
+				Tooltip: ""
+			}
+
+			DogMask: {
+				DisplayName: Dog Mask
+				Tooltip: ""
+			}
+
+			DogPants: {
+				DisplayName: Dog Pants
+				Tooltip: ""
+			}
+
+			DogShirt: {
+				DisplayName: Dog Shirt
+				Tooltip: ""
+			}
+
+			ExpeditionerHat: {
+				DisplayName: Expeditioner Hat
+				Tooltip: ""
+			}
+
+			ExpeditionerPants: {
+				DisplayName: Expeditioner Pants
+				Tooltip: ""
+			}
+
+			ExpeditionerShirt: {
+				DisplayName: Expeditioner Shirt
+				Tooltip: ""
+			}
+
+			HeartbeatOrangeDress: {
+				DisplayName: Heartbeat Orange Dress
+				Tooltip: ""
+			}
+
+			HeartbeatOrangePonytail: {
+				DisplayName: Heartbeat Orange Ponytail
+				Tooltip: ""
+			}
+
+			HeartbeatOrangeShoes: {
+				DisplayName: Heartbeat Orange Shoes
+				Tooltip: ""
+			}
+
+			HeartbeatOrangeTuxedoPants: {
+				DisplayName: Heartbeat Orange Tuxedo Pants
+				Tooltip: ""
+			}
+
+			HeartbeatOrangeTuxedoShirt: {
+				DisplayName: Heartbeat Orange Tuxedo Shirt
+				Tooltip: ""
+			}
+
+			HeartbeatOrangeWig: {
+				DisplayName: Heartbeat Orange Wig
+				Tooltip: ""
+			}
+
+			ImperialGuardBreastplate: {
+				DisplayName: Imperial Guard Breastplate
+				Tooltip: ""
+			}
+
+			ImperialGuardHelmet: {
+				DisplayName: Imperial Guard Helmet
+				Tooltip: ""
+			}
+
+			ImperialGuardLeggings: {
+				DisplayName: Imperial Guard Leggings
+				Tooltip: ""
+			}
+
+			ImperialMasterBreastplate: {
+				DisplayName: Imperial Master Breastplate
+				Tooltip: ""
+			}
+
+			ImperialMasterHelmet: {
+				DisplayName: Imperial Master Helmet
+				Tooltip: ""
+			}
+
+			ImperialMasterLeggings: {
+				DisplayName: Imperial Master Leggings
+				Tooltip: ""
+			}
+
+			iQIYIMechaHelmet: {
+				DisplayName: iQIYI Mecha Helmet
+				Tooltip: ""
+			}
+
+			iQIYIMechaPants: {
+				DisplayName: iQIYI Mecha Pants
+				Tooltip: ""
+			}
+
+			iQIYIMechaTorso: {
+				DisplayName: iQIYI Mecha Torso
+				Tooltip: ""
+			}
+
+			MountainGuardBreastplate: {
+				DisplayName: Mountain Guard Breastplate
+				Tooltip: ""
+			}
+
+			MountainGuardHelmet: {
+				DisplayName: Mountain Guard Helmet
+				Tooltip: ""
+			}
+
+			MountainGuardLeggings: {
+				DisplayName: Mountain Guard Leggings
+				Tooltip: ""
+			}
+
+			SeifukuShirt: {
+				DisplayName: Seifuku Shirt
+				Tooltip: ""
+			}
+
+			SeifukuShoes: {
+				DisplayName: Seifuku Shoes
+				Tooltip: ""
+			}
+
+			TararaDress: {
+				DisplayName: Tarara Dress
+				Tooltip: ""
+			}
+
+			TararaPonytail: {
+				DisplayName: Tarara Ponytail
+				Tooltip: ""
+			}
+
+			TararaShoes: {
+				DisplayName: Tarara Shoes
+				Tooltip: ""
+			}
+
+			TikTokNoteHat: {
+				DisplayName: TikTok Note Hat
+				Tooltip: ""
+			}
+
+			TikTokPants: {
+				DisplayName: TikTok Pants
+				Tooltip: ""
+			}
+
+			TikTokTorso: {
+				DisplayName: TikTok Torso
+				Tooltip: ""
+			}
+
+			BaiduTiebaHuajiDisc: {
+				DisplayName: Baidu Tieba Huájí Disc
+				Tooltip: Remnant from the Baidu Tieba posting culture
+			}
+
+			HeartbeatBroadsword: {
+				DisplayName: Heartbeat Broadsword
+				Tooltip: ""
+			}
+
+			HupuDisc: {
+				DisplayName: Hupu Disc
+				Tooltip: You can throw it, but can't catch it!
+			}
+
+			iFlytekDisc: {
+				DisplayName: iFlytek Disc
+				Tooltip: Marvelous AI-enhanced weapon straight from iFlytek factories!
+			}
+
+			KFCChickenDrumstick: {
+				DisplayName: KFC Chicken Drumstick
+				Tooltip: It's Finger Lickin' Good!
+			}
+
+			LOOKDisc: {
+				DisplayName: LOOK Disc
+				Tooltip: Look! It's a disc! No - it's LOOK #1 from LOOK Live!
+			}
+
+			PururuDisc: {
+				DisplayName: Pururu Disc
+				Tooltip: DONG DI BU?
+			}
+
+			TapTapBroadsword: {
+				DisplayName: TapTap Broadsword
+				Tooltip: Fight for Tarara & Pururu!
+			}
+
+			StarMerchantHat: {
+				DisplayName: Star Merchant Hat
+				Tooltip: ""
+			}
+
+			FilthySap: {
+				DisplayName: Filthy Sap
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			DreadFangs: {
+				DisplayName: Dread Fangs
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			GreenScales: {
+				DisplayName: Green Scales
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			MagmaShell: {
+				DisplayName: Magma Shell
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			GelOfCthulhu: {
+				DisplayName: Gel of Cthulhu
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			OtherworldCore: {
+				DisplayName: Otherworld Core
+				Tooltip: 20% increased damage dealt to Old One's Army enemies
+			}
+
+			FusionModule: {
+				DisplayName: Fusion Module
+				Tooltip: Used to craft Otherworld Core
+			}
+
+			Stargazer: {
+				Tooltip: ""
+				DisplayName: Stargazer
+			}
+
+			DaiDaiSelfie: {
+				Tooltip: "'DaiDai'"
+				DisplayName: DaiDai Selfie
+			}
+
+			GuaPiMao: {
+				DisplayName: Gua Pi Mao
+				Tooltip: ""
+			}
+
+			MythicalDogMask: {
+				DisplayName: Mythical Dog Mask
+				Tooltip: ""
+			}
+
+			MythicalDogPants: {
+				DisplayName: Mythical Dog Pants
+				Tooltip: ""
+			}
+
+			MythicalDogShirt: {
+				DisplayName: Mythical Dog Shirt
+				Tooltip: ""
+			}
+
+			TangSuitPants: {
+				DisplayName: Tang Suit Pants
+				Tooltip: ""
+			}
+
+			TangSuitShirt: {
+				DisplayName: Tang Suit Shirt
+				Tooltip: ""
+			}
+
+			TangYuanHat: {
+				DisplayName: Tang Yuan Hat
+				Tooltip: ""
+			}
+
+			TangYuanPants: {
+				DisplayName: Tang Yuan Pants
+				Tooltip: ""
+			}
+
+			TangYuanShirt: {
+				DisplayName: Tang Yuan Shirt
+				Tooltip: ""
+			}
+
+			TararaColorblockedDress: {
+				DisplayName: Tarara Colorblocked Dress
+				Tooltip: ""
+			}
+
+			TararaColorblockedKneeSocks: {
+				DisplayName: Tarara Colorblocked Knee Socks
+				Tooltip: ""
+			}
+
+			TararaLatestHairstyle: {
+				DisplayName: Tarara Latest Hairstyle
+				Tooltip: ""
+			}
+
+			MasterSuraHood: {
+				Tooltip: ""
+				DisplayName: Master Sura Hood
+			}
+
+			DaiDaiDoll: {
+				Tooltip: Summons a DaiDai Doll
+				DisplayName: DaiDai Doll
+			}
+
+			MasterSuraCloak: {
+				Tooltip: ""
+				DisplayName: Master Sura Cloak
+			}
+
+			StarIgnitor: {
+				DisplayName: Star Ignitor
+				Tooltip: Summons a small magical flame from another dimension
+			}
+		}
+
+		NPCs: {
+			StarMerchantNPC: {
+				DisplayName: Star Merchant
+
+				TownNPCMood: {
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LoveBiome: I love {BiomeName}.
+					LikeBiome: I like {BiomeName}.
+					DislikeBiome: I dislike {BiomeName}.
+					HateBiome: I hate {BiomeName}.
+					LoveNPC: I love {NPCName}.
+					LikeNPC: I like {NPCName}.
+					DislikeNPC: I dislike {NPCName}.
+					HateNPC: I hate {NPCName}.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+		}
+
+		Projectiles: {
+			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
+			HupuDiscProjectile.DisplayName: Hupu Disc
+			iFlytekDiscProjectile.DisplayName: iFlytek Disc
+			LOOKDiscProjectile.DisplayName: LOOK Disc
+			ChickenProjectile.DisplayName: Chicken
+			FlyingBasketballProjectile.DisplayName: Flying Basketball
+			GreenFrogProjectile.DisplayName: Green Frog
+			PururuProjectile.DisplayName: Pururu
+			RedEyedToadProjectile.DisplayName: Red Eyed Toad
+			WitchToadProjectile.DisplayName: Witch Toad
+			XiaokuaiProjectile.DisplayName: Xiaokuai
+			XiaoliuProjectile.DisplayName: Xiaoliu
+			PururuDiscProjectile.DisplayName: Pururu Disc
+			DaiDaiDollProjectile.DisplayName: DaiDai Doll
+			StarFlameProjectile.DisplayName: Star Flame
+		}
+
+		Tiles: {
+			KFCWorkBenchTile.MapEntry: Work Bench
+			TVTile.MapEntry: TV
+			AcFunOilPaintingTile.MapEntry: Painting
+			BirthdayCakeTile.MapEntry: Painting
+			ColorfulBalloonsStockPhotoTile.MapEntry: Painting
+			GetThePartyStartedTile.MapEntry: Painting
+			HeartbeatOilPaintingTile.MapEntry: Painting
+			JinyiCinemasPopcornPosterTile.MapEntry: Painting
+			KFCBurgerAdTile.MapEntry: Picture
+			KFCChickenDrumstickAdTile.MapEntry: Painting
+			KFCFamilyBucketAdTile.MapEntry: Painting
+			LargeDouYuOilPaintingTile.MapEntry: Painting
+			LargeHeartbeatTownscapeOilPaintingTile.MapEntry: Painting
+			LargeHuyaOilPaintingTile.MapEntry: Painting
+			LightPotatoTile.MapEntry: Painting
+			MediumDouYuOilPaintingTile.MapEntry: Painting
+			MediumHuyaOilPaintingTile.MapEntry: Painting
+			PotatariaTile.MapEntry: Painting
+			PururuPortraitTile.MapEntry: Painting
+			RockPotatoTile.MapEntry: Painting
+			SeiyuuchanSupportPosterTile.MapEntry: Painting
+			SmallDouYuOilPaintingTile.MapEntry: Picture
+			SmallHeartbeatTownscapeOilPaintingTile.MapEntry: Picture
+			SmallHuyaOilPaintingTile.MapEntry: Picture
+			TapTapGroupPortraitTile.MapEntry: Painting
+			TararaPortraitTile.MapEntry: Painting
+			DaiDaiSelfieTile.MapEntry: Painting
+			GreatMasterPortrait.MapEntry: Painting
+		}
+
+		Dialogue: {
+			StarMerchant: {
+				StarMerchantDialogue1: You have no idea how much Mud Blocks sell for abroad.
+				StarMerchantDialogue2: The best trade I've ever done was when I exchanged coal for a diamond sword!
+				StarMerchantDialogue3: Ni hao! Wanna trade?
+				StarMerchantDialogue4: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
+				StarMerchantDialogue5: Microtransactions? Never heard of that!
+				StarMerchantDialogue6: Are you a huge frog lover? Try your luck in my Leaf Lottery!
+				StarMerchantDialogue7: Trust me, kryptonite won't make you stronger - I tested it.
+				StarMerchantDialogue8: Hello there! Wanna buy some stuff?
+				StarMerchantDialogue9: Huh, this place changed a lot since my last visit - just like my stock! Check it out!
+				StarMerchantDialogue10: I love this place, although I hope I'll get back to my home planet one day... Anyway, would you like to buy something?
+				StarMerchantDialogue11: It's always a good time for hongbao... And some trading, of course!
+				StarMerchantNoShimmerDialogue1: Hey, have you seen my blue armor? I think I lost it somewhere...
+				StarMerchantShimmerDialogue1: My comfiest suit! So happy I got it back!
+				StarMerchantDay1: Ahh, the sky looks so beautiful today!
+				StarMerchantNight1: I bet these guys burn up in no time!
+				StarMerchantNight2: If every night here looks like this I gotta get myself a rail gun!
+				StarMerchantNight3: Should we look at the stars tonight?
+				StarMerchantRain1: Huh, at least my robe is waterproof!
+				StarMerchantRain2: This rain is a drizzle compared to the ones on Neptune!
+				StarMerchantRain3: Rainworld, this the matrix!
+				StarMerchantWind1: I love cold winds 'cause it tells me where to go!
+				StarMerchantHat1: That hat seems weirdly familiar...
+				StarMerchantBloodMoon1: What's the panic? At least the skeletons here don't ride spiders... Do they?
+				StarMerchantMechanicDialogue1: I wonder if {0} have some Redstone to sell.
+				StarMerchantGuideDialogue1: I gotta visit {0}, he seems like a very knowledgable guy - maybe he would help me to get back home?
+				StarMerchantTravellingMerchantDialogue1: Huh? {0} is here too? Finally! A worthy opponent!
+				StarMerchantZoologistDialogue1: Never ask a woman her age, a man his salary, and {0} how some of my KFC items are made...
+				StarMerchantMerchantDialogue1: Turns out some folks here really enjoy my style - just look at the {0}'s wardrobe!
+				StarMerchantClothierDialogue1: Looks like {0} knows a lot about clothes, but I bet he never saw pieces I got for sale!
+				StarMerchantTruffleDialogue1: Ahh, {0}! They understand me like no one else... Looks like we have a lot of things in common!
+			}
+		}
+
+		Emotes.StarMerchantEmote.Command: starmerchant
+	}
+}

@@ -17,7 +17,6 @@ namespace XDContentMod.Content.Items.Vanity
 			int equipSlotLegsAlt = EquipLoader.GetEquipSlot(Mod, "TikTokPants", EquipType.Legs);
 
 			ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegsAlt] = true;
-			ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegsAlt] = true;
 		}
 
 		public override void SetDefaults() 
