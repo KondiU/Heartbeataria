@@ -40,8 +40,14 @@ namespace XDContentMod.Content.NPCs
 		{
 			if ((!Main.dayTime || Main.time >= despawnTime) && !IsNpcOnscreen(NPC.Center))
 			{
-				if (Main.netMode == NetmodeID.SinglePlayer) Main.NewText(Language.GetTextValue("LegacyMisc.35", NPC.FullName), 50, 125, 255);
-				else ChatHelper.BroadcastChatMessage(NetworkText.FromKey("LegacyMisc.35", NPC.GetFullNetName()), new Color(50, 125, 255));
+				if (Main.netMode == NetmodeID.SinglePlayer) 
+				{
+					Main.NewText(Language.GetTextValue("LegacyMisc.35", NPC.FullName), 50, 125, 255);
+				}
+				else 
+				{
+					ChatHelper.BroadcastChatMessage(NetworkText.FromKey("LegacyMisc.35", NPC.GetFullNetName()), new Color(50, 125, 255));
+				}
 				NPC.active = false;
 				NPC.netSkip = -1;
 				NPC.life = 0;
@@ -187,7 +193,7 @@ namespace XDContentMod.Content.NPCs
 			bool travelerIsThere = (NPC.FindFirstNPC(ModContent.NPCType<StarMerchantNPC>()) != -1);
 			if (Main.dayTime && Main.time == 0) 
 			{
-				if (!travelerIsThere && Main.rand.NextBool(8))
+				if (!travelerIsThere && Main.rand.NextBool(10))
 				{
 					spawnTime = GetRandomSpawnTime(0, 27000);
 				}
@@ -206,13 +212,22 @@ namespace XDContentMod.Content.NPCs
 
 				spawnTime = double.MaxValue;
 
-				if (Main.netMode == NetmodeID.SinglePlayer) Main.NewText(Language.GetTextValue("Announcement.HasArrived", traveler.FullName), 50, 125, 255);
-				else ChatHelper.BroadcastChatMessage(NetworkText.FromKey("Announcement.HasArrived", traveler.GetFullNetName()), new Color(50, 125, 255));
+				if (Main.netMode == NetmodeID.SinglePlayer) 
+				{
+					Main.NewText(Language.GetTextValue("Announcement.HasArrived", traveler.FullName), 50, 125, 255);
+				}
+				else 
+				{
+					ChatHelper.BroadcastChatMessage(NetworkText.FromKey("Announcement.HasArrived", traveler.GetFullNetName()), new Color(50, 125, 255));
+				}
 			}
 		}
 
 		private static bool CanSpawnNow() 
 		{
+			if (Main.eclipse || Main.invasionType > 0 && Main.invasionDelay == 0 && Main.invasionSize > 0)
+				return false;
+
 			if (Main.IsFastForwardingTime())
 				return false;
 
@@ -226,8 +241,7 @@ namespace XDContentMod.Content.NPCs
 			Rectangle npcScreenRect = new Rectangle((int)center.X - w / 2, (int)center.Y - h / 2, w, h);
 			foreach (Player player in Main.player) 
 			{
-				if (player.active && player.getRect().Intersects(npcScreenRect)) 
-				{
+				if (player.getRect().Intersects(npcScreenRect)) {
 					return true;
 				}
 			}
