@@ -114,468 +114,468 @@ Mods: {
 			}
 
 			Leaf: {
-				DisplayName: Leaf
-				Tooltip: What's underneath it?
+				DisplayName: Liść
+				Tooltip: Co się pod nim kryje?
 			}
 
 			PururuCharger: {
-				DisplayName: Pururu Charger
-				Tooltip: Summons Pururu
+				DisplayName: Ładowarka Pururu
+				Tooltip: Przywołuje Pururu
 			}
 
 			ToadQuack2R: {
-				DisplayName: Leaf
-				Tooltip: What's underneath it?
+				DisplayName: Liść
+				Tooltip: Co się pod nim kryje?
 			}
 
 			ToadQuack2W: {
-				DisplayName: Leaf
-				Tooltip: What's underneath it?
+				DisplayName: Liść
+				Tooltip: Co się pod nim kryje?
 			}
 
 			Xiaokuai: {
 				DisplayName: Xiaokuai
-				Tooltip: Summons Xiaokuai
+				Tooltip: Przywołuje Xiaokuai
 			}
 
 			Xiaoliu: {
 				DisplayName: Xiaoliu
-				Tooltip: Summons Xiaoliu
+				Tooltip: Przywołuje Xiaoliu
 			}
 
 			AcFunOilPainting: {
-				DisplayName: AcFun Oil Painting
+				DisplayName: Obraz olejny AcFun
 				Tooltip: "'AcFun'"
 			}
 
 			BirthdayCake: {
-				DisplayName: Birthday Cake
+				DisplayName: Tort urodzinowy
 				Tooltip: "'TapTap'"
 			}
 
 			ColorfulBalloonsStockPhoto: {
-				DisplayName: Colorful Balloons Stock Photo
+				DisplayName: Stockowe zdjęcie kolorowych balonów
 				Tooltip: "'TapTap'"
 			}
 
 			GetThePartyStarted: {
-				DisplayName: Get The Party Started
+				DisplayName: Zacznijmy imprezę
 				Tooltip: "'TapTap'"
 			}
 
 			HeartbeatOilPainting: {
-				DisplayName: Heartbeat Oil Painting
+				DisplayName: Obraz olejny Heartbeat
 				Tooltip: "'XD Inc.'"
 			}
 
 			JinyiCinemasPopcornPoster: {
-				DisplayName: Jinyi Cinemas Popcorn Poster
+				DisplayName: Plakat z popcornem Jinyi Cinemas
 				Tooltip: "'Jinyi Cinemas'"
 			}
 
 			KFCBar: {
-				DisplayName: KFC Bar
+				DisplayName: Barek KFC
 				Tooltip: ""
 			}
 
 			KFCBurgerAd: {
-				DisplayName: KFC Burger Ad
-				Tooltip: Anything But Ordinary!
+				DisplayName: Reklama burgera KFC
+				Tooltip: Jest pysznie w KFC!
 			}
 
 			KFCChair: {
-				DisplayName: KFC Chair
+				DisplayName: Krzesło KFC
 				Tooltip: ""
 			}
 
 			KFCChickenDrumstickAd: {
-				DisplayName: KFC Chicken Drumstick Ad
-				Tooltip: It's Finger Lickin' Good!
+				DisplayName: Reklama nóżki z KFC
+				Tooltip: Palce lizać!
 			}
 
 			KFCFamilyBucketAd: {
-				DisplayName: KFC Family Bucket Ad
-				Tooltip: It's for the entire family to crunch!
+				DisplayName: Reklama kubełka Best of KFC
+				Tooltip: Najlepsze smaki KFC w jednym kubełku!
 			}
 
 			KFCWorkBench: {
-				DisplayName: KFC Work Bench
+				DisplayName: Stół warsztatowy KFC
 				Tooltip: ""
 			}
 
 			LargeDouYuOilPainting: {
-				DisplayName: Large DouYu Oil Painting
+				DisplayName: Duży obraz olejny DouYu
 				Tooltip: "'DouYu Ltd.'"
 			}
 
 			LargeHeartbeatTownscapeOilPainting: {
-				DisplayName: Large Heartbeat Townscape Oil Painting
+				DisplayName: Duży obraz olejny z widokiem na miasto Heartbeat
 				Tooltip: "'XD Inc.'"
 			}
 
 			LargeHuyaOilPainting: {
-				DisplayName: Large Huya Oil Painting
+				DisplayName: Duży obraz olejny Huya
 				Tooltip: "'Huya Inc.'"
 			}
 
 			LightPotato: {
-				DisplayName: Light Potato
+				DisplayName: Lekki ziemniaczek
 				Tooltip: "'Xiaohongshu'"
 			}
 
 			MediumDouYuOilPainting: {
-				DisplayName: Medium DouYu Oil Painting
+				DisplayName: Średni obraz olejny DouYu
 				Tooltip: "'DouYu Ltd.'"
 			}
 
 			MediumHuyaOilPainting: {
-				DisplayName: Medium Huya Oil Painting
+				DisplayName: Średni obraz olejny Huya
 				Tooltip: "'Huya Inc.'"
 			}
 
 			Potataria: {
-				DisplayName: Potataria
+				DisplayName: Ziemniakaria
 				Tooltip: "'Xiaohongshu'"
 			}
 
 			PururuPortrait: {
-				DisplayName: Pururu Portrait
+				DisplayName: Portret Pururu
 				Tooltip: "'TapTap'"
 			}
 
 			RockPotato: {
-				DisplayName: Rock Potato
+				DisplayName: Rockowy ziemniaczek
 				Tooltip: "'Xiaohongshu'"
 			}
 
 			SeiyuuchanSupportPoster: {
-				DisplayName: Seiyuu-chan Support Poster
+				DisplayName: Plakat wspierający Seiyuu-chan
 				Tooltip: "'NetEase, Inc.'"
 			}
 
 			SmallDouYuOilPainting: {
-				DisplayName: Small DouYu Oil Painting
+				DisplayName: Mały obraz olejny DouYu
 				Tooltip: "'DouYu Ltd.'"
 			}
 
 			SmallHeartbeatTownscapeOilPainting: {
-				DisplayName: Small Heartbeat Townscape Oil Painting
+				DisplayName: Mały obraz olejny z widokiem na miasto Heartbeat
 				Tooltip: "'XD Inc.'"
 			}
 
 			SmallHuyaOilPainting: {
-				DisplayName: Small Huya Oil Painting
+				DisplayName: Mały obraz olejny Huya
 				Tooltip: "'Huya Inc.'"
 			}
 
 			TapTapGroupPortrait: {
-				DisplayName: TapTap Group Portrait
+				DisplayName: Portret grupowy TapTap
 				Tooltip: "'TapTap'"
 			}
 
 			TararaPortrait: {
-				DisplayName: Tarara Portrait
+				DisplayName: Portret Tarary
 				Tooltip: "'TapTap'"
 			}
 
 			TV: {
-				DisplayName: TV
+				DisplayName: Telewizor
 				Tooltip: ""
 			}
 
 			BCYCatEars: {
-				DisplayName: BCY Cat Ears
+				DisplayName: Kocie uszka BCY
 				Tooltip: ""
 			}
 
 			BCYCosplayDress: {
-				DisplayName: BCY Cosplay Dress
+				DisplayName: Sukienka Cosplayowa BCY
 				Tooltip: ""
 			}
 
 			BCYCosplayShoes: {
-				DisplayName: BCY Cosplay Shoes
+				DisplayName: Buty Cosplayowe BCY
 				Tooltip: ""
 			}
 
 			ChengXinYouXuanHat: {
-				DisplayName: ChengXin YouXuan Hat
+				DisplayName: Czapka ChengXin YouXuan
 				Tooltip: ""
 			}
 
 			ChengXinYouXuanPants: {
-				DisplayName: ChengXin YouXuan Pants
+				DisplayName: Spodnie ChengXin YouXuan
 				Tooltip: ""
 			}
 
 			ChengXinYouXuanShirt: {
-				DisplayName: ChengXin YouXuan Shirt
+				DisplayName: Koszulka ChengXin YouXuan
 				Tooltip: ""
 			}
 
 			ColonelsMask: {
-				DisplayName: Colonel's Mask
+				DisplayName: Maska pułkownika
 				Tooltip: ""
 			}
 
 			ColonelsTuxedoPants: {
-				DisplayName: Colonel's Tuxedo Pants
-				Tooltip: They have some oil stains on them
+				DisplayName: Spodnie smokingu pułkownika
+				Tooltip: Mają małe plamy z oleju
 			}
 
 			ColonelsTuxedoShirt: {
-				DisplayName: Colonel's Tuxedo Shirt
-				Tooltip: Smells like Hot Wings
+				DisplayName: Koszula smokingu pułkownika
+				Tooltip: Pachnie jak Hot Wingsy
 			}
 
 			CuteBrownWig: {
-				DisplayName: Cute Brown Wig
+				DisplayName: Urocza brązowa peruka
 				Tooltip: ""
 			}
 
 			DeepColdBreastplate: {
-				DisplayName: Deep Cold Breastplate
+				DisplayName: Napierśnik Głębokiego Chłodu
 				Tooltip: ""
 			}
 
 			DeepColdHelmet: {
-				DisplayName: Deep Cold Helmet
+				DisplayName: Hełm Głębokiego Chłodu
 				Tooltip: ""
 			}
 
 			DeepColdLeggings: {
-				DisplayName: Deep Cold Leggings
+				DisplayName: Nagolenniki Głębokiego Chłodu
 				Tooltip: ""
 			}
 
 			DogMask: {
-				DisplayName: Dog Mask
+				DisplayName: Maska psa
 				Tooltip: ""
 			}
 
 			DogPants: {
-				DisplayName: Dog Pants
+				DisplayName: Spodnie psa
 				Tooltip: ""
 			}
 
 			DogShirt: {
-				DisplayName: Dog Shirt
+				DisplayName: Koszulka psa
 				Tooltip: ""
 			}
 
 			ExpeditionerHat: {
-				DisplayName: Expeditioner Hat
+				DisplayName: Czapka podróżnika
 				Tooltip: ""
 			}
 
 			ExpeditionerPants: {
-				DisplayName: Expeditioner Pants
+				DisplayName: Spodnie podróżnika
 				Tooltip: ""
 			}
 
 			ExpeditionerShirt: {
-				DisplayName: Expeditioner Shirt
+				DisplayName: Koszulka podróżnika
 				Tooltip: ""
 			}
 
 			HeartbeatOrangeDress: {
-				DisplayName: Heartbeat Orange Dress
+				DisplayName: Pomarańczowa sukienka Heartbeat
 				Tooltip: ""
 			}
 
 			HeartbeatOrangePonytail: {
-				DisplayName: Heartbeat Orange Ponytail
+				DisplayName: Pomarańczowy kucyk Heartbeat
 				Tooltip: ""
 			}
 
 			HeartbeatOrangeShoes: {
-				DisplayName: Heartbeat Orange Shoes
+				DisplayName: Pomarańczowe buty Heartbeat
 				Tooltip: ""
 			}
 
 			HeartbeatOrangeTuxedoPants: {
-				DisplayName: Heartbeat Orange Tuxedo Pants
+				DisplayName: Spodnie pomarańczowego smokingu Heartbeat
 				Tooltip: ""
 			}
 
 			HeartbeatOrangeTuxedoShirt: {
-				DisplayName: Heartbeat Orange Tuxedo Shirt
+				DisplayName: Koszula pomarańczowego smokingu Heartbeat
 				Tooltip: ""
 			}
 
 			HeartbeatOrangeWig: {
-				DisplayName: Heartbeat Orange Wig
+				DisplayName: Pomarańczowa peruka Heartbeat
 				Tooltip: ""
 			}
 
 			ImperialGuardBreastplate: {
-				DisplayName: Imperial Guard Breastplate
+				DisplayName: Napierśnik Imperialnego Gwardzisty
 				Tooltip: ""
 			}
 
 			ImperialGuardHelmet: {
-				DisplayName: Imperial Guard Helmet
+				DisplayName: Hełm Imperialnego Gwardzisty
 				Tooltip: ""
 			}
 
 			ImperialGuardLeggings: {
-				DisplayName: Imperial Guard Leggings
+				DisplayName: Nagolenniki Imperialnego Gwardzisty
 				Tooltip: ""
 			}
 
 			ImperialMasterBreastplate: {
-				DisplayName: Imperial Master Breastplate
+				DisplayName: Napierśnik Imperialnego Mistrza
 				Tooltip: ""
 			}
 
 			ImperialMasterHelmet: {
-				DisplayName: Imperial Master Helmet
+				DisplayName: Hełm Imperialnego Mistrza
 				Tooltip: ""
 			}
 
 			ImperialMasterLeggings: {
-				DisplayName: Imperial Master Leggings
+				DisplayName: Nagolenniki Imperialnego Mistrza
 				Tooltip: ""
 			}
 
 			iQIYIMechaHelmet: {
-				DisplayName: iQIYI Mecha Helmet
+				DisplayName: Hełm mecha iQIYI
 				Tooltip: ""
 			}
 
 			iQIYIMechaPants: {
-				DisplayName: iQIYI Mecha Pants
+				DisplayName: Spodnie mecha iQIYI
 				Tooltip: ""
 			}
 
 			iQIYIMechaTorso: {
-				DisplayName: iQIYI Mecha Torso
+				DisplayName: Tors mecha iQIYI
 				Tooltip: ""
 			}
 
 			MountainGuardBreastplate: {
-				DisplayName: Mountain Guard Breastplate
+				DisplayName: Napierśnik Górskiego Gwardzisty
 				Tooltip: ""
 			}
 
 			MountainGuardHelmet: {
-				DisplayName: Mountain Guard Helmet
+				DisplayName: Hełm Górskiego Gwardzisty
 				Tooltip: ""
 			}
 
 			MountainGuardLeggings: {
-				DisplayName: Mountain Guard Leggings
+				DisplayName: Nagolenniki Górskiego Gwardzisty
 				Tooltip: ""
 			}
 
 			SeifukuShirt: {
-				DisplayName: Seifuku Shirt
+				DisplayName: Koszula Seifuku
 				Tooltip: ""
 			}
 
 			SeifukuShoes: {
-				DisplayName: Seifuku Shoes
+				DisplayName: Buty Seifuku
 				Tooltip: ""
 			}
 
 			TararaDress: {
-				DisplayName: Tarara Dress
+				DisplayName: Sukienka Tarary
 				Tooltip: ""
 			}
 
 			TararaPonytail: {
-				DisplayName: Tarara Ponytail
+				DisplayName: Kucyk Tarary
 				Tooltip: ""
 			}
 
 			TararaShoes: {
-				DisplayName: Tarara Shoes
+				DisplayName: Buty Tarary
 				Tooltip: ""
 			}
 
 			TikTokNoteHat: {
-				DisplayName: TikTok Note Hat
+				DisplayName: Czapka z nutą TikTok
 				Tooltip: ""
 			}
 
 			TikTokPants: {
-				DisplayName: TikTok Pants
+				DisplayName: Spodnie TikTok
 				Tooltip: ""
 			}
 
 			TikTokTorso: {
-				DisplayName: TikTok Torso
+				DisplayName: Tors TikTok
 				Tooltip: ""
 			}
 
 			BaiduTiebaHuajiDisc: {
-				DisplayName: Baidu Tieba Huájí Disc
-				Tooltip: Remnant from the Baidu Tieba posting culture
+				DisplayName: Dysk Baidu Tieba Huájí
+				Tooltip: Zabytek z ery postowania na Baidu Tieba
 			}
 
 			HeartbeatBroadsword: {
-				DisplayName: Heartbeat Broadsword
+				DisplayName: Pałasz Heartbeat
 				Tooltip: ""
 			}
 
 			HupuDisc: {
-				DisplayName: Hupu Disc
-				Tooltip: You can throw it, but can't catch it!
+				DisplayName: Dysk Hupu
+				Tooltip: Możesz go rzucić, ale nie złapać!
 			}
 
 			iFlytekDisc: {
-				DisplayName: iFlytek Disc
-				Tooltip: Marvelous AI-enhanced weapon straight from iFlytek factories!
+				DisplayName: Dysk iFlytek
+				Tooltip: Niesamowita broń wspomagana sztuczną inteligencją prosto z fabryk iFlytek!
 			}
 
 			KFCChickenDrumstick: {
-				DisplayName: KFC Chicken Drumstick
-				Tooltip: It's Finger Lickin' Good!
+				DisplayName: Nóżka kurczaka z KFC
+				Tooltip: Palce lizać!
 			}
 
 			LOOKDisc: {
-				DisplayName: LOOK Disc
-				Tooltip: Look! It's a disc! No - it's LOOK #1 from LOOK Live!
+				DisplayName: Dysk LOOK
+				Tooltip: Zobacz! To dysk! Nie - to LOOK #1 z LOOK Live!
 			}
 
 			PururuDisc: {
-				DisplayName: Pururu Disc
+				DisplayName: Dysk Pururu
 				Tooltip: DONG DI BU?
 			}
 
 			TapTapBroadsword: {
-				DisplayName: TapTap Broadsword
-				Tooltip: Fight for Tarara & Pururu!
+				DisplayName: Pałasz TapTap
+				Tooltip: Walcz za Tararę i Pururu!
 			}
 
 			StarMerchantHat: {
-				DisplayName: Star Merchant Hat
+				DisplayName: Kapelusz Gwiezdnego Kupca
 				Tooltip: ""
 			}
 
 			FilthySap: {
-				DisplayName: Filthy Sap
-				Tooltip: Used to craft Otherworld Core
+				DisplayName: Złowieszcza żywica
+				Tooltip: Używane do tworzenia Nadprzyrodzonego Rdzenia
 			}
 
 			DreadFangs: {
-				DisplayName: Dread Fangs
-				Tooltip: Used to craft Otherworld Core
+				DisplayName: Straszne kły
+				Tooltip: Używane do tworzenia Nadprzyrodzonego Rdzenia
 			}
 
 			GreenScales: {
-				DisplayName: Green Scales
-				Tooltip: Used to craft Otherworld Core
+				DisplayName: Zielone łuski
+				Tooltip: Używane do tworzenia Nadprzyrodzonego Rdzenia
 			}
 
 			MagmaShell: {
-				DisplayName: Magma Shell
-				Tooltip: Used to craft Otherworld Core
+				DisplayName: Skorupa magmy
+				Tooltip: Używane do tworzenia Nadprzyrodzonego Rdzenia
 			}
 
 			GelOfCthulhu: {
-				DisplayName: Gel of Cthulhu
-				Tooltip: Used to craft Otherworld Core
+				DisplayName: Żel Cthulhu
+				Tooltip: Używane do tworzenia Nadprzyrodzonego Rdzenia
 			}
 
 			OtherworldCore: {
@@ -585,17 +585,17 @@ Mods: {
 
 			FusionModule: {
 				DisplayName: Fusion Module
-				Tooltip: Used to craft Otherworld Core
+				Tooltip: Używane do tworzenia Nadprzyrodzonego Rdzenia
 			}
 
 			Stargazer: {
 				Tooltip: ""
-				DisplayName: Stargazer
+				DisplayName: Gwiezdny Obserwator
 			}
 
 			DaiDaiSelfie: {
 				Tooltip: "'DaiDai'"
-				DisplayName: DaiDai Selfie
+				DisplayName: Selfie DaiDai
 			}
 
 			GuaPiMao: {
@@ -604,107 +604,107 @@ Mods: {
 			}
 
 			MythicalDogMask: {
-				DisplayName: Mythical Dog Mask
+				DisplayName: Maska Mitycznego Psa
 				Tooltip: ""
 			}
 
 			MythicalDogPants: {
-				DisplayName: Mythical Dog Pants
+				DisplayName: Spodnie Mitycznego Psa
 				Tooltip: ""
 			}
 
 			MythicalDogShirt: {
-				DisplayName: Mythical Dog Shirt
+				DisplayName: Koszulka Mitycznego Psa
 				Tooltip: ""
 			}
 
 			TangSuitPants: {
-				DisplayName: Tang Suit Pants
+				DisplayName: Spodnie Tang
 				Tooltip: ""
 			}
 
 			TangSuitShirt: {
-				DisplayName: Tang Suit Shirt
+				DisplayName: Koszula Tang
 				Tooltip: ""
 			}
 
 			TangYuanHat: {
-				DisplayName: Tang Yuan Hat
+				DisplayName: Czapka Tang Yuan
 				Tooltip: ""
 			}
 
 			TangYuanPants: {
-				DisplayName: Tang Yuan Pants
+				DisplayName: Spodnie Tang Yuan
 				Tooltip: ""
 			}
 
 			TangYuanShirt: {
-				DisplayName: Tang Yuan Shirt
+				DisplayName: Koszulka Tang Yuan
 				Tooltip: ""
 			}
 
 			TararaColorblockedDress: {
-				DisplayName: Tarara Colorblocked Dress
+				DisplayName: Kolorowa sukienka Tarary
 				Tooltip: ""
 			}
 
 			TararaColorblockedKneeSocks: {
-				DisplayName: Tarara Colorblocked Knee Socks
+				DisplayName: Kolorowe zakolanówki Tarary
 				Tooltip: ""
 			}
 
 			TararaLatestHairstyle: {
-				DisplayName: Tarara Latest Hairstyle
+				DisplayName: Najświeższa fryzura Tarary
 				Tooltip: ""
 			}
 
 			MasterSuraHood: {
 				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
-				DisplayName: Master Sura Hood
+				DisplayName: Kaptur Mistrza Sury
 			}
 
 			DaiDaiDoll: {
-				Tooltip: Summons a DaiDai Doll
-				DisplayName: DaiDai Doll
+				Tooltip: Przywołuje lalkę DaiDai
+				DisplayName: Lalka DaiDai
 			}
 
 			MasterSuraCloak: {
 				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
-				DisplayName: Master Sura Cloak
+				DisplayName: Peleryna Mistrza Sury
 			}
 
 			StarIgnitor: {
-				DisplayName: Star Ignitor
-				Tooltip: Summons a small magical flame from another dimension
+				DisplayName: Gwiezdny Płomyk
+				Tooltip: Przywołuje mały magiczny płomień z innego wymiaru
 			}
 
 			WizardOfLegendMusicBox: {
-				DisplayName: Music Box (Wizard of Legend)
+				DisplayName: Pozytywka (Wizard of Legend)
 				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 			}
 		}
 
-		NPCs.StarMerchantNPC.DisplayName: Star Merchant
+		NPCs.StarMerchantNPC.DisplayName: Gwiezdny Kupiec
 
 		Projectiles: {
-			BaiduTiebaHuajiDiscProjectile.DisplayName: Baidu Tieba Huájí Disc
-			HupuDiscProjectile.DisplayName: Hupu Disc
-			iFlytekDiscProjectile.DisplayName: iFlytek Disc
-			LOOKDiscProjectile.DisplayName: LOOK Disc
-			ChickenProjectile.DisplayName: Chicken
-			FlyingBasketballProjectile.DisplayName: Flying Basketball
-			GreenFrogProjectile.DisplayName: Green Frog
+			BaiduTiebaHuajiDiscProjectile.DisplayName: Dysk Baidu Tieba Huájí
+			HupuDiscProjectile.DisplayName: Dysk Hupu
+			iFlytekDiscProjectile.DisplayName: Dysk iFlytek
+			LOOKDiscProjectile.DisplayName: Dysk LOOK
+			ChickenProjectile.DisplayName: Kurczak
+			FlyingBasketballProjectile.DisplayName: Latająca piłka do koszykówki
+			GreenFrogProjectile.DisplayName: Zielona żaba
 			PururuProjectile.DisplayName: Pururu
-			RedEyedToadProjectile.DisplayName: Red Eyed Toad
-			WitchToadProjectile.DisplayName: Witch Toad
+			RedEyedToadProjectile.DisplayName: Czerwonooka ropucha
+			WitchToadProjectile.DisplayName: Ropucha czarownica
 			XiaokuaiProjectile.DisplayName: Xiaokuai
 			XiaoliuProjectile.DisplayName: Xiaoliu
-			PururuDiscProjectile.DisplayName: Pururu Disc
-			DaiDaiDollProjectile.DisplayName: DaiDai Doll
-			StarFlameProjectile.DisplayName: Star Flame
+			PururuDiscProjectile.DisplayName: Dysk Pururu
+			DaiDaiDollProjectile.DisplayName: Lalka DaiDai
+			StarFlameProjectile.DisplayName: Gwiezdny Płomyk
 		}
 
-		Tiles.TVTile.MapEntry: TV
+		Tiles.TVTile.MapEntry: Telewizor
 
 		Dialogue: {
 			StarMerchant: {
@@ -741,6 +741,6 @@ Mods: {
 			}
 		}
 
-		Emotes.StarMerchantEmote.Command: starmerchant
+		Emotes.StarMerchantEmote.Command: gwiezdnykupiec
 	}
 }

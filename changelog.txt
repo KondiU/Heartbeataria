@@ -1,2 +1,3 @@
 -Reduced Star Merchant spawn Chance from 12,5% to 10%
 -Star Merchant can't spawn during the events
+-Added Polish translation
