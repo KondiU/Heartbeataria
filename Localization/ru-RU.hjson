@@ -1,0 +1,746 @@
+Mods: {
+    XDContentMod: {
+        Buffs: {
+            ChickenBuff: {
+                DisplayName: Курица
+                Description: Белая и нежная, идеально подходит для жарки
+            }
+
+            DiDiBikeBuff: {
+                DisplayName: Велосипед DiDi
+                Description: Отличный спутник для поездок по городским улицам
+            }
+
+            DiDiCarBuff: {
+                DisplayName: Автомобиль DiDi
+                Description: Отличный спутник для поездок по городским улицам
+            }
+
+            FlyingBasketballBuff: {
+                DisplayName: Летающий баскетбол
+                Description: Если баскетбольный мяч не умеет летать, он ничего не стоит
+            }
+
+            GreenFrogBuff: {
+                DisplayName: Зелёная лягушка
+                Description: Маленькая зелёная лягушка, которая никогда не заблудится
+            }
+
+            KFCDeliveryScooterBuff: {
+                DisplayName: Скутер доставки KFC
+                Description: Отличный спутник для поездок по городским улицам
+            }
+
+            LuxuryConvertibleBuff: {
+                DisplayName: Роскошный кабриолет
+                Description: Элегантность никогда не выходит из моды!
+            }
+
+            PururuBuff: {
+                DisplayName: Пуруру
+                Description: Пуруру следует за вами
+            }
+
+            RedEyedToadBuff: {
+                DisplayName: Красноглазая жаба
+                Description: Маленькая зелёная жаба, которая никогда не заблудится
+            }
+
+            TapTapMinivanBuff: {
+                DisplayName: Минивэн TapTap
+                Description: Минивэн на тяге Пуруру!
+            }
+
+            WitchToadBuff: {
+                DisplayName: Ведьмина жаба
+                Description: Маленькая зелёная жаба, которая никогда не заблудится
+            }
+
+            XiaokuaiBuff: {
+                DisplayName: Сяокуай
+                Description: Маленький музыкант, обожающий инструменты
+            }
+
+            XiaoliuBuff: {
+                DisplayName: Сяолю
+                Description: Маленький учёный с невероятным IQ
+            }
+
+            DaiDaiDollBuff: {
+                DisplayName: Кукла Дай-Дай
+                Description: Кукла Дай-Дай следует за вами
+            }
+
+            StarFlameBuff: {
+                DisplayName: Звёздное пламя
+                Description: Маленькое магическое пламя из другого измерения
+            }
+        }
+
+        Items: {
+            ConvertibleKeys: {
+                DisplayName: Ключи от кабриолета
+                Tooltip: Призывает оранжевый роскошный кабриолет (ездовое животное)
+            }
+
+            DiDiBikeKeys: {
+                DisplayName: Ключи от велосипеда DiDi
+                Tooltip: Призывает велосипед DiDi (ездовое животное)
+            }
+
+            DiDiCarKeys: {
+                DisplayName: Ключи от автомобиля DiDi
+                Tooltip: Призывает автомобиль DiDi (ездовое животное)
+            }
+
+            KFCDeliveryScooterKeys: {
+                DisplayName: Ключи от скутера KFC
+                Tooltip: Призывает скутер доставки KFC (ездовое животное)
+            }
+
+            TapTapMinivanKeys: {
+                DisplayName: Ключи от минивэна TapTap
+                Tooltip: Призывает безэмоциональный минивэн! (ездовое животное)
+            }
+
+            Basketball: {
+                DisplayName: Баскетбольный мяч
+                Tooltip: Призывает летающий баскетбольный мяч
+            }
+
+            FriedChickenNugget: {
+                DisplayName: Жареный наггетс
+                Tooltip: Призывает курицу
+            }
+
+            Leaf: {
+                DisplayName: Лист
+                Tooltip: Что под ним прячется?
+            }
+
+            PururuCharger: {
+                DisplayName: Зарядка для Пуруру
+                Tooltip: Призывает Пуруру
+            }
+
+            ToadQuack2R: {
+                DisplayName: Лист
+                Tooltip: Что под ним прячется?
+            }
+
+            ToadQuack2W: {
+                DisplayName: Лист
+                Tooltip: Что под ним прячется?
+            }
+
+            Xiaokuai: {
+                DisplayName: Сяокуай
+                Tooltip: Призывает Сяокуая
+            }
+
+            Xiaoliu: {
+                DisplayName: Сяолю
+                Tooltip: Призывает Сяолю
+            }
+
+            AcFunOilPainting: {
+                DisplayName: Картина маслом «AcFun»
+                Tooltip: «AcFun»
+            }
+
+            BirthdayCake: {
+                DisplayName: Праздничный торт
+                Tooltip: «TapTap»
+            }
+
+            ColorfulBalloonsStockPhoto: {
+                DisplayName: Стоковое фото с шариками
+                Tooltip: «TapTap»
+            }
+
+            GetThePartyStarted: {
+                DisplayName: Время вечеринки
+                Tooltip: «TapTap»
+            }
+
+            HeartbeatOilPainting: {
+                DisplayName: Картина маслом «Сердцебиение»
+                Tooltip: «XD Inc.»
+            }
+
+            JinyiCinemasPopcornPoster: {
+                DisplayName: Постер с попкорном Jinyi Cinemas
+                Tooltip: «Jinyi Cinemas»
+            }
+
+            KFCBar: {
+                DisplayName: Барная стойка KFC
+                Tooltip: ""
+            }
+
+            KFCBurgerAd: {
+                DisplayName: Реклама бургеров KFC
+                Tooltip: Что-то необыкновенное!
+            }
+
+            KFCChair: {
+                DisplayName: Стул KFC
+                Tooltip: ""
+            }
+
+            KFCChickenDrumstickAd: {
+                DisplayName: Реклама ножек KFC
+                Tooltip: Вкусно так, что пальчики оближешь!
+            }
+
+            KFCFamilyBucketAd: {
+                DisplayName: Реклама семейного баскета KFC
+                Tooltip: Хватит на всю семью!
+            }
+
+            KFCWorkBench: {
+                DisplayName: Верстак KFC
+                Tooltip: ""
+            }
+
+            LargeDouYuOilPainting: {
+                DisplayName: Большая картина маслом «DouYu»
+                Tooltip: «DouYu Ltd.»
+            }
+
+            LargeHeartbeatTownscapeOilPainting: {
+                DisplayName: Большая картина «Город сердцебиения»
+                Tooltip: «XD Inc.»
+            }
+
+            LargeHuyaOilPainting: {
+                DisplayName: Большая картина маслом «Huya»
+                Tooltip: «Huya Inc.»
+            }
+
+            LightPotato: {
+                DisplayName: Светлая картофелина
+                Tooltip: «Xiaohongshu»
+            }
+
+            MediumDouYuOilPainting: {
+                DisplayName: Средняя картина маслом «DouYu»
+                Tooltip: «DouYu Ltd.»
+            }
+
+            MediumHuyaOilPainting: {
+                DisplayName: Средняя картина маслом «Huya»
+                Tooltip: «Huya Inc.»
+            }
+
+            Potataria: {
+                DisplayName: Потатрия
+                Tooltip: «Xiaohongshu»
+            }
+
+            PururuPortrait: {
+                DisplayName: Портрет Пуруру
+                Tooltip: «TapTap»
+            }
+
+            RockPotato: {
+                DisplayName: Каменная картофелина
+                Tooltip: «Xiaohongshu»
+            }
+
+            SeiyuuchanSupportPoster: {
+                DisplayName: Плакат поддержки Сэйю-тян
+                Tooltip: «NetEase, Inc.»
+            }
+
+            SmallDouYuOilPainting: {
+                DisplayName: Малая картина маслом «DouYu»
+                Tooltip: «DouYu Ltd.»
+            }
+
+            SmallHeartbeatTownscapeOilPainting: {
+                DisplayName: Малая картина «Город сердцебиения»
+                Tooltip: «XD Inc.»
+            }
+
+            SmallHuyaOilPainting: {
+                DisplayName: Малая картина маслом «Huya»
+                Tooltip: «Huya Inc.»
+            }
+
+            TapTapGroupPortrait: {
+                DisplayName: Групповой портрет TapTap
+                Tooltip: «TapTap»
+            }
+
+            TararaPortrait: {
+                DisplayName: Портрет Тарары
+                Tooltip: «TapTap»
+            }
+
+            TV: {
+                DisplayName: Телевизор
+                Tooltip: ""
+            }
+
+            BCYCatEars: {
+                DisplayName: Кошачьи ушки BCY
+                Tooltip: ""
+            }
+
+            BCYCosplayDress: {
+                DisplayName: Платье для косплея BCY
+                Tooltip: ""
+            }
+
+            BCYCosplayShoes: {
+                DisplayName: Туфли для косплея BCY
+                Tooltip: ""
+            }
+
+            ChengXinYouXuanHat: {
+                DisplayName: Шапка ChengXin YouXuan
+                Tooltip: ""
+            }
+
+            ChengXinYouXuanPants: {
+                DisplayName: Брюки ChengXin YouXuan
+                Tooltip: ""
+            }
+
+            ChengXinYouXuanShirt: {
+                DisplayName: Рубашка ChengXin YouXuan
+                Tooltip: ""
+            }
+
+            ColonelsMask: {
+                DisplayName: Маска Полковника
+                Tooltip: ""
+            }
+
+            ColonelsTuxedoPants: {
+                DisplayName: Брюки от смокинга Полковника
+                Tooltip: На них видны масляные пятна
+            }
+
+            ColonelsTuxedoShirt: {
+                DisplayName: Пиджак от смокинга Полковника
+                Tooltip: Пахнет острыми крылышками
+            }
+
+            CuteBrownWig: {
+                DisplayName: Милый каштановый парик
+                Tooltip: ""
+            }
+
+            DeepColdBreastplate: {
+                DisplayName: Нагрудник глубокой стужи
+                Tooltip: ""
+            }
+
+            DeepColdHelmet: {
+                DisplayName: Шлем глубокой стужи
+                Tooltip: ""
+            }
+
+            DeepColdLeggings: {
+                DisplayName: Поножи глубокой стужи
+                Tooltip: ""
+            }
+
+            DogMask: {
+                DisplayName: Маска собаки
+                Tooltip: ""
+            }
+
+            DogPants: {
+                DisplayName: Брюки собаки
+                Tooltip: ""
+            }
+
+            DogShirt: {
+                DisplayName: Рубашка собаки
+                Tooltip: ""
+            }
+
+            ExpeditionerHat: {
+                DisplayName: Шляпа экспедитора
+                Tooltip: ""
+            }
+
+            ExpeditionerPants: {
+                DisplayName: Брюки экспедитора
+                Tooltip: ""
+            }
+
+            ExpeditionerShirt: {
+                DisplayName: Рубашка экспедитора
+                Tooltip: ""
+            }
+
+            HeartbeatOrangeDress: {
+                DisplayName: Оранжевое платье сердцебиения
+                Tooltip: ""
+            }
+
+            HeartbeatOrangePonytail: {
+                DisplayName: Оранжевый хвостик сердцебиения
+                Tooltip: ""
+            }
+
+            HeartbeatOrangeShoes: {
+                DisplayName: Оранжевые туфли сердцебиения
+                Tooltip: ""
+            }
+
+            HeartbeatOrangeTuxedoPants: {
+                DisplayName: Оранжевые брюки от смокинга
+                Tooltip: ""
+            }
+
+            HeartbeatOrangeTuxedoShirt: {
+                DisplayName: Оранжевый пиджак от смокинга
+                Tooltip: ""
+            }
+
+            HeartbeatOrangeWig: {
+                DisplayName: Оранжевый парик сердцебиения
+                Tooltip: ""
+            }
+
+            ImperialGuardBreastplate: {
+                DisplayName: Нагрудник имперской стражи
+                Tooltip: ""
+            }
+
+            ImperialGuardHelmet: {
+                DisplayName: Шлем имперской стражи
+                Tooltip: ""
+            }
+
+            ImperialGuardLeggings: {
+                DisplayName: Поножи имперской стражи
+                Tooltip: ""
+            }
+
+            ImperialMasterBreastplate: {
+                DisplayName: Нагрудник имперского мастера
+                Tooltip: ""
+            }
+
+            ImperialMasterHelmet: {
+                DisplayName: Шлем имперского мастера
+                Tooltip: ""
+            }
+
+            ImperialMasterLeggings: {
+                DisplayName: Поножи имперского мастера
+                Tooltip: ""
+            }
+
+            iQIYIMechaHelmet: {
+                DisplayName: Меха-шлем iQIYI
+                Tooltip: ""
+            }
+
+            iQIYIMechaPants: {
+                DisplayName: Меха-поножи iQIYI
+                Tooltip: ""
+            }
+
+            iQIYIMechaTorso: {
+                DisplayName: Меха-нагрудник iQIYI
+                Tooltip: ""
+            }
+
+            MountainGuardBreastplate: {
+                DisplayName: Нагрудник горной стражи
+                Tooltip: ""
+            }
+
+            MountainGuardHelmet: {
+                DisplayName: Шлем горной стражи
+                Tooltip: ""
+            }
+
+            MountainGuardLeggings: {
+                DisplayName: Поножи горной стражи
+                Tooltip: ""
+            }
+
+            SeifukuShirt: {
+                DisplayName: Рубашка сэйфуку
+                Tooltip: ""
+            }
+
+            SeifukuShoes: {
+                DisplayName: Туфли сэйфуку
+                Tooltip: ""
+            }
+
+            TararaDress: {
+                DisplayName: Платье Тарары
+                Tooltip: ""
+            }
+
+            TararaPonytail: {
+                DisplayName: Хвостик Тарары
+                Tooltip: ""
+            }
+
+            TararaShoes: {
+                DisplayName: Туфли Тарары
+                Tooltip: ""
+            }
+
+            TikTokNoteHat: {
+                DisplayName: Шапка-нота TikTok
+                Tooltip: ""
+            }
+
+            TikTokPants: {
+                DisplayName: Брюки TikTok
+                Tooltip: ""
+            }
+
+            TikTokTorso: {
+                DisplayName: Рубашка TikTok
+                Tooltip: ""
+            }
+
+            BaiduTiebaHuajiDisc: {
+                DisplayName: Диск «Хуацзи» Baidu Tieba
+                Tooltip: Пережиток культуры постов на Baidu Tieba
+            }
+
+            HeartbeatBroadsword: {
+                DisplayName: Палаш сердцебиения
+                Tooltip: ""
+            }
+
+            HupuDisc: {
+                DisplayName: Диск Hupu
+                Tooltip: Его можно бросить, но нельзя поймать!
+            }
+
+            iFlytekDisc: {
+                DisplayName: Диск iFlytek
+                Tooltip: Чудесное оружие с ИИ прямиком с заводов iFlytek!
+            }
+
+            KFCChickenDrumstick: {
+                DisplayName: Куриная ножка KFC
+                Tooltip: Вкусно так, что пальчики оближешь!
+            }
+
+            LOOKDisc: {
+                DisplayName: Диск LOOK
+                Tooltip: Гляди! Это диск! Нет — это LOOK #1 от LOOK Live!
+            }
+
+            PururuDisc: {
+                DisplayName: Диск Пуруру
+                Tooltip: DONG DI BU?
+            }
+
+            TapTapBroadsword: {
+                DisplayName: Палаш TapTap
+                Tooltip: Сражайтесь за Тарару и Пуруру!
+            }
+
+            StarMerchantHat: {
+                DisplayName: Шляпа звёздного торговца
+                Tooltip: ""
+            }
+
+            FilthySap: {
+                DisplayName: Грязная смола
+                Tooltip: Используется для создания потустороннего ядра
+            }
+
+            DreadFangs: {
+                DisplayName: Клыки ужаса
+                Tooltip: Используются для создания потустороннего ядра
+            }
+
+            GreenScales: {
+                DisplayName: Зелёная чешуя
+                Tooltip: Используется для создания потустороннего ядра
+            }
+
+            MagmaShell: {
+                DisplayName: Магматический панцирь
+                Tooltip: Используется для создания потустороннего ядра
+            }
+
+            GelOfCthulhu: {
+                DisplayName: Гель Ктулху
+                Tooltip: Используется для создания потустороннего ядра
+            }
+
+            OtherworldCore: {
+                DisplayName: Потустороннее ядро
+                Tooltip: Урон по врагам Армии Древних увеличен на 20%
+            }
+
+            FusionModule: {
+                DisplayName: Модуль синтеза
+                Tooltip: Используется для создания потустороннего ядра
+            }
+
+            Stargazer: {
+                DisplayName: Звездочёт
+                Tooltip: ""
+            }
+
+            DaiDaiSelfie: {
+                DisplayName: Селфи Дай-Дай
+                Tooltip: «Дай-Дай»
+            }
+
+            GuaPiMao: {
+                DisplayName: Гуапимао
+                Tooltip: «Шапочка-дыня»
+            }
+
+            MythicalDogMask: {
+                DisplayName: Маска мифической собаки
+                Tooltip: ""
+            }
+
+            MythicalDogPants: {
+                DisplayName: Брюки мифической собаки
+                Tooltip: ""
+            }
+
+            MythicalDogShirt: {
+                DisplayName: Рубашка мифической собаки
+                Tooltip: ""
+            }
+
+            TangSuitPants: {
+                DisplayName: Брюки костюма Тан
+                Tooltip: ""
+            }
+
+            TangSuitShirt: {
+                DisplayName: Куртка костюма Тан
+                Tooltip: ""
+            }
+
+            TangYuanHat: {
+                DisplayName: Шапка Танъюань
+                Tooltip: ""
+            }
+
+            TangYuanPants: {
+                DisplayName: Брюки Танъюань
+                Tooltip: ""
+            }
+
+            TangYuanShirt: {
+                DisplayName: Рубашка Танъюань
+                Tooltip: ""
+            }
+
+            TararaColorblockedDress: {
+                DisplayName: Разноцветное платье Тарары
+                Tooltip: ""
+            }
+
+            TararaColorblockedKneeSocks: {
+                DisplayName: Разноцветные гольфы Тарары
+                Tooltip: ""
+            }
+
+            TararaLatestHairstyle: {
+                DisplayName: Модная прическа Тарары
+                Tooltip: ""
+            }
+
+            MasterSuraHood: {
+                DisplayName: Капюшон мастера Суры
+                Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
+            }
+
+            DaiDaiDoll: {
+                DisplayName: Кукла Дай-Дай
+                Tooltip: Призывает куклу Дай-Дай
+            }
+
+            MasterSuraCloak: {
+                DisplayName: Плащ мастера Суры
+                Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
+            }
+
+            StarIgnitor: {
+                DisplayName: Звёздный воспламенитель
+                Tooltip: Призывает маленькое магическое пламя из другого измерения
+            }
+
+            WizardOfLegendMusicBox: {
+                DisplayName: Музыкальная шкатулка (Wizard of Legend)
+                Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
+            }
+        }
+
+        NPCs.StarMerchantNPC.DisplayName: Звёздный торговец
+
+        Projectiles: {
+            BaiduTiebaHuajiDiscProjectile.DisplayName: Диск «Хуацзи» Baidu Tieba
+            HupuDiscProjectile.DisplayName: Диск Hupu
+            iFlytekDiscProjectile.DisplayName: Диск iFlytek
+            LOOKDiscProjectile.DisplayName: Диск LOOK
+            ChickenProjectile.DisplayName: Курица
+            FlyingBasketballProjectile.DisplayName: Летающий баскетбол
+            GreenFrogProjectile.DisplayName: Зелёная лягушка
+            PururuProjectile.DisplayName: Пуруру
+            RedEyedToadProjectile.DisplayName: Красноглазая жаба
+            WitchToadProjectile.DisplayName: Ведьмина жаба
+            XiaokuaiProjectile.DisplayName: Сяокуай
+            XiaoliuProjectile.DisplayName: Сяолю
+            PururuDiscProjectile.DisplayName: Диск Пуруру
+            DaiDaiDollProjectile.DisplayName: Кукла Дай-Дай
+            StarFlameProjectile.DisplayName: Звёздное пламя
+        }
+
+        Tiles.TVTile.MapEntry: Телевизор
+
+        Dialogue: {
+            StarMerchant: {
+                StarMerchantDialogue1: Ты даже не представляешь, за сколько за границей продают блоки грязи.
+                StarMerchantDialogue2: Лучшая сделка в моей жизни — это когда я обменял уголь на алмазный меч!
+                StarMerchantDialogue3: Нихао! Хочешь поторговать?
+                StarMerchantDialogue4: Хватай свои изумруды, и погнали! Ой, прости — забыл, что вы тут все используете монеты...
+                StarMerchantDialogue5: Микротранзакции? Никогда о таком не слышал!
+                StarMerchantDialogue6: Обожаешь лягушек? Испытай удачу в моей лотерее листьев!
+                StarMerchantDialogue7: Поверь мне, криптонит не сделает тебя сильнее — я проверял.
+                StarMerchantDialogue8: Привет! Не хочешь прикупить кое-чего?
+                StarMerchantDialogue9: Хм, это место сильно изменилось с моего последнего визита... прямо как мой ассортимент! Взгляни!
+                StarMerchantDialogue10: Мне здесь нравится, хотя я всё же надеюсь когда-нибудь вернуться на родную планету... В любом случае, купишь что-нибудь?
+                StarMerchantDialogue11: Всегда найдётся время для хунбао... И для торговли, конечно же!
+                StarMerchantNoShimmerDialogue1: Эй, ты не видел мою синюю броню? Кажется, я где-то её потерял...
+                StarMerchantShimmerDialogue1: Мой самый удобный костюм! Так рад, что вернул его!
+                StarMerchantDay1: Ах, небо сегодня просто прекрасное!
+                StarMerchantNight1: Спорим, эти ребята сгорают в мгновение ока!
+                StarMerchantNight2: Если каждая ночь здесь выглядит так, мне точно пора завести рельсотрон!
+                StarMerchantNight3: Полюбуемся звёздами сегодня?
+                StarMerchantRain1: Ха, по крайней мере, моя роба водонепроницаемая!
+                StarMerchantRain2: Этот дождь — просто морось по сравнению с ливнями на Нептуне!
+                StarMerchantRain3: Мир дождя — это матрица!
+                StarMerchantWind1: Обожаю холодный ветер, он подсказывает мне путь!
+                StarMerchantHat1: Эта шляпа кажется до странности знакомой...
+                StarMerchantBloodMoon1: К чему паника? По крайней мере, здешние скелеты не ездят верхом на пауках... Или ездят?
+                StarMerchantMechanicDialogue1: Интересно, нет ли у {0} на продажу немного редстоуна.
+                StarMerchantGuideDialogue1: Надо заглянуть к {0}, он кажется очень знающим парнем — может, он поможет мне вернуться домой?
+                StarMerchantTravellingMerchantDialogue1: А? {0} тоже здесь? Наконец-то! Достойный противник!
+                StarMerchantZoologistDialogue1: Никогда не спрашивай женщину о её возрасте, мужчину о зарплате, а {0} о том, как сделаны некоторые товары из моего набора KFC...
+                StarMerchantMerchantDialogue1: Оказывается, некоторым здешним ребятам очень нравится мой стиль — только посмотри на гардероб {0}!
+                StarMerchantClothierDialogue1: Похоже, {0} много знает об одежде, но спорю, он никогда не видел вещей, что есть у меня на продажу!
+                StarMerchantTruffleDialogue1: О, {0}! Они понимают меня как никто другой... Похоже, у нас много общего!
+            }
+        }
+
+        Emotes.StarMerchantEmote.Command: starmerchant
+    }
+}

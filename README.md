@@ -29,7 +29,7 @@ The **Star Merchant** is a unique NPC vendor who randomly visits the player's to
 - 4 paintings 
 - 1 to 2 vanity sets
 
-They does not require their own house in order to spawn, and will instead spawn next to NPCs, including town pets, spending the day walking around them.
+They do not require their own house in order to spawn, and will instead spawn next to NPCs, including town pets, spending the day walking around them.
 
 The Star Merchant has a 10% chance of spawning each day, appearing at a random time between 4:30 AM and 12:00 PM. The chances of them spawning are always the same regardless if the player is sleeping. They leave the same day at 6:00 PM, but can only do so once they are off-screen. They despawn if the world is vacated any time after they spawns.
 
@@ -70,7 +70,8 @@ Credits:
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for providing most of the chinese sprites
 - [Uncle Badass](https://steamcommunity.com/id/unclebadass/) for providing some important missing sprites of Star Merchant NPC
 - [Oersted](https://steamcommunity.com/id/DSVaniaRomhacker/) for bringing an awesome idea of the new accessory
-- [abslb36](https://steamcommunity.com/profiles/76561199205407047) for translating mod to Chinese
+- [abslb36](https://steamcommunity.com/profiles/76561199205407047) for translating the mod to Chinese
+- [DruSamuel] (https://steamcommunity.com/id/DruSamuel) for translating the mod to Russian
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
