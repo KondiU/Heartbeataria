@@ -708,36 +708,36 @@ Mods: {
 
 		Dialogue: {
 			StarMerchant: {
-				StarMerchantDialogue1: You have no idea how much Mud Blocks sell for abroad.
-				StarMerchantDialogue2: The best trade I've ever done was when I exchanged coal for a diamond sword!
-				StarMerchantDialogue3: Ni hao! Wanna trade?
-				StarMerchantDialogue4: Grab your emeralds and let's trade! Oh, sorry - I forgot you all use coins here...
-				StarMerchantDialogue5: Microtransactions? Never heard of that!
-				StarMerchantDialogue6: Are you a huge frog lover? Try your luck in my Leaf Lottery!
-				StarMerchantDialogue7: Trust me, kryptonite won't make you stronger - I tested it.
-				StarMerchantDialogue8: Hello there! Wanna buy some stuff?
-				StarMerchantDialogue9: Huh, this place changed a lot since my last visit - just like my stock! Check it out!
-				StarMerchantDialogue10: I love this place, although I hope I'll get back to my home planet one day... Anyway, would you like to buy something?
-				StarMerchantDialogue11: It's always a good time for hongbao... And some trading, of course!
-				StarMerchantNoShimmerDialogue1: Hey, have you seen my blue armor? I think I lost it somewhere...
-				StarMerchantShimmerDialogue1: My comfiest suit! So happy I got it back!
-				StarMerchantDay1: Ahh, the sky looks so beautiful today!
-				StarMerchantNight1: I bet these guys burn up in no time!
-				StarMerchantNight2: If every night here looks like this I gotta get myself a rail gun!
-				StarMerchantNight3: Should we look at the stars tonight?
-				StarMerchantRain1: Huh, at least my robe is waterproof!
-				StarMerchantRain2: This rain is a drizzle compared to the ones on Neptune!
+				StarMerchantDialogue1: Nie masz pojęcia po ile chodzi błoto w innych wymiarach.
+				StarMerchantDialogue2: Moja najlepsza wymiana? Kiedyś wymieniłem węgiel na diamentowy miecz!
+				StarMerchantDialogue3: Ni hao! Chcesz pohandlować?
+				StarMerchantDialogue4: Bierz swoje szmaragdy i pohandlujmy! Ah, no tak - zapomniałem że w tym świecie używacie monet...
+				StarMerchantDialogue5: Mikrotransakcje? Nigdy o tym nie słyszałem!
+				StarMerchantDialogue6: Jesteś miłośnikiem żab? Spróbuj swojego szczęścia w mojej liściastej loterii!
+				StarMerchantDialogue7: Uwierz mi, kryptonit nie sprawi że będziesz silniejszy - sprawdzałem.
+				StarMerchantDialogue8: Hej! Chcesz może coś kupić?
+				StarMerchantDialogue9: To miejsce strasznie się zmieniło od czasu mojej poprzedniej wizyty - zupełnie tak jak moja oferta! Sprawdź sam!
+				StarMerchantDialogue10: Ten świat jest naprawdę piękny, ale i tak wciąż liczę że kiedyś wrócę na moją rodzimą planetę... Ale zmieniając temat, chcesz może coś kupić?
+				StarMerchantDialogue11: Zawsze jest czas na małe hongbao... I handel, oczywiście!
+				StarMerchantNoShimmerDialogue1: Widziałeś gdzieś może moją niebieską zbroję? Chyba ją zgubiłem...
+				StarMerchantShimmerDialogue1: Mój ulubiony strój! Jak dobrze go mieć z powrotem!
+				StarMerchantDay1: Ahh, niebo wygląda dziś naprawdę ślicznie!
+				StarMerchantNight1: Jestem pewien że te potwory już niedługo się spalą!
+				StarMerchantNight2: Jeśli każda noc tutaj tak wygląda to naprawdę muszę zainwestować w coś do obrony!
+				StarMerchantNight3: Może powinniśmy dziś popatrzeć w gwiazdy?
+				StarMerchantRain1: Huh, przynajmniej moje ciuchy są wodoodporne!
+				StarMerchantRain2: Ten deszcz to mżawka w porównaniu z tym co się dzieje na Neptunie!
 				StarMerchantRain3: Rainworld, this the matrix!
 				StarMerchantWind1: I love cold winds 'cause it tells me where to go!
-				StarMerchantHat1: That hat seems weirdly familiar...
-				StarMerchantBloodMoon1: What's the panic? At least the skeletons here don't ride spiders... Do they?
-				StarMerchantMechanicDialogue1: I wonder if {0} have some Redstone to sell.
-				StarMerchantGuideDialogue1: I gotta visit {0}, he seems like a very knowledgable guy - maybe he would help me to get back home?
-				StarMerchantTravellingMerchantDialogue1: Huh? {0} is here too? Finally! A worthy opponent!
-				StarMerchantZoologistDialogue1: Never ask a woman her age, a man his salary, and {0} how some of my KFC items are made...
-				StarMerchantMerchantDialogue1: Turns out some folks here really enjoy my style - just look at the {0}'s wardrobe!
-				StarMerchantClothierDialogue1: Looks like {0} knows a lot about clothes, but I bet he never saw pieces I got for sale!
-				StarMerchantTruffleDialogue1: Ahh, {0}! They understand me like no one else... Looks like we have a lot of things in common!
+				StarMerchantHat1: Ten kapelusz wydaje mi się dziwnie znajomy...
+				StarMerchantBloodMoon1: Skąd ta panika? Przynajmniej tutejsze szkielety nie jeżdżą na pająkach... Prawda?
+				StarMerchantMechanicDialogue1: Ciekawe czy {0} ma trochę czerwienitu na sprzedaż.
+				StarMerchantGuideDialogue1: Muszę odwiedzić {0}a, wydaje się bardzo ogarnięty - może pomoże mi jakoś wrócić do domu?
+				StarMerchantTravellingMerchantDialogue1: Że co? {0} też tu jest? Nareszcie! Godny przeciwnik!
+				StarMerchantZoologistDialogue1: Nigdy nie pytaj kobiety o jej wiek, mężczyzny o jego dochód i {0} o to jak powstały niektóre przedmioty z KFC...
+				StarMerchantMerchantDialogue1: Chyba co niektórym naprawdę podoba się moja stylówka - spójrz na garderobę {0}!
+				StarMerchantClothierDialogue1: Wydaje się że {0} wie dość dużo na temat ciuchów, ale założę się że nigdy nie widział tego co mam na sprzedaż!
+				StarMerchantTruffleDialogue1: Ahh, {0}! Rozumie mnie jak nikt inny... Wygląda na to że mamy ze sobą dość dużo wspólnego!
 			}
 		}
 
