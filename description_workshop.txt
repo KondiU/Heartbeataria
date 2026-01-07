@@ -16,6 +16,10 @@
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]Thorium[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072]Calamity[/url] without any problems.
 
 It is highly recommended to play this mod alongside [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2864843929]Consolaria[/url], since both mods complement each other in aim to restore previously unaccessible features making the PC Terraria [b]the most complete experience ever![/b]
+
+🇵🇱 - Dostępne w języku polskim
+🇷🇺 - Доступно на русском языке
+🇨🇳 - 提供中文版本
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 [h1]Star Merchant[/h1]
@@ -80,8 +84,8 @@ Credits:
 [*][url=https://steamcommunity.com/profiles/76561199058845384]HenryChe[/url] for providing most of the chinese sprites
 [*][url=https://steamcommunity.com/id/unclebadass]Uncle Badass[/url] for providing some important missing sprites of Star Merchant NPC
 [*][url=https://steamcommunity.com/id/DSVaniaRomhacker]Oersted[/url] for bringing an awesome idea of the new accessory
-[*][url=https://steamcommunity.com/profiles/76561199205407047]abslb36[/url] for translating the mod to Chinese
-[*][url=https://steamcommunity.com/id/DruSamuel]DruSamuel[/url] for translating the mod to Russian
+[*][url=https://steamcommunity.com/profiles/76561199205407047]abslb36[/url] for localizing the mod to Chinese
+[*][url=https://steamcommunity.com/id/DruSamuel]DruSamuel[/url] for localizing the mod to Russian
 [/list]
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 

@@ -14,6 +14,10 @@ This includes:
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as Thorium or Calamity without any problems.
 
 It is highly recommended to play this mod alongside Consolaria, since both mods complement each other in aim to restore previously unaccessible features making the PC Terraria the most complete experience ever!
+
+PL - Dostępne w języku polskim
+RU - Доступно на русском языке
+ZN - 提供中文版本
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:
@@ -23,8 +27,8 @@ Credits:
 - HenryChe for providing most of the chinese sprites
 - Uncle Badass for providing some important missing sprites of Star Merchant NPC
 - Oersted for bringing an awesome idea of the new accessory
-- abslb36 for translating the mod to Chinese
-- DruSamuel for translating the mod to Russian
+- abslb36 for localizing the mod to Chinese
+- DruSamuel for localizing the mod to Russian
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Mod source on GitHub: https://github.com/KondiU/Heartbeataria

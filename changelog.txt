@@ -1,5 +1,10 @@
--Reduced Star Merchant spawn Chance from 12,5% to 10%
--Star Merchant can't spawn during the events
--Added Polish translation
--Added Russian translation
+v1.5
+-Added Polish localization
+-Added Russian localization
+-Changed confusing dialogue line
 -Fixed typos in mod description
+-From now Star Merchant can't spawn during the events
+-Reduced Star Merchant spawn Chance from 12,5% to 10%
+-Updated description
+
+Special thanks to DruSamuel for providing the russian localization!
