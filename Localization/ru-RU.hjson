@@ -682,6 +682,11 @@ Mods: {
 				DisplayName: Музыкальная шкатулка (Wizard of Legend)
 				Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
 			}
+
+			MimiChest: {
+				// DisplayName: Mimi Chest
+				// Tooltip: ""
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Звёздный торговец
@@ -704,7 +709,10 @@ Mods: {
 			StarFlameProjectile.DisplayName: Звёздное пламя
 		}
 
-		Tiles.TVTile.MapEntry: Телевизор
+		Tiles: {
+			TVTile.MapEntry: Телевизор
+			// MimiChestTile.Locked: Mods.XDContentMod.Tiles.MimiChestTile.Locked
+		}
 
 		Dialogue: {
 			StarMerchant: {

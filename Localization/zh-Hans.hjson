@@ -742,6 +742,11 @@ Mods: {
 				// DisplayName: Music Box (Wizard of Legend)
 				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 			}
+
+			MimiChest: {
+				// DisplayName: Mimi Chest
+				// Tooltip: ""
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: 星际商人
@@ -764,7 +769,10 @@ Mods: {
 			// StarFlameProjectile.DisplayName: Star Flame
 		}
 
-		Tiles.TVTile.MapEntry: TV
+		Tiles: {
+			TVTile.MapEntry: TV
+			// MimiChestTile.Locked: Mods.XDContentMod.Tiles.MimiChestTile.Locked
+		}
 
 		Dialogue: {
 			StarMerchant: {

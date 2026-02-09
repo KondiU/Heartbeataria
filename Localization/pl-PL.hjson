@@ -682,6 +682,11 @@ Mods: {
 				DisplayName: Pozytywka (Wizard of Legend)
 				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
 			}
+
+			MimiChest: {
+				// DisplayName: Mimi Chest
+				// Tooltip: ""
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Gwiezdny Kupiec
@@ -704,7 +709,10 @@ Mods: {
 			StarFlameProjectile.DisplayName: Gwiezdny Płomyk
 		}
 
-		Tiles.TVTile.MapEntry: Telewizor
+		Tiles: {
+			TVTile.MapEntry: Telewizor
+			// MimiChestTile.Locked: Mods.XDContentMod.Tiles.MimiChestTile.Locked
+		}
 
 		Dialogue: {
 			StarMerchant: {
