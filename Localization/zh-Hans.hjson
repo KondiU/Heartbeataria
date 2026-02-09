@@ -67,13 +67,13 @@ Mods: {
 			}
 
 			DaiDaiDollBuff: {
-				// Description: DaiDai Doll is following you
-				// DisplayName: DaiDai Doll
+				Description: 带带正跟着你
+				DisplayName: 带带玩偶
 			}
 
 			StarFlameBuff: {
-				// DisplayName: Star Flame
-				// Description: Small magical flame from another dimension
+				DisplayName: 星星火
+				Description: 来自异次元的一团小火苗，不知道其燃料究竟是什么
 			}
 		}
 
@@ -704,48 +704,48 @@ Mods: {
 			}
 
 			TararaColorblockedDress: {
-				// DisplayName: Tarara Colorblocked Dress
-				// Tooltip: ""
+				DisplayName: 嗒啦啦的拼色连衣裙
+				Tooltip: 嗒啦啦生日时收到的新衣服，拼色和撞色应该是今年的流行元素！
 			}
 
 			TararaColorblockedKneeSocks: {
-				// DisplayName: Tarara Colorblocked Knee Socks
-				// Tooltip: ""
+				DisplayName: 嗒啦啦的撞色过膝袜
+				Tooltip: 嗒啦啦生日时收到的新衣服，拼色和撞色应该是今年的流行元素！
 			}
 
 			TararaLatestHairstyle: {
-				// DisplayName: Tarara Latest Hairstyle
-				// Tooltip: ""
+				DisplayName: 嗒啦啦的最新发型
+				Tooltip: 当然，女孩子的发型变化通常很难懂
 			}
 
 			MasterSuraHood: {
-				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
-				// DisplayName: Master Sura Hood
+				Tooltip: 魔法议会最高领袖苏拉大师的兜帽，似乎还残留着混沌的力量
+				DisplayName: 苏拉的兜帽
 			}
 
 			DaiDaiDoll: {
-				// Tooltip: Summons a DaiDai Doll
-				// DisplayName: DaiDai Doll
+				Tooltip: 带带我啊，这次不孤单啦！
+				DisplayName: 带带玩偶
 			}
 
 			MasterSuraCloak: {
-				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
-				// DisplayName: Master Sura Cloak
+				Tooltip: 魔法议会最高领袖苏拉大师的斗篷，当心！心智不坚定的人会被混沌力量侵蚀！
+				DisplayName: 苏拉的斗篷
 			}
 
 			StarIgnitor: {
-				// DisplayName: Star Ignitor
-				// Tooltip: Summons a small magical flame from another dimension
+				DisplayName: 星星点火器
+				Tooltip: 使用后可以点亮一团来自异次元的小火苗
 			}
 
 			WizardOfLegendMusicBox: {
-				// DisplayName: Music Box (Wizard of Legend)
-				// Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				DisplayName: 八音盒（传说法师）
+				Tooltip: 你觉得一首优美的钢琴独奏怎么样？
 			}
 
 			MimiChest: {
-				// DisplayName: Mimi Chest
-				// Tooltip: ""
+				DisplayName: 宝箱米米
+				Tooltip: 传说中大法师们用来装圣物的宝箱
 			}
 		}
 
@@ -765,13 +765,13 @@ Mods: {
 			XiaokuaiProjectile.DisplayName: 小快
 			XiaoliuProjectile.DisplayName: 小六
 			PururuDiscProjectile.DisplayName: 噗噜噜飞盘
-			// DaiDaiDollProjectile.DisplayName: DaiDai Doll
-			// StarFlameProjectile.DisplayName: Star Flame
+			DaiDaiDollProjectile.DisplayName: 带带玩偶
+			StarFlameProjectile.DisplayName: 星星火
 		}
 
 		Tiles: {
 			TVTile.MapEntry: TV
-			// MimiChestTile.Locked: Mods.XDContentMod.Tiles.MimiChestTile.Locked
+			MimiChestTile.MapEntry: 宝箱米米
 		}
 
 		Dialogue: {

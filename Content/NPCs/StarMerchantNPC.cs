@@ -122,6 +122,7 @@ namespace XDContentMod.Content.NPCs
 			Shop.Add<KFCChair>();
 			Shop.Add<KFCWorkBench>();
 			Shop.Add<KFCBar>();
+			Shop.Add<MimiChest>();
 
 			Shop.Add<FusionModule>();
 			

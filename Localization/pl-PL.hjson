@@ -684,8 +684,8 @@ Mods: {
 			}
 
 			MimiChest: {
-				// DisplayName: Mimi Chest
-				// Tooltip: ""
+				DisplayName: Skrzynia Mimi
+				Tooltip: Skrzynia używana przez legendarnych czarodziei do przechowywania ich relikwi
 			}
 		}
 
@@ -711,7 +711,7 @@ Mods: {
 
 		Tiles: {
 			TVTile.MapEntry: Telewizor
-			// MimiChestTile.Locked: Mods.XDContentMod.Tiles.MimiChestTile.Locked
+			MimiChestTile.MapEntry: Skrzynia Mimi
 		}
 
 		Dialogue: {

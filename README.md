@@ -11,7 +11,7 @@
 - **8 new early-game weapons**
 - **1 new accessory**
 - **25 new paintings**
-- **4 new furniture items**
+- **5 new furniture items**
 
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as [Thorium](https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416) or [Calamity](https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072) without any problems.
 
@@ -28,7 +28,7 @@ The **Star Merchant** is a unique NPC vendor who randomly visits the player's to
 - 1 disc weapon
 - 2 pets
 - 1 mount
-- 3 furniture items
+- 4 furniture items
 - Fusion Module
 - 4 paintings 
 - 1 to 2 vanity sets

@@ -685,7 +685,7 @@ Mods: {
 
 			MimiChest: {
 				// DisplayName: Mimi Chest
-				// Tooltip: ""
+				// Tooltip: A chest used by legendary wizards to store sacred relics
 			}
 		}
 
@@ -711,7 +711,7 @@ Mods: {
 
 		Tiles: {
 			TVTile.MapEntry: Телевизор
-			// MimiChestTile.Locked: Mods.XDContentMod.Tiles.MimiChestTile.Locked
+			// MimiChestTile.MapEntry: Mimi Chest
 		}
 
 		Dialogue: {

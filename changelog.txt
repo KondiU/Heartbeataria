@@ -1,10 +1,12 @@
 v1.5
 -Added Polish localization
 -Added Russian localization
+-Added Mimi Chest
 -Changed confusing dialogue line
 -Fixed typos in mod description
 -From now Star Merchant can't spawn during the events
 -Reduced Star Merchant spawn Chance from 12,5% to 10%
--Updated description
+-Updated descriptions
+-Updated Chinese localization
 
 Special thanks to DruSamuel for providing the russian localization!
