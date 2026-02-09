@@ -684,6 +684,11 @@ Mods: {
 				// DisplayName: Mimi Chest
 				// Tooltip: A chest used by legendary wizards to store sacred relics
 			}
+
+			MusicBoxWizardOfLegend: {
+				// DisplayName: Music Box Wizard Of Legend
+				// Tooltip: ""
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Звёздный торговец

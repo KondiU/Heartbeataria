@@ -734,15 +734,15 @@ Mods: {
 				DisplayName: 星星点火器
 				Tooltip: 使用后可以点亮一团来自异次元的小火苗
 			}
-
-			WizardOfLegendMusicBox: {
-				DisplayName: 八音盒（传说法师）
-				Tooltip: 你觉得一首优美的钢琴独奏怎么样？
-			}
-
+			
 			MimiChest: {
 				DisplayName: 宝箱米米
 				Tooltip: 传说中大法师们用来装圣物的宝箱
+			}
+
+			MusicBoxWizardOfLegend: {
+				DisplayName: 八音盒（传说法师）
+				Tooltip: 你觉得一首优美的钢琴独奏怎么样？
 			}
 		}
 

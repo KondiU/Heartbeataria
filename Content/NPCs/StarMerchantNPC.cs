@@ -123,6 +123,7 @@ namespace XDContentMod.Content.NPCs
 			Shop.Add<KFCWorkBench>();
 			Shop.Add<KFCBar>();
 			Shop.Add<MimiChest>();
+			Shop.Add<MusicBoxWizardOfLegend>();
 
 			Shop.Add<FusionModule>();
 			

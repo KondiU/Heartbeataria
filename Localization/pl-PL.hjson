@@ -675,14 +675,14 @@ Mods: {
 				Tooltip: Przywołuje mały magiczny płomień z innego wymiaru
 			}
 
-			WizardOfLegendMusicBox: {
-				DisplayName: Pozytywka (Wizard of Legend)
-				Tooltip: ""
-			}
-
 			MimiChest: {
 				DisplayName: Skrzynia Mimi
 				Tooltip: Skrzynia używana przez legendarnych czarodziei do przechowywania ich relikwi
+			}
+
+			MusicBoxWizardOfLegend: {
+				DisplayName: Pozytywka (Wizard Of Legend)
+				Tooltip: Co powiesz na małe fortepianowe solo?
 			}
 		}
 

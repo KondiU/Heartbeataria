@@ -10,6 +10,7 @@ This includes:
 - 1 new accessory
 - 25 new paintings
 - 5 new furniture items
+- 1 new music box
 
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as Thorium or Calamity without any problems.
 

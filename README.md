@@ -12,6 +12,7 @@
 - **1 new accessory**
 - **25 new paintings**
 - **5 new furniture items**
+- **1 new music box**
 
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as [Thorium](https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416) or [Calamity](https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072) without any problems.
 
@@ -29,6 +30,7 @@ The **Star Merchant** is a unique NPC vendor who randomly visits the player's to
 - 2 pets
 - 1 mount
 - 4 furniture items
+- 1 music box
 - Fusion Module
 - 4 paintings 
 - 1 to 2 vanity sets

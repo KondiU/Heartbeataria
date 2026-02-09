@@ -1,7 +1,10 @@
 v1.5
 -Added Polish localization
 -Added Russian localization
+
 -Added Mimi Chest
+-Added Music Box (Wizard Of Legend)
+
 -Changed confusing dialogue line
 -Fixed typos in mod description
 -From now Star Merchant can't spawn during the events
