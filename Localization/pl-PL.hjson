@@ -659,7 +659,7 @@ Mods: {
 			}
 
 			MasterSuraHood: {
-				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				Tooltip: Kaptur Mistrza Sury, przewodniczącego Rady Magii\nWygląda na to, że Chaos wciąż istnieje
 				DisplayName: Kaptur Mistrza Sury
 			}
 
@@ -668,10 +668,7 @@ Mods: {
 				DisplayName: Lalka DaiDai
 			}
 
-			MasterSuraCloak: {
-				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
-				DisplayName: Peleryna Mistrza Sury
-			}
+			MasterSuraCloak.Tooltip: ""
 
 			StarIgnitor: {
 				DisplayName: Gwiezdny Płomyk
@@ -680,7 +677,7 @@ Mods: {
 
 			WizardOfLegendMusicBox: {
 				DisplayName: Pozytywka (Wizard of Legend)
-				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				Tooltip: ""
 			}
 
 			MimiChest: {

@@ -728,10 +728,7 @@ Mods: {
 				DisplayName: 带带玩偶
 			}
 
-			MasterSuraCloak: {
-				Tooltip: 魔法议会最高领袖苏拉大师的斗篷，当心！心智不坚定的人会被混沌力量侵蚀！
-				DisplayName: 苏拉的斗篷
-			}
+			MasterSuraCloak.Tooltip: 魔法议会最高领袖苏拉大师的斗篷，当心！心智不坚定的人会被混沌力量侵蚀！
 
 			StarIgnitor: {
 				DisplayName: 星星点火器

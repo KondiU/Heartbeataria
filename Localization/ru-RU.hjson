@@ -659,7 +659,7 @@ Mods: {
 			}
 
 			MasterSuraHood: {
-				Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
+				Tooltip: ""
 				DisplayName: Капюшон мастера Суры
 			}
 
@@ -668,10 +668,7 @@ Mods: {
 				DisplayName: Кукла Дай-Дай
 			}
 
-			MasterSuraCloak: {
-				Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
-				DisplayName: Плащ мастера Суры
-			}
+			MasterSuraCloak.Tooltip: ""
 
 			StarIgnitor: {
 				DisplayName: Звёздный воспламенитель
@@ -680,7 +677,7 @@ Mods: {
 
 			WizardOfLegendMusicBox: {
 				DisplayName: Музыкальная шкатулка (Wizard of Legend)
-				Tooltip: ЕЩЁ НЕ РЕАЛИЗОВАНО — ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК!
+				Tooltip: ""
 			}
 
 			MimiChest: {

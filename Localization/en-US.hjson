@@ -659,7 +659,11 @@ Mods: {
 			}
 
 			MasterSuraHood: {
-				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				Tooltip:
+					'''
+					The hood of Master Sura, the head of the Council of Magic
+					It seems like the Chaos is still alive
+					'''
 				DisplayName: Master Sura Hood
 			}
 
@@ -668,10 +672,7 @@ Mods: {
 				DisplayName: DaiDai Doll
 			}
 
-			MasterSuraCloak: {
-				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
-				DisplayName: Master Sura Cloak
-			}
+			MasterSuraCloak.Tooltip: DisplayName: Master Sura Cloak
 
 			StarIgnitor: {
 				DisplayName: Star Ignitor
@@ -680,7 +681,7 @@ Mods: {
 
 			WizardOfLegendMusicBox: {
 				DisplayName: Music Box (Wizard of Legend)
-				Tooltip: NOT YET IMPLEMENTED - USE AT YOUR OWN RISK!
+				Tooltip: ""
 			}
 
 			MimiChest: {
