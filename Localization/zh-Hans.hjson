@@ -734,7 +734,7 @@ Mods: {
 				DisplayName: 星星点火器
 				Tooltip: 使用后可以点亮一团来自异次元的小火苗
 			}
-			
+
 			MimiChest: {
 				DisplayName: 宝箱米米
 				Tooltip: 传说中大法师们用来装圣物的宝箱
@@ -743,6 +743,11 @@ Mods: {
 			MusicBoxWizardOfLegend: {
 				DisplayName: 八音盒（传说法师）
 				Tooltip: 你觉得一首优美的钢琴独奏怎么样？
+			}
+
+			GreatMasterPortrait: {
+				Tooltip: 只有通过了魔法议会试炼的法师才能够被铭记
+				DisplayName: 大法师的画像
 			}
 		}
 
@@ -806,6 +811,6 @@ Mods: {
 			}
 		}
 
-		Emotes.StarMerchantEmote.Command: starmerchant
+		Emotes.StarMerchantEmote.Command: 星际商人
 	}
 }

@@ -2,6 +2,7 @@ v1.5
 -Added Polish localization
 -Added Russian localization
 
+-Added Great Master Portrait
 -Added Mimi Chest
 -Added Music Box (Wizard Of Legend)
 

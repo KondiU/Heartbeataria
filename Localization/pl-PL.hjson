@@ -684,6 +684,11 @@ Mods: {
 				DisplayName: Pozytywka (Wizard Of Legend)
 				Tooltip: Co powiesz na małe fortepianowe solo?
 			}
+
+			GreatMasterPortrait: {
+				Tooltip: Tylko magowie, którzy przeszli próby Rady Magii, zostaną zapamiętani
+				DisplayName: Portret Wielkiego Maga
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Gwiezdny Kupiec

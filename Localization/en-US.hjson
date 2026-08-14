@@ -688,6 +688,11 @@ Mods: {
 				DisplayName: Music Box (Wizard of Legend)
 				Tooltip: How about a little piano solo?
 			}
+
+			GreatMasterPortrait: {
+				Tooltip: Only mages who have passed the trials of the Magic Council will be remembered
+				DisplayName: Great Master Portrait
+			}
 		}
 
 		NPCs.StarMerchantNPC.DisplayName: Star Merchant

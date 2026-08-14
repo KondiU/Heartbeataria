@@ -675,19 +675,19 @@ Mods: {
 				Tooltip: Призывает маленькое магическое пламя из другого измерения
 			}
 
-			WizardOfLegendMusicBox: {
-				DisplayName: Музыкальная шкатулка (Wizard of Legend)
-				Tooltip: ""
-			}
-
 			MimiChest: {
 				// DisplayName: Mimi Chest
 				// Tooltip: A chest used by legendary wizards to store sacred relics
 			}
 
 			MusicBoxWizardOfLegend: {
-				// DisplayName: Music Box Wizard Of Legend
+				// DisplayName: Music Box (Wizard of Legend)
+				// Tooltip: How about a little piano solo?
+			}
+
+			GreatMasterPortrait: {
 				// Tooltip: ""
+				// DisplayName: Great Master Portrait
 			}
 		}
 

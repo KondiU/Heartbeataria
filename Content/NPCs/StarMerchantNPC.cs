@@ -117,7 +117,8 @@ namespace XDContentMod.Content.NPCs
 				.Add<AcFunOilPainting>()
 				.Add<JinyiCinemasPopcornPoster>()
 				.Add<SeiyuuchanSupportPoster>()
-				.Add<DaiDaiSelfie>();
+				.Add<DaiDaiSelfie>()
+				.Add<GreatMasterPortrait>();
 
 			Shop.Add<KFCChair>();
 			Shop.Add<KFCWorkBench>();
