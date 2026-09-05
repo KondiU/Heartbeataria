@@ -49,7 +49,7 @@ namespace XDContentMod.Content.NPCs
 					ChatHelper.BroadcastChatMessage(NetworkText.FromKey("LegacyMisc.35", NPC.GetFullNetName()), new Color(50, 125, 255));
 				}
 				NPC.active = false;
-				NPC.netSkip = -1;
+				// NPC.netSkip = -1;
 				NPC.life = 0;
 				return false;
 			}
@@ -196,7 +196,7 @@ namespace XDContentMod.Content.NPCs
 			bool travelerIsThere = (NPC.FindFirstNPC(ModContent.NPCType<StarMerchantNPC>()) != -1);
 			if (Main.dayTime && Main.time == 0) 
 			{
-				if (!travelerIsThere && Main.rand.NextBool(10))
+				if (!travelerIsThere && Main.rand.NextBool(3))
 				{
 					spawnTime = GetRandomSpawnTime(0, 27000);
 				}
@@ -242,7 +242,7 @@ namespace XDContentMod.Content.NPCs
 			int w = NPC.sWidth + NPC.safeRangeX * 2;
 			int h = NPC.sHeight + NPC.safeRangeY * 2;
 			Rectangle npcScreenRect = new Rectangle((int)center.X - w / 2, (int)center.Y - h / 2, w, h);
-			foreach (Player player in Main.player) 
+			foreach (Player player in Main.ActivePlayers) 
 			{
 				if (player.getRect().Intersects(npcScreenRect)) {
 					return true;
@@ -286,12 +286,17 @@ namespace XDContentMod.Content.NPCs
 				new Profiles.DefaultNPCProfile(Texture + "_Shimmer", ShimmerHeadIndex)
 			);
 
+			// NPCID.Sets.NPCPortraits.Add(Type, NPCID.Sets.PrioritizedPortrait()
+			// 	.With(NPCID.Sets.ShimmeredPortraitCondition, NPCID.Sets.BasicPortrait($"{Texture}_Shimmer_Portrait")) // This is the portrait to use while the Town NPC is shimmered.
+			// 	.Default(NPCID.Sets.BasicPortrait($"{Texture}_Portrait"))); // Default portrait to use (not shimmered).
+			// NPCID.Sets.NPCPortraitsCloseUpOffsets.Add(Type, new Vector2(-3f, 0f));
+
 			NPCID.Sets.FaceEmote[Type] = ModContent.EmoteBubbleType<StarMerchantEmote>();
 		}
 
 		public override void SetDefaults() 
 		{
-			NPC.active = false;
+			// NPC.active = false;
 			NPC.townNPC = true;
 			NPC.friendly = true;
 			NPC.width = 18;

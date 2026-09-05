@@ -686,7 +686,7 @@ Mods: {
 			}
 
 			GreatMasterPortrait: {
-				// Tooltip: ""
+				// Tooltip: Only mages who have passed the trials of the Magic Council will be remembered
 				// DisplayName: Great Master Portrait
 			}
 		}
