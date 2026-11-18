@@ -78,6 +78,7 @@ Credits:
 - [Oersted](https://steamcommunity.com/id/DSVaniaRomhacker/) for bringing an awesome idea of the new accessory
 - [abslb36](https://steamcommunity.com/profiles/76561199205407047) for localizing the mod to Chinese
 - [DruSamuel](https://steamcommunity.com/id/DruSamuel) for localizing the mod to Russian
+- [TheStickmann](https://github.com/TheStickmann) for suggesting a fix for the Star Merchant spawning issue on multiplayer
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 

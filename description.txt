@@ -30,6 +30,7 @@ Credits:
 - Oersted for bringing an awesome idea of the new accessory
 - abslb36 for localizing the mod to Chinese
 - DruSamuel for localizing the mod to Russian
+- TheStickmann for suggesting a fix for the Star Merchant spawning issue on multiplayer
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Mod source on GitHub: https://github.com/KondiU/Heartbeataria
