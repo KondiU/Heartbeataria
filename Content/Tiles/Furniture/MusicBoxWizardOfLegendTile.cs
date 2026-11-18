@@ -1,3 +1,4 @@
+//REMADE SPRITES - REPLACE WITH REAL ONES WHEN POSSIBLE!
 using XDContentMod.Content.Items.Placeable;
 using Microsoft.Xna.Framework;
 using Terraria;

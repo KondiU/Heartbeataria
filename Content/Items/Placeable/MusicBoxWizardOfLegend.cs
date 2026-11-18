@@ -1,3 +1,4 @@
+//REMADE SPRITES - REPLACE WITH REAL ONES WHEN POSSIBLE!
 using XDContentMod.Content.Tiles.Furniture;
 using Terraria;
 using Terraria.ID;

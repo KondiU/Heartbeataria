@@ -1,3 +1,4 @@
+//REMADE SPRITES - REPLACE WITH REAL ONES WHEN POSSIBLE!
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
